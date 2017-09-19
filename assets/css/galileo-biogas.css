@@ -1,0 +1,473 @@
+/* ESTILOS GALILEO BIOGAS- UXDEVCO */
+.gnc-biogas-landscape{ 
+  width: 17050px;
+  max-height: 670px;
+}
+.landscape-top{
+  width: 100%;
+  height: 47%;
+  position: relative; 
+}
+.landscape-bottom{
+  width: 100%;
+  height: 53%;
+  padding-top: 10px;
+  background: #81b58b url(../images/border-top-bottom-landscape.png) top repeat-x;
+  position: relative;
+}
+.main-landscape-image{
+  position: inherit;
+  z-index: 10;
+  margin-top: -267px;
+  margin-left: -480px;
+}
+
+/*elements 1 hills*/
+.txtInfo{
+  font-size: 1.1em;
+  color: white;
+  line-height: 1.2em;
+  position: absolute;
+  z-index: 12;
+}
+.hillType1{
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  height: 125px;
+  background: transparent url(../images/montana-galileo-1.png) no-repeat;
+}
+.hillType2{
+  z-index: 3;
+  position: absolute;
+  width: 152px;
+  height: 95px;
+  background: transparent url(../images/montana-galileo-2.png) no-repeat;
+}
+/*elements position*/
+#tree-1{ bottom: -10px; left: 465px;}
+#tree-2{ bottom: -10px; left: 610px;}
+#tree-3{ bottom: -20px; left: 765px;}
+#tree-4{ bottom: -10px; left: 1150px;}
+#tree-5{ bottom: -25px; left: 1250px;}
+#tree-6{ bottom: -10px; left: 2450px;}
+#tree-7{ bottom: -25px; left: 2600px;}
+#tree-8{ bottom: -10px; left: 2700px;}
+#tree-9{ bottom: -25px; left: 2770px;}
+#tree-10{ bottom: -18px; left: 4350px;}
+#tree-11{ bottom: -25px; left: 4600px;}
+#tree-12{ bottom: -14px; left: 4840px;}
+#tree-13{ bottom: -30px; left: 5230px;}
+#tree-14{ bottom: -20px; left: 5380px;}
+#tree-15{ bottom: -14px; left: 5600px;}
+#tree-16{ bottom: -25px; left: 5750px;}
+#tree-17{ bottom: -14px; left: 5920px;}
+#tree-18{ bottom: -25px; left: 6450px;}
+#tree-19{ bottom: -15px; left: 6570px;}
+#tree-20{ bottom: -15px; left: 7000px;}
+#tree-21{ bottom: -25px; left: 7150px;}
+#tree-22{ bottom: -15px; left: 7300px;}
+#tree-23{ bottom: -25px; left: 7750px;}
+#tree-24{ bottom: -15px; left: 7900px;}
+#tree-25{ bottom: -15px; left: 8750px;}
+#tree-26{ bottom: -25px; left: 8950px;}
+#tree-27{ bottom: -10px; left: 10300px;}
+#tree-28{ bottom: -10px; left: 10700px;}
+#tree-29{ bottom: -10px; left: 11600px;}
+#tree-30{ bottom: -10px; left: 12450px;}
+#tree-31{ bottom: -10px; left: 12800px;}
+#tree-32{ bottom: -10px; left: 12950px;}
+#tree-33{ bottom: -10px; left: 13300px;}
+#tree-34{ bottom: -10px; left: 13450px;}
+#tree-35{ bottom: -10px; left: 13600px;}
+#tree-36{ bottom: -10px; left: 13750px;}
+#tree-37{ bottom: -10px; left: 14100px;}
+#tree-38{ bottom: -10px; left: 14700px;}
+#tree-39{ bottom: -25px; left: 15200px;}
+#tree-40{ bottom: -10px; left: 15300px;}
+#tree-41{ bottom: -25px; left: 15400px;}
+#tree-42{ bottom: -10px; left: 15500px;}
+
+#hill-1{ bottom: 0; left: 400px;}
+#hill-2{ bottom: 0; left: 580px;}
+#hill-3{ bottom: 0; left: 700px;}
+#hill-4{ bottom: 0; left: 2670px;}
+#hill-5{ bottom: 0; left: 3500px;}
+#hill-6{ bottom: 0; left: 4300px;}
+#hill-7{ bottom: 0; left: 4450px;}
+#hill-8{ bottom: 0; left: 4750px;}
+#hill-9{ bottom: 0; left: 4850px;}
+#hill-10{ bottom: 0; left: 5250px;}
+#hill-11{ bottom: 0; left: 5400px;}
+#hill-12{ bottom: 0; left: 6350px;}
+#hill-13{ bottom: 0; left: 6550px;}
+#hill-14{ bottom: 0; left: 7800px;}
+#hill-15{ bottom: 0; left: 7950px;}
+#hill-16{ bottom: 0; left: 8600px;}
+#hill-17{ bottom: 0; left: 8780px;}
+#hill-18{ bottom: 0; left: 11300px;}
+#hill-19{ bottom: 0; left: 11450px;}
+#hill-20{ bottom: 0; left: 12500px;}
+#hill-21{ bottom: 0; left: 12620px;}
+#hill-22{ bottom: 0; left: 12900px;}
+#hill-23{ bottom: 0; left: 13040px;}
+#hill-24{ bottom: 0; left: 13900px;}
+#hill-25{ bottom: 0; left: 14050px;}
+#hill-26{ bottom: 0; left: 15130px;}
+#hill-27{ bottom: 0; left: 15400px;}
+
+#txt-wrap-1{bottom: -305px; left: 150px;}
+#txt-wrap-2{bottom: -175px; left: 6500px;}
+
+#h2-1{top: 40px; left: 610px;}
+#h2-2{top: 40px; left: 1700px;}
+#h2-3{top: 40px; left: 3000px;}
+#h2-4{top: 40px; left: 5650px;}
+#h2-5{top: 40px; left: 7050px;}
+#h2-6{top: 40px; left: 8200px;}
+#h2-7{top: 40px; left: 9550px;}
+#h2-8{top: 40px; left: 13400px;}
+#h2-9{top: 40px; left: 14650px;}
+
+#txt-1{ top: 86px; left: 985px; width: 150px;}
+#txt-2{ top: 192px; left: 1383px; width: 450px;}
+#txt-3{ top: 192px; left: 1880px; width: 450px;}
+#txt-4{ top: 192px; left: 2800px; width: 400px;}
+#txt-5{ top: 192px; left: 3250px; width: 400px;}
+#txt-6{ top: 192px; left: 5200px; width: 450px;}
+#txt-7{ top: 192px; left: 5800px; width: 450px;}
+#txt-8{ top: 197px; left: 6540px; width: 400px;}
+#txt-9{ top: 197px; left: 7000px; width: 400px;}
+#txt-10{ top: 140px; left: 7730px; width: 300px;}
+#txt-11{ top: 136px; left: 8690px; width: 400px;}
+#txt-12{ top: -200px; left: 9200px; width: 300px;}
+#txt-13{ top: -200px; left: 9850px; width: 400px;}
+#txt-14{ top: -196px; left: 10390px; width: 400px;}
+#txt-15{ top: -259px; left: 12014px; width: 600px;}
+#txt-16{ top: 178px; left: 13351px; width: 400px;}
+#txt-17{ top: -237px; left: 14178px; width: 450px;}
+
+#subt-1{ top: 80px; left: 3000px;}
+#subt-2{ top: 80px; left: 8190px;}
+#subt-3{ top: 80px; left: 14650px;}
+
+#h3-1{ bottom: -15px; width: 100%;}
+#h3-2{ bottom: 60px; left: 690px; border-bottom: 2px solid #1a5489}
+#h3-3{ top: -70px; left: 967px;}
+#h3-4{ top: -70px; left: 1380px;}
+#h3-5{ top: 150px; left: 1380px;}
+#h3-6{ top: -96px; left: 2100px;}
+#h3-7{ top: 150px; left: 2800px;}
+#h3-8{ top: 150px; left: 5200px;}
+#h3-9{margin-top: -18px; text-align: center; width: 100%;}
+#h3-10{ top: 133px; left: 7686px;}
+#h3-11{ top: -200px; left: 9150px;}
+#h3-12{ top: -200px; left: 9800px;}
+#h3-13{ top: 88px;; left: 10510px;}
+#h3-14{ top: -231px; left: 10390px;}
+#h3-15{ top: 130px; left: 10911px;}
+#h3-16{ top: 68px; left: 11227px;}
+#h3-17{ top: 68px; left: 11827px;}
+#h3-18{ top: 68px; left: 12172px;}
+#h3-19{ top: 78px; left: 12530px;}
+#h3-20{ top: 172px; left: 13302px;}
+#h3-21{ top: -270px; left: 14141px;}
+
+#arrow-1{top: -53px; left: 1511px;}
+#arrow-2{top: -53px; left: 2330px;}
+
+#warning-1{top: 195px; left: 6500px;}
+#warning-2{top: 133px; left: 8650px;}
+#warning-3{top: -230px; left: 10355px;}
+#warning-4{top: -261px; left: 11976px;}
+
+#y-line-1{top: 122px; left: 10622px;}
+#y-line-2{top: 95px; left: 11018px;}
+#y-line-3{top: 122px; left: 11367px;}
+#y-line-4{top: 122px; left: 11860px;}
+#y-line-5{top: 122px; left: 12260px;}
+#y-line-6{top: 122px; left: 12649px;}
+
+#figure-1{top: 155px; left: 10550px;}
+#figure-2{top: -122px; left: 10390px;}
+#figure-3{top: -297px; left: 10520px;}
+#figure-4{top: -33px; left: 10962px;}
+#figure-5{top: 155px; left: 11245px;}
+#figure-6{top: -200px; left: 11222px;}
+#figure-7{top: 155px; left: 11710px;}
+#figure-8{top: -85px; left: 11795px;}
+#figure-9{top: -70px; left: 11705px;}
+#figure-10{top: -70px; left: 11915px;}
+#figure-11{top: 155px; left: 12190px;}
+#figure-12{top: -149px; left: 12107px;}
+#figure-13{top: 155px;; left: 12575px;}
+#figure-14{top: -100px; left: 12500px;}
+/**/
+#figure-18{top: 159px; left: 10548px;}
+#figure-19{top: 159px; left: 10597px;}
+#figure-20{top: 159px; left: 10647px;}
+#figure-21{top: 159px; left: 11241px;}
+#figure-22{top: 159px; left: 11291px;}
+#figure-23{top: 159px; left: 11340px;}
+#figure-24{top: 159px; left: 11390px;}
+#figure-25{top: 159px; left: 11440px;}
+#figure-26{top: 159px; left: 11710px;}
+#figure-27{top: 159px; left: 11760px;}
+#figure-28{top: 159px; left: 11810px;}
+#figure-29{top: 159px; left: 11860px;}
+#figure-30{top: 159px; left: 11909px;}
+#figure-31{top: 159px; left: 11959px;}
+#figure-32{top: 159px; left: 12186px;}
+#figure-33{top: 159px; left: 12236px;}
+#figure-34{top: 159px; left: 12286px;}
+#figure-35{top: 159px; left: 12570px;}
+#figure-36{top: 159px; left: 12620px;}
+#figure-37{top: 159px; left: 12670px;}
+#figure-38{top: 159px; left: 12500px;}
+#figure-39{top: 159px; left: 12550px;}
+#figure-40{top: 159px; left: 12599px;}
+
+#up-down-arrow-1{top: 75px; left: 8106px;}
+#up-down-arrow-2{top: 75px; left: 8245px;}
+#up-down-arrow-3{top: 75px; left: 8382px;}
+#up-down-arrow-4{top: 75px; left: 8517px;}
+#up-down-arrow-5{top: 123px; left: 14850px;}
+#up-down-arrow-6{top: 123px; left: 14980px;}
+
+#cloud-1{top: 130px; left: 100px;}
+#cloud-2{top: 70px; left: 0px;}
+#cloud-3{top: 130px; left: 500px;}
+#cloud-4{top: 90px; left: 1000px;}
+#cloud-5{top: 50px; left: 1200px;}
+#cloud-6{top: 90px; left: 1500px;}
+#cloud-7{top: 20px; left: 2200px;}
+#cloud-8{top: 130px; left: 2500px;}
+#cloud-9{top: 110px; left: 3200px;}
+#cloud-10{top: 65px; left: 3500px;}
+#cloud-11{top: 110px; left: 3800px;}
+#cloud-12{top: 70px; left: 4400px;}
+#cloud-13{top: 120px; left: 4700px;}
+#cloud-14{top: 70px; left: 5000px;}
+#cloud-15{top: 100px; left: 6000px;}
+#cloud-16{top: 100px; left: 6600px;}
+#cloud-17{top: 20px; left: 7400px;}
+#cloud-18{top: 70px; left: 8100px;}
+#cloud-19{top: 70px; left: 8600px;}
+#cloud-20{top: 70px; left: 9200px;}
+#cloud-21{top: 250px; left: 10500px;}
+#cloud-22{top: 20px; left: 11000px;}
+#cloud-23{top: 160px; left: 11900px;}
+#cloud-24{top: 120px; left: 12500px;}
+#cloud-25{top: 150px; left: 12900px;}
+#cloud-26{top: 100px; left: 13500px;}
+#cloud-27{top: 150px; left: 13900px;}
+#cloud-28{top: 20px; left: 14500px;}
+#cloud-29{top: 35px; left: 14900px;}
+
+a#continue-yacimiento-process{top: 100px; left: 15904px;}
+a#continue-gasoducto-process{top: 100px; left: 16122px}
+.menu-circles-icons-end p.pick-btn{top: 0;left: 15660px;}
+
+.menu-circles-icons-end{
+  left: 15650px;
+}
+
+/*elements css*/
+.treeType1{
+  z-index: 4;
+  position: absolute;
+  width: 80px;
+  height: 117px;
+  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
+}
+.treeType2{
+  z-index: 4;
+  position: absolute;
+  width: 64px;
+  height: 94px;
+  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
+}
+.txt-wrap-cntr{
+  position: relative;
+  width: 90%;
+  display: inline-block;
+  padding: 1% 5%;
+}
+.txtWrap1{
+  width: 341px;
+  height: 537px;
+  z-index: 14;
+  position: absolute;
+  background: transparent url(../images/cajon-txt-section1.png) no-repeat;
+  padding: 20px 0;
+}
+.txtWrap2{
+  width: 396px;
+  height: 393px;
+  z-index: 14;
+  position: absolute;
+  background: transparent url(../images/cajon-txt-section2.png) no-repeat;
+  padding: 0;
+}
+.txt-box1{
+  width: 40%;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #074c38;
+  margin-left: 10px;
+}
+.title-green{
+  position: absolute;
+  z-index: 11;
+  text-align: center; 
+  color: #b1efe6;
+  background-color: #359688;
+  padding: 0.1em 1em;
+  border-top-right-radius: 1em;
+  line-height: 1.2em;
+}
+.wrapObjet1{
+  width: 353px;
+  height: 274px;
+  background: transparent url(../images/mat-b-figura.png) no-repeat; 
+  margin: 60px 20px;
+}
+#line-1{
+  width: 142px;
+  height: 41px;
+  position: absolute;
+  background: transparent url(../images/linea-1.png) no-repeat;
+  top: 95px;
+  left: 835px;
+  z-index: 11;
+}
+.y-line{
+  position: absolute;
+  z-index: 12;
+  width: 4px;
+  height: 23px;
+  background: transparent url(../images/linea-amarilla.png) no-repeat;
+}
+.red-arrow{
+  width: 74px;
+  height: 9px;
+  background: transparent url(../images/arrow1.png) no-repeat;
+  z-index: 11;
+  position: absolute;
+}
+.warning-icon{
+  width: 25px;
+  height: 25px;
+  background: transparent url(../images/icono-warning.png) no-repeat;  
+  position: absolute;
+  z-index: 12;
+}
+.icon1{
+ float: left;
+ width: 171px;
+ height: 118px;
+ background: transparent url(../images/em-icon-1.png) no-repeat;
+}
+.icon2{
+ float: left;
+ width: 161px;
+ height: 117px;
+ background: transparent url(../images/em-icon-2.png) no-repeat;
+}
+.icon3{
+ float: left;
+ width: 161px;
+ height: 118px;
+ background: transparent url(../images/em-icon-3.png) no-repeat;
+}
+.icon4{
+ float: left;
+ width: 162px;
+ height: 118px;
+ background: transparent url(../images/em-icon-4.png) no-repeat;
+}
+.figure1{
+ width: 148px;
+ height: 54px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/contenedores1.png) no-repeat;
+}
+.figure2{
+ width: 474px;
+ height: 197px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/comunidades.png) no-repeat;
+}
+.figure3{
+ width: 80px;
+ height: 58px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/medidor.gif) no-repeat;
+}
+.figure4{
+ width: 176px;
+ height: 89px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/inyeccion-gas.png) no-repeat;
+}
+.figure5{
+ width: 246px;
+ height: 54px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/contenedores2.png) no-repeat;
+}
+.figure6{
+ width: 301px;
+ height: 251px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/planta-industrial.png) no-repeat;
+}
+.figure7{
+ width: 297px;
+ height: 54px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/contenedores3.png) no-repeat;
+}
+.figure8{
+ width: 135px;
+ height: 150px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/torre-electrica-1.png) no-repeat;
+}
+.figure9{
+ width: 103px;
+ height: 115px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/torre-electrica-2.png) no-repeat;
+}
+.figure10{
+ width: 320px;
+ height: 162px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/teleferico.png) no-repeat;
+}
+.figure11{
+ width: 290px;
+ height: 161px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/estacion-servicio.png) no-repeat;
+}
+.mat-s{
+  width: 49px;
+  height: 34px;
+  position: absolute;
+  z-index: 12;
+  background: url(../images/mat-small.png) no-repeat;
+}

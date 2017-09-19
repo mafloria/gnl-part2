@@ -1,0 +1,189 @@
+{
+	"intro":{  
+		    "lang":"en-us",
+		    "intro_text":"Our Virtual Pipeline connects consumers with several gas sources, surpassing the reach of conventional pipelines and providing energy to isolated regions.",		    
+		    "continue_button": "Select one source to continue",		
+		    "selecciona_otra_fuente": "Select another source:",
+		    "gira_dispositivo": "Rotate your device to view the content"    
+	},
+    "biogas":{
+    	"intro":{		    
+		    "biognc_titulo": "Bio - CNG",
+		    "biognc_subtitulo":"Compressed Biomethane Gas",
+		    "back_link": "Back"  
+		},	    
+	    "top_titles":{
+		    "fuentes":"SOURCES",	    	    
+		    "estacion_madre":"MOTHER STATION",
+		    "estacion_madre_desc":"PAC Platforms",
+		    "transporte":"TRANSPORT",
+		    "estacion_hija":"DAUGHTER STATION",
+		    "estacion_hija_desc":"PAD Platforms",
+		    "regreso_estacion_madre":"RETURN TO THE MOTHER STATION"
+	    },
+	    "road_info":{
+		    "biogas":"biogas",
+		    "biodigestor":"Biodgester",
+		    "biodigestor_desc":"The efluents of the digestion are transformed into Biol (a biofertilizer).",	    
+			"gas_biometano":"Compressed <br/>Biomethane Gas",
+			"comunidades_aisladas":"Outlying communities",
+			"comunidades_aisladas_desc":"Energy efficiency through <br/>customizable supply",
+			"inyeccion_red":"Injection into the natural <br/>gas grid",
+			"minas_plantas":"",
+			"usinas":"Power generation",
+			"centros_turisticos":"Tourist resorts",
+			"estaciones_servicio":"Fueling stations"
+	    },
+	    "process":{
+		    "fuentes_biogas_box_titulo":"Biogas sources",
+		    "fuentes_biogas_box_op1":"Sewage sludge and landfills",
+		    "fuentes_biogas_box_op2":"Cultivable and inedible vegetable species",
+		    "fuentes_biogas_box_op3":"Manure and guano from animals in stalls and/or feed lots",
+		    "fuentes_biogas_box_op4":"Effluents and waste from the brewing, dairy and jelly industries.",
+		    "p1_paquete_compresion":"Microbox-Bio Biogas upgrading and biomethane compression package",
+		    "p1_paquete_compresion_desc":"Microbox-Bio compression packages allow upgrading up to 500 m&sup3;/h of raw biogas by removing all its undesirable components (H<sub>2</sub>O, H<sub>2</sub>S, and CO<sub>2</sub>  among others). Hence, it is possible to provide clean Bio-CNG at a pressure of 250 bar (3625 psi).",
+		    "p1_paquete_compresion_desc2":"During the process, a water cooling system refrigerates the Microbox-Bio and supplies 170 thousand kilocalories per hour (Kcal/h), ensuring the thermal operating conditions of the biodigester.",
+		    "p2_modulos_mat":"MAT Bio-CNG containers",
+		    "p2_modulos_mat_desc":"Bio-CNG is sent from the compressors to the PAC platforms that work as a ﬁxed support and load source for the MAT modular containers.",
+		    "p2_modulos_mat_desc2":"MAT containers can store 1500 Nm&sup3; (420 GGE) of ambient temperature Bio-CNG at a pressure of 250 bar (3625 psi).",
+		    "p3_trailer_vst":"VST Trailer",
+		    "p3_trailer_vst_desc":"MATs are transported by road on VST trailers and distributed at the daughter stations located at different consumption centers.",
+		    "p3_trailer_vst_desc2":"VST can transport up to 2, 3 or 4 MATs, and the anchoring mechanism ensures the route is safely done and at the average speed of any freight.",
+		    "p4_centro_consumo_desc":"Once at the consumption center, the VST trailer's hoisting systems slide the filled MATs on a PAD unload platform while simultaneously removing the empty containers.",
+		    "p5_depositado_pad_desc":"When placed on the PAD, MATs are connected so the CNG can be transferred to a Pressure Regulation Plant (PRP), which provides natural gas at the flow and outlet pressure required by end users.",
+		    "p6_gas_red_tuberias_desc":"Finally, gas is distributed through a network of pipes so houses can replace gas cylinders by a simple stopcock. Upstream operations, industries, power plants and tourist centers can also replace the consumption of expensive and polluting fuels by biomethane.",
+		    "p7_trailer_vst_a_estacionmadre_desc":"The VST trailer returns to the mother station to replace empty MATs with filled ones.",
+		    "p8_plataformas_pac":"PAC Platforms",
+		    "p8_plataformas_pac_desc":"After arriving to the mother station, the VST trailers exchange the MATs brought from the consumption centers with the recently filled ones placed on the PAC. Containers are carefully slid from one platform to another thanks to the anchoring mechanisms controlled by the truck driver."
+	    },
+	    "alert_messages":{
+		    "a1_mat_b":"A trailer with a MAT-B unit can operate as a mobile Bio-CNG fueling station and supply fleets at their own fleet yards.",
+		    "a1_mat_b2":"Equipped with a recompression booster and a dispenser, the MAT-B allow to distribute Bio-CNG in bulk. ",
+		    "a2_intercambio_reconexion":"The exchange and connection operation takes less than 7 minutes per MAT, and is carried out with the aid of the truck driver only, who immediately continues the route to the following daughter station.",
+		    "a3_suministro_continuo_titulo":"Continuous and monitored supply",
+		    "a3_suministro_continuo_desc":"Every time the MATs' gauge indicates the load level is low, the system receives an automatic replenishment order.",
+		    "a4_sistema_recompresion_desc":"The Virtual Pipeline makes it possible to install CNG stations even without connection to the gas network. In such case, a recompression system is added to the daughter station that, connected with the EMB dispensers, boosts the fill speed."
+	    }
+	},
+	
+	"yacimiento":{
+    	"intro":{		    
+		    "biognc_titulo": "CNG",
+		    "biognc_subtitulo":"Compressed<br/>Natural Gas",
+		    "back_link": "Back"    	    
+		},	    
+	    "top_titles":{
+		    "fuentes":"SOURCES",	    	    
+		    "estacion_madre":"MOTHER STATION",
+		    "estacion_madre_desc":"PAC Platforms",
+		    "transporte":"TRANSPORT",
+		    "estacion_hija":"DAUGHTER STATION",
+		    "estacion_hija_desc":"PAD Platforms",
+		    "regreso_estacion_madre":"RETURN TO THE MOTHER STATION"
+	    },
+	    "road_info":{
+		    "gasnatural":"Natural Gas",
+		    "secador":"Dryer",		    	    
+			"gasnatural_comprimido":"Compressed Natural Gas",
+			"abastecimiento":"Energy efficiency <br/>through <br/>customizable supply",
+			"upstream":"Upstream operations",
+			"comunidades_aisladas":"Outlying communities",
+			"comunidades_aisladas_desc":"",
+			"inyeccion_red":"Injection into the <br/>natural gas grid",
+			"minas_plantas":"Mines and industrial facilities",
+			"usinas":"Power generation",
+			"centros_turisticos":"Tourist resorts",
+			"estaciones_servicio":"Fueling stations"
+	    },
+	    "process":{
+		    "pozo_box_title":"A Galileo Solution for every well.",
+		    "pozo_box_op0":"Orphan wells",
+		    "pozo_box_op1":"Wellhead",
+		    "pozo_box_op2":"Gathering",
+		    "pozo_box_op3":"Gas-lift",
+		    "pozo_box_op4":"Gas flaring reduction / Well testing",
+		    "p1_paquete_compresion":"Microbox  and  Gigabox CNG compression packages",
+		    "p1_paquete_compresion_desc":"At the mother station, Microbox  or Gigabox CNG compression packages connected to the gas source compress natural gas at a pressure of 250 bar (3625 psi).",		    
+		    "p2_modulos_mat":"MAT CNG containers",
+		    "p2_modulos_mat_desc":"CNG is sent from the compressors to the PAC&reg platforms that work as a ﬁxed support and load source for the MAT modular containers.",
+		    "p2_modulos_mat_desc2":"MAT containers can store 1500 Nm&sup3; (420 GGE) of ambient temperature CNG at a pressure of 250 bar (3625 psi).",		    
+		    "p3_trailer_vst":"VST Trailer",
+		    "p3_trailer_vst_desc":"MATs are transported by road on VST trailers and distributed at the daughter stations located at different consumption centers. VST can transport up to 2, 3 or 4 MATs,",
+		    "p3_trailer_vst_desc2":"and the anchoring mechanism ensures the route is safely done and at the average speed of any freight.",
+		    "p4_centro_consumo_desc":"Once at the consumption center, the VST trailer's hoisting systems slide the filled MATs on a PAD unload platform while simultaneously removing the empty containers.",
+		    "p5_depositado_pad_desc":"When placed on the PAD, MATs are connected so the CNG can be transferred to a Pressure Regulation Plant (PRP), which provides natural gas at the flow and outlet pressure required by end users.",
+		    "p6_gas_red_tuberias_desc":"Finally, gas is distributed through a network of pipes so houses can replace gas cylinders by a simple stopcock. Upstream operations, industries, power plants and tourist centers can also replace the consumption of expensive and polluting fuels by natural gas.",
+		    "p7_trailer_vst_a_estacionmadre_desc":"The VST trailer returns to the mother station to replace empty MATs with filled ones.",
+		    "p8_plataformas_pac":"PAC Platforms",
+		    "p8_plataformas_pac_desc":"After arriving to the mother station, the VST trailers exchange the MATs brought from the consumption centers with the recently filled ones placed on the PAC. Containers are carefully slid from one platform to another thanks to the anchoring mechanisms controlled by the truck driver."
+	    },
+	    "alert_messages":{
+		    "a1_secador":"If necessary, a Dryer removes water vapor from the incoming natural gas. The Dryer can be an integrated component of the compression package or a separate unit.",
+			"a1_mat_b":"A trailer with a MAT-B unit can operate as a mobile CNG fueling station and supply fleets at their own fleet yards.",
+		    "a1_mat_b2":"Equipped with a recompression booster and a dispenser, the MAT-B allows to distribute CNG in bulk. ",
+		    "a2_intercambio_reconexion":"The exchange and connection operation takes less than 7 minutes per MAT, and is carried out with the aid of the truck driver only, who immediately continues the route to the following daughter station.",
+		    "a3_suministro_continuo_titulo":"Continuous and monitored supply",
+		    "a3_suministro_continuo_desc":"Every time the MATs' gauge indicates the load level is low, the system receives an automatic replenishment order.",
+		    "a4_sistema_recompresion_desc":"The Virtual Pipeline makes it possible to install CNG stations even without connection to the gas network. In such case, a recompression system is added to the daughter station that, connected with the EMB dispensers, boosts the fill speed."
+	    }
+	},
+	
+	"gasoducto":{
+    	"intro":{		    
+    		"gnc_titulo": "CNG",
+		    "gnc_subtitulo":"Compressed Natural Gas",
+		    "back_link": "Back"    			   
+		},	    
+	    "top_titles":{
+		    "fuentes":"SOURCES",	    	    
+		    "estacion_madre":"MOTHER STATION",
+		    "estacion_madre_desc":"PAC Platforms",
+		    "transporte":"TRANSPORT",
+		    "estacion_hija":"DAUGHTER STATION",
+		    "estacion_hija_desc":"PAD Platforms",
+		    "regreso_estacion_madre":"RETURN TO THE MOTHER STATION"
+	    },
+	    "road_info":{
+		    "gasoducto_virtual":"The Virtual Pipeline<br/> expands the reach of the natural<br/> gas distribution infrastructure",
+		    "secador":"Dryer",
+		    "gasnatural_comprimido":"Compressed Natural Gas",
+		    "gasnatural":"Natural Gas",
+		    "abastecimiento":"Energy efficiency <br/>through customizable supply",
+			"upstream":"Upstream operations",
+			"comunidades_aisladas":"Outlying communities",
+			"comunidades_aisladas_desc":"",			
+			"minas_plantas":"Mines and industrial facilities",
+			"usinas":"Power generation",
+			"centros_turisticos":"Tourist resorts",
+			"estaciones_servicio":"Fueling stations"
+	    },
+	    "process":{	    
+		    "fuentes_gnc_box_titulo":"Galileo Pipeline Boosters keep a regular gas pressure along pipelines, allowing for continuous gas flow.",
+		    "fuentes_gnc_box_op1":"Pipeline Booster",		    		    
+		    "p1_paquete_compresion":"Microbox  and  Gigabox CNG compression packages",
+		    "p1_paquete_compresion_desc":"At the mother station, Microbox  or Gigabox CNG compression packages connected to the gas source compress natural gas at a pressure of 250 bar (3625 psi).",		    
+		    "p2_modulos_mat":"MAT CNG containers",
+		    "p2_modulos_mat_desc":"CNG is sent from the compressors to the PAC platforms that work as a ﬁxed support and load source for the MAT modular containers.",
+		    "p2_modulos_mat_desc2":"MAT containers can store 1500 Nm&sup3; (420 GGE) of ambient temperature CNG at a pressure of 250 bar (3625 psi).",
+		    "p3_trailer_vst":"Tráiler VST",
+		    "p3_trailer_vst_desc":"MATs are transported by road on VST trailers and distributed at the daughter stations located at different consumption centers.",
+		    "p3_trailer_vst_desc2":"VST can transport up to 2, 3 or 4 MATs, and the anchoring mechanism ensures the route is safely done and at the average speed of any freight.",		    
+		    "p4_centro_consumo_desc":"Once at the consumption center, the VST trailer's hoisting systems slide the filled MATs on a PAD unload platform while simultaneously removing the empty containers.",		    
+		    "p5_depositado_pad_desc":"When placed on the PAD, MATs are connected so the CNG can be transferred to a Pressure Regulation Plant (PRP), which provides natural gas at the flow and outlet pressure required by end users.",		    
+		    "p6_gas_red_tuberias_desc":"Finally, gas is distributed through a network of pipes so houses can replace gas cylinders by a simple stopcock. Upstream operations, industries, power plants and tourist centers can also replace the consumption of expensive and polluting fuels by natural gas.",		    
+		    "p7_trailer_vst_a_estacionmadre_desc":"The VST trailer returns to the mother station to replace empty MATs with filled ones.",		    
+		    "p8_plataformas_pac":"PAC Platforms",
+		    "p8_plataformas_pac_desc":"After arriving to the mother station, the VST trailers exchange the MATs brought from the consumption centers with the recently filled ones placed on the PAC. Containers are carefully slid from one platform to another thanks to the anchoring mechanisms controlled by the truck driver."
+	    },
+	    "alert_messages":{
+	    	"a1_secador":"If necessary, a Dryer removes water vapor from the incoming natural gas. The Dryer can be an integrated component of the compression package or a separate unit.",	    	
+		    "a1_mat_b":"A trailer with a MAT-B unit can operate as a mobile BCNG fueling station and supply fleets at their own fleet yards.",
+		    "a1_mat_b2":"Equipped with a recompression booster and a dispenser, the MAT-B allows to distribute CNG in bulk. ",		    
+		    "a2_intercambio_reconexion":"The exchange and connection operation takes less than 7 minutes per MAT, and is carried out with the aid of the truck driver only, who immediately continues the route to the following daughter station.",		    
+		    "a3_suministro_continuo_titulo":"Continuous and monitored supply",
+		    "a3_suministro_continuo_desc":"Every time the MATs' gauge indicates the load level is low, the system receives an automatic replenishment order.",		    
+		    "a4_sistema_recompresion_desc":"The Virtual Pipeline makes it possible to install CNG stations even without connection to the gas network. In such case, a recompression system is added to the daughter station that, connected with the EMB dispensers, boosts the fill speed."
+	    }
+	}
+    
+}

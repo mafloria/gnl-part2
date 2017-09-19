@@ -1,0 +1,830 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+.center{
+  text-align: center;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*=========================================================================
+GALILEO CSSS
+ =========================================================================*/
+ /* ESTILOS GALILEO - UXDEVCO */
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #8bc9c3;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+} 
+.front, #wrapper{
+  width: 45000px;
+}   
+.front{
+  z-index: 500;
+}
+#wrapper{
+  height: 900px;
+  display: block;
+  position: relative;
+}
+.scroll{    
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.sr .screen2-txt { 
+  visibility: hidden; 
+}
+h1, h2, h3, h4{
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+.title-section h2{
+  color: white;
+  font-size: 1.85em;
+  padding: 0 1em;
+  background-color: #1a5489;
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  display: table;
+}
+.h2-title-box{
+  position: absolute;
+  z-index: 13;
+  color: white;
+  font-size: 1.85em;
+  padding: 0 1em;
+  background-color: #1a5489;
+  text-align: center;
+}
+h3{
+  color: #1a5489;
+  font-size: 1.65em;  
+}
+h4.subtitle{
+  width: 11.5em;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  z-index: 13;
+}
+span.numeracion{
+  color: white;
+  background-color: #1a5489;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+  font-size: 18px;
+  line-height: 25px;
+}
+a.back-home{
+  position: absolute;
+  top: 1.5em;
+  left: 1em;
+  color: #1a5489;
+  font-size: 1.3em;
+}
+a.back-home span{
+  background-color: #1a5489;
+  color: white;
+  font-size: 1.3em;
+  line-height: initial;
+  padding: 0 10px;
+  border-radius: 50%;
+  margin-right: 0.2em;
+}
+.title-h3{
+  position: absolute;
+  z-index: 11;
+  text-align: center;
+  line-height: 28px;
+}
+.section{
+  width: 1280px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.section-content{
+  width: 98%;
+  height: 98%;
+  padding: 2%;
+}
+.section-content.content-landing{
+  width: 60%;
+  padding: 2% 20%;
+}
+.column-left{
+  width: 50%;
+  float: left;
+}
+p.txt-description{
+  font-size: 1.5em;
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+p.pick-btn{
+  font-size: 1.6em;
+  padding: 0.5em 1em;
+  background-color: #1a5489;
+  margin: 1.5em 0;
+  width: auto;
+  display: inline-block;
+  border-radius: 0.2em;
+  transition: all 0.5s ease;
+}
+span.a-r{
+  width: 0; 
+  height: 0; 
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent; 
+  border-left: 28px solid #1a5489; 
+  position: absolute;
+  right: -28px;
+  top: 0; 
+}
+img.logo-intro{
+  width: 50%;
+  margin: 0 0 3em 0;
+  transition: all 0.5s ease;
+}
+.column-right{
+  width: 50%;
+  float: right;
+}
+/**/
+.bottom-nav{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  bottom: 0;
+  padding: 1em 0;
+}
+.navigation{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  bottom: 2em;
+}
+.navigation a{
+  width: 10px;
+  height: 10px;
+  background-color: #538480;
+  border: 5px solid #538480;
+  margin: 0 0.2em;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.navigation a:hover{
+  background-color: #f2990a;
+}
+/*---------------------------------------------------ESTILOS CAMION*/
+.camion-section{
+ display: none; /*!important*/
+  position: absolute;
+  left: 3370px;
+  top: 243px;
+  z-index: 12;
+}
+.camion{
+  width: 777px;
+  height: 188px;
+  background: transparent url(../images/camion-1.png) no-repeat; 
+  top: 243px;
+  z-index: 12;
+}
+.camion-animated{
+  width: 777px;
+  height: 188px;
+  background: transparent url(../images/camion.png) no-repeat; 
+  top: 243px;
+  z-index: 12;
+  position: relative;  
+}
+.rueda{
+  width: 52px;
+  height: 51px;
+  position: absolute;
+  bottom: 3px;
+  background: transparent url(../images/rueda.png) no-repeat; 
+}
+.rueda1{
+  left: 107px;
+  transform:rotate(70deg);
+  -webkit-transform:rotate(70deg);
+  -moz-transform:rotate(70deg);
+}
+.rueda2{
+  left: 167px;
+  transform:rotate(140deg);
+  -webkit-transform:rotate(140deg);
+  -moz-transform:rotate(140deg);
+}
+.rueda3{
+  left: 276px;
+  transform:rotate(210deg);
+  -webkit-transform:rotate(210deg);
+  -moz-transform:rotate(210deg);
+}
+.rueda4{
+  left: 484px;
+  transform:rotate(140deg);
+  -webkit-transform:rotate(140deg);
+  -moz-transform:rotate(140deg);
+}
+.rueda5{
+  left: 677px;
+  transform:rotate(70deg);
+  -webkit-transform:rotate(70deg);
+  -moz-transform:rotate(70deg);
+}
+
+/* animacion ruedas */
+.rueda_andando{
+	-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+/* end animacion ruedas */
+
+.truck-fixed{position: fixed; left: 28%;}
+
+.firstTruck-biogas-start{position: absolute; left: 3413px;}/*3560px*/
+.firstTruck-biogas-stop{position: absolute; left: 7983px;}
+.secondTruck-biogas-start{position: absolute;left: 12845px;}
+.secondTruck-biogas-stop{position: absolute;left: 14452px;}
+
+.firstTruck-yacimiento-start{position: absolute; left: 3440px;}
+.firstTruck-yacimiento-stop{position: absolute; left: 7983px;}
+.secondTruck-yacimiento-start{position: absolute;left: 12793px;}
+.secondTruck-yacimiento-stop{position: absolute;left: 14303px;}
+
+.firstTruck-gasoducto-start{position: absolute; left: 3453px;}
+.firstTruck-gasoducto-stop{position: absolute; left: 7983px;}
+.secondTruck-gasoducto-start{position: absolute;left: 12791px;}
+.secondTruck-gasoducto-stop{position: absolute;left: 14353px;}
+
+/*-----------------------------------------------*/
+.landscape-top{
+  width: 100%;
+  height: 47%;
+  position: relative; 
+  background-color: #8bc9c3; 
+}
+.landscape-bottom{
+  width: 100%;
+  height: 53%;
+  padding-top: 10px;
+  background: #81b58b url(../images/border-top-bottom-landscape.png) top repeat-x;
+  position: relative;
+}
+.green-bg{
+  position: absolute;
+  background-color: #81b58b;
+  top: 0;
+  bottom: -50%;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+/*screen2*/
+.screen2-txt{
+  float: left;
+  width: 50%;
+}
+.screen2-txt h2{
+  width: auto;
+  color: white;
+  font-size: 1.85em;
+  padding: 0 1em;
+  background-color: #1a5489;
+  text-align: center;  
+}
+.screen2-txt p{
+  float: right;
+  font-size: 1.6em;
+  width: 50%;
+  display: inline-block;
+  margin: 20% 0 0 0;
+}
+.menu-fuentes{
+  width: 182px;
+  margin: 0 auto;  
+}
+.menu-circles-icons{
+  width: 70%;
+  margin: 0 auto;
+}
+.menu-circles-icons-end{
+  width: 700px;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: -200px;
+  z-index: 12;
+}
+.menu-circles-icons a{
+  width: 25%;
+  height: auto;
+  float: left;
+  display: block;
+  transition: all 0.5s ease;
+  margin: 0 1.4em;	
+  opacity: .6;
+}
+.menu-end{
+  width: 70%;
+  display: inline-block;
+  margin-top: 2em;
+}
+.menu-end a{
+  width: 35%;
+  height: auto;
+  float: left;
+  transition: all 0.5s ease;
+  opacity: .6;
+  margin: 0 2em;
+}
+.menu-circles-icons-end a img,
+.menu-circles-icons a img{
+  width: 100%;
+  height: 100%;
+}
+.menu-circles-icons-end p.pick-btn{
+  width: 430px;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background-color: #1a5489;
+  text-align: center;
+  margin: 2em 0;
+}
+.menu-circles-icons a:hover,
+.menu-end a:hover{
+  opacity: 1;
+}
+/*a.biogas-menu-btn-es{
+  background: url(../images/gnc-biogas-btn-es.png) no-repeat;
+}
+a.yacimiento-menu-btn-es{
+  background: url(../images/gnc-yacimiento-btn-es.png) no-repeat;  
+}
+a.gasoducto-menu-btn-es{
+  background: url(../images/gnc-gasoducto-btn-es.png) no-repeat;  
+}
+a.biogas-menu-btn-en{
+  background: url(../images/gnc-biogas-btn-en.png) no-repeat;
+}
+a.yacimiento-menu-btn-en{
+  background: url(../images/gnc-yacimiento-btn-en.png) no-repeat;  
+}
+a.gasoducto-menu-btn-en{
+  background: url(../images/gnc-gasoducto-btn-en.png) no-repeat;  
+}
+*/
+/*
+a.biogas-menu-btn:hover{
+  background: url(../images/gnc-biogas-btn-hover.png) no-repeat;
+}
+a.yacimiento-menu-btn:hover{
+  background: url(../images/gnc-yacimiento-btn-hover.png) no-repeat; 
+}
+a.gasoducto-menu-btn:hover{
+  background: url(../images/gnc-gasoducto-btn-hover.png) no-repeat; 
+}
+*/
+input.lng-btn{
+  position: absolute;
+  top: 0;
+  right: 2em;
+  border: 0;
+  padding: 0.5em;
+  background-color: #1a5489;
+  transition: all 0.5s ease;
+}
+input.lng-btn:hover{
+  padding: 1em 0.5em 0.5em 0.5em;
+}
+/*screen 3 menu*/
+.screen3-title{
+  float: right;
+  width: auto;
+  margin-top: 150px;
+  margin-right: 55%;
+}
+.screen3-title h1{
+  color: #1a5489;
+  font-size: 7.7em;
+  line-height: initial;
+  border-bottom: 5px solid #1a5489;
+  margin-bottom: 0.2em; 
+}
+.screen3-title p{
+  font-size: 2.2em;
+}
+
+/*landscape*/
+.landscape-section{
+  width: 100%;
+  height: 100%;
+  max-height: 670px;
+  float: left;
+  position: relative;
+}
+.upDownArrow{
+  width: 6px;
+  height: 92px;
+  background: url(../images/flechas-gif.gif) no-repeat; 
+  position: absolute;
+  z-index: 12;
+}
+.mat-s{
+  width: 49px;
+  height: 34px;
+  position: absolute;
+  z-index: 12;
+  background: url(../images/mat-small.png) no-repeat;
+}
+/*nubes*/
+.cloudType1{
+  width: 99px;
+  height: 32px;
+  background: url(../images/nube-galileo-1.png) no-repeat; 
+  position:absolute;
+  z-index: 1;
+  opacity: 0.5;
+}
+.cloudType2{
+  width: 103px;
+  height: 19px;
+  background: url(../images/nube-galileo-2.png) no-repeat;
+  position:absolute;
+  z-index: 1;
+  opacity: 0.7; 
+}
+.cloudType3{
+  width: 175px;
+  height: 32px;
+  background: url(../images/nube-galileo-3.png) no-repeat;
+  position:absolute;
+  z-index: 1;
+  opacity: 0.9; 
+}
+@-webkit-keyframes nubesanim{
+    0%  { } 
+    50% { -webkit-transform:translateX(1200px)}
+    100% {-webkit-transform:translateX(0px); }
+}
+.cloud-s{
+  animation-name: nubesanim;
+  animation-duration: 300s;
+  animation-iteration-count:infinite;
+
+  -moz-animation-name: nubesanim;
+  -moz-animation-duration: 300s;
+  -moz-animation-iteration-count:infinite;
+
+  -webkit-animation-name: nubesanim;
+  -webkit-animation-duration: 300s;
+  -webkit-animation-iteration-count:infinite;  
+}
+.cloud-m{
+  animation-name: nubesanim;
+  animation-duration: 270s;
+  animation-iteration-count:infinite;
+
+  -moz-animation-name: nubesanim;
+  -moz-animation-duration: 270s;
+  -moz-animation-iteration-count:infinite;
+
+  -webkit-animation-name: nubesanim;
+  -webkit-animation-duration: 270s;
+  -webkit-animation-iteration-count:infinite;  
+}
+.cloud-l{
+  animation-name: nubesanim;
+  animation-duration: 250s;
+  animation-iteration-count:infinite;
+
+  -moz-animation-name: nubesanim;
+  -moz-animation-duration: 250s;
+  -moz-animation-iteration-count:infinite;
+
+  -webkit-animation-name: nubesanim;
+  -webkit-animation-duration: 250s;
+  -webkit-animation-iteration-count:infinite;  
+}
+.hand-instruction{
+  position: absolute;
+  width: 200px;
+  z-index: 100;
+  left: 0;
+  bottom: 0;
+  display: none;
+/*
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: manito;
+  -webkit-animation-name: manito;
+  animation-name: manito;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  */
+ animation: manito 3s linear infinite;    
+ -webkit-animation-direction: alternate;
+ -webkit-animation: manito 2s;
+}
+
+@-webkit-keyframes manito {
+  from {bottom: 0;}
+  to {top: 0;}
+}
+@-moz-keyframes manito {
+  from {bottom: 0;}
+  to {top: 0;}
+}
+@keyframes manito {
+  from {bottom: 0;}
+  to {top: 0;}
+}
+.scrollTonav{
+  position: absolute;
+  bottom: 2em;
+ padding: 0.5em 1em 0.5em 4em;;
+  background-color: #443a2b;
+}
+.scrollTonav p{
+  position: relative;
+}
+.scrollTonav p img{
+  position: absolute;
+  width: 30%;
+  top: -43px;
+  left: -3em;
+}
+.portrait-intro{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2f8c83;
+  color: white;
+  display: none;
+}
+.girar{
+  width: 70%;
+  margin: 0 auto;
+  opacity: .5;
+}
+.girar img{
+  width: 22%;
+  margin: 40% 39% 1em 39%;
+
+}
+.girar p{
+  text-align: center;
+  font-size: 1.2em;
+}
+/*Media queries*/
+/* mobile Portrait */
+@media only screen 
+  and (min-device-width: 0) 
+  and (max-device-width: 374px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .portrait-intro{
+      display: block !important;
+    }
+    #wrapper{
+      display: none;
+    }
+}
+/* mobile Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 979px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .hand-instruction{
+      display: block !important;
+    }
+    .menu-circles-icons {
+      width: 30%;
+    }
+    .menu-circles-icons a{
+      margin-bottom: 0.5em;
+    }
+    input.lng-btn{
+      right: 1em;
+    }
+    img.logo-intro{
+      float: left;
+    }
+    .column-left p {
+      float: right;
+      font-size: 1em;
+      width: 100% !important;
+      margin-top: 1em;
+  }
+    .column-right {
+      width: 40%;
+    }
+    .column-left {
+      width: 60%;
+    }
+    span.a-r {
+      border-top: 18px solid transparent;
+      border-bottom: 17px solid transparent;
+      border-left: 18px solid #1a5489;
+      right: -18px;
+    }
+}
+@media screen and (max-width: 1400px){
+  .column-left p{
+    width: 80%;
+  }
+}
+
+
