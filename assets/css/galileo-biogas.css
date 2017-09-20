@@ -3,58 +3,23 @@
   width: 17050px;
   max-height: 670px;
 }
-.landscape-top{
-  width: 100%;
-  height: 47%;
-  position: relative; 
-}
-.landscape-bottom{
-  width: 100%;
-  height: 53%;
-  padding-top: 10px;
-  background: #81b58b url(../images/border-top-bottom-landscape.png) top repeat-x;
-  position: relative;
-}
 .main-landscape-image{
   position: inherit;
   z-index: 10;
-  margin-top: -267px;
-  margin-left: -480px;
-}
-
-/*elements 1 hills*/
-.txtInfo{
-  font-size: 1.1em;
-  color: white;
-  line-height: 1.2em;
-  position: absolute;
-  z-index: 12;
-}
-.hillType1{
-  position: absolute;
-  z-index: 2;
-  width: 200px;
-  height: 125px;
-  background: transparent url(../images/montana-galileo-1.png) no-repeat;
-}
-.hillType2{
-  z-index: 3;
-  position: absolute;
-  width: 152px;
-  height: 95px;
-  background: transparent url(../images/montana-galileo-2.png) no-repeat;
+  margin-top: -224px;
+  margin-left: 500px;
 }
 /*elements position*/
-#tree-1{ bottom: -10px; left: 465px;}
-#tree-2{ bottom: -10px; left: 610px;}
-#tree-3{ bottom: -20px; left: 765px;}
-#tree-4{ bottom: -10px; left: 1150px;}
-#tree-5{ bottom: -25px; left: 1250px;}
-#tree-6{ bottom: -10px; left: 2450px;}
-#tree-7{ bottom: -25px; left: 2600px;}
-#tree-8{ bottom: -10px; left: 2700px;}
-#tree-9{ bottom: -25px; left: 2770px;}
-#tree-10{ bottom: -18px; left: 4350px;}
+#tree-1{ bottom: -10px; left: 10px;}
+#tree-2{ bottom: -10px; left: 1410px;}
+#tree-3{ bottom: -20px; left: 1570px;}
+#tree-4{ bottom: -10px; left: 2454px;}
+#tree-5{ bottom: -25px; left: 2650px;}
+#tree-6{ bottom: -10px; left: 2850px;}
+#tree-7{ bottom: -25px; left: 3150px;}
+#tree-8{ bottom: -10px; left: 4300px;}
+#tree-9{ bottom: -25px; left: 4350px;}
+#tree-10{ bottom: -18px; left: 4450px;}
 #tree-11{ bottom: -25px; left: 4600px;}
 #tree-12{ bottom: -14px; left: 4840px;}
 #tree-13{ bottom: -30px; left: 5230px;}
@@ -88,10 +53,10 @@
 #tree-41{ bottom: -25px; left: 15400px;}
 #tree-42{ bottom: -10px; left: 15500px;}
 
-#hill-1{ bottom: 0; left: 400px;}
-#hill-2{ bottom: 0; left: 580px;}
-#hill-3{ bottom: 0; left: 700px;}
-#hill-4{ bottom: 0; left: 2670px;}
+#hill-1{ bottom: 0; left: 0px;}
+#hill-2{ bottom: 0; left: 1780px;}
+#hill-3{ bottom: 0; left: 1900px;}
+#hill-4{ bottom: 0; left: 2970px;}
 #hill-5{ bottom: 0; left: 3500px;}
 #hill-6{ bottom: 0; left: 4300px;}
 #hill-7{ bottom: 0; left: 4450px;}
@@ -119,7 +84,21 @@
 #txt-wrap-1{bottom: -305px; left: 150px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
 
-#h2-1{top: 40px; left: 610px;}
+#icon-1{top: -130px; left: 200px;}
+#icon-2{top: 0px; left: 200px;}
+#icon-3{top: 130px; left: 190px;}
+#icon-4{top: -132px; left: 900px;}
+#icon-5{top: 0px; left: 900px;}
+#icon-6{top: 130px; left: 900px;}
+
+#icon-txt-1{top: -100px; left: 363px; width: 120px;}
+#icon-txt-2{top: 32px; left: 363px; width: 120px;}
+#icon-txt-3{top: 147px; left: 363px; width: 120px;}
+#icon-txt-4{top: -107px; left: 1065px; width: 120px;}
+#icon-txt-5{top: 17px; left: 1065px; width: 120px;}
+#icon-txt-6{top: 163px; left: 1065px; width: 120px;}
+
+#h2-1{top: 40px; left: 530px;}
 #h2-2{top: 40px; left: 1700px;}
 #h2-3{top: 40px; left: 3000px;}
 #h2-4{top: 40px; left: 5650px;}
@@ -129,7 +108,7 @@
 #h2-8{top: 40px; left: 13400px;}
 #h2-9{top: 40px; left: 14650px;}
 
-#txt-1{ top: 86px; left: 985px; width: 150px;}
+#txt-1{ top: 250px; left: 279px; width: 200px;}
 #txt-2{ top: 192px; left: 1383px; width: 450px;}
 #txt-3{ top: 192px; left: 1880px; width: 450px;}
 #txt-4{ top: 192px; left: 2800px; width: 400px;}
@@ -147,13 +126,13 @@
 #txt-16{ top: 178px; left: 13351px; width: 400px;}
 #txt-17{ top: -237px; left: 14178px; width: 450px;}
 
-#subt-1{ top: 80px; left: 3000px;}
-#subt-2{ top: 80px; left: 8190px;}
-#subt-3{ top: 80px; left: 14650px;}
+#subt-1{ top: 85px; left: 500px;}
+#subt-2{ top: 85px; left: 8190px;}
+#subt-3{ top: 85px; left: 14650px;}
 
-#h3-1{ bottom: -15px; width: 100%;}
-#h3-2{ bottom: 60px; left: 690px; border-bottom: 2px solid #1a5489}
-#h3-3{ top: -70px; left: 967px;}
+#h3-1{ top: 15px;}
+#h3-2{ top: 200px; left: 631px; border-bottom: 2px solid #1a5489}
+#h3-3{ top: -200px; left: 1060px;}
 #h3-4{ top: -70px; left: 1380px;}
 #h3-5{ top: 150px; left: 1380px;}
 #h3-6{ top: -96px; left: 2100px;}
@@ -309,24 +288,6 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
   background: transparent url(../images/cajon-txt-section2.png) no-repeat;
   padding: 0;
 }
-.txt-box1{
-  width: 40%;
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-  color: #074c38;
-  margin-left: 10px;
-}
-.title-green{
-  position: absolute;
-  z-index: 11;
-  text-align: center; 
-  color: #b1efe6;
-  background-color: #359688;
-  padding: 0.1em 1em;
-  border-top-right-radius: 1em;
-  line-height: 1.2em;
-}
 .wrapObjet1{
   width: 353px;
   height: 274px;
@@ -334,12 +295,12 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
   margin: 60px 20px;
 }
 #line-1{
-  width: 142px;
-  height: 41px;
+  width: 120px;
+  height: 177px;
   position: absolute;
-  background: transparent url(../images/linea-1.png) no-repeat;
-  top: 95px;
-  left: 835px;
+  background: transparent url(../images/linea01.png) no-repeat;
+  top: 100px;
+  left: 488px;
   z-index: 11;
 }
 .y-line{
@@ -364,28 +325,46 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
   z-index: 12;
 }
 .icon1{
- float: left;
- width: 171px;
- height: 118px;
- background: transparent url(../images/em-icon-1.png) no-repeat;
+  width: 152px;
+  height: 111px;
+  background: transparent url(../images/biogas-01.png) no-repeat;
+  position: absolute;
+  z-index: 12;
 }
 .icon2{
- float: left;
- width: 161px;
- height: 117px;
- background: transparent url(../images/em-icon-2.png) no-repeat;
+ width: 152px;
+ height: 110px;
+ background: transparent url(../images/biogas-02.png) no-repeat;
+ position: absolute;
+  z-index: 12;
 }
 .icon3{
- float: left;
  width: 161px;
- height: 118px;
- background: transparent url(../images/em-icon-3.png) no-repeat;
+ height: 111px;
+ background: transparent url(../images/biogas-03.png) no-repeat;
+ position: absolute;
+  z-index: 12;
 }
 .icon4{
- float: left;
- width: 162px;
- height: 118px;
- background: transparent url(../images/em-icon-4.png) no-repeat;
+ width: 152px;
+ height: 111px;
+ background: transparent url(../images/biogas-04.png) no-repeat;
+ position: absolute;
+  z-index: 12;
+}
+.icon5{
+ width: 152px;
+ height: 111px;
+ background: transparent url(../images/biogas-05.png) no-repeat;
+ position: absolute;
+  z-index: 12;
+}
+.icon6{
+ width: 152px;
+ height: 111px;
+ background: transparent url(../images/biogas-06.png) no-repeat;
+ position: absolute;
+  z-index: 12;
 }
 .figure1{
  width: 148px;
