@@ -1,6 +1,6 @@
 /* ESTILOS GALILEO BIOGAS- UXDEVCO */
 .gnc-biogas-landscape{ 
-  width: 19000px;
+  width: 19600px;
   max-height: 670px;
 }
 .main-landscape-image{
@@ -52,6 +52,15 @@
 #tree-40{ bottom: -10px; left: 15300px;}
 #tree-41{ bottom: -25px; left: 15400px;}
 #tree-42{ bottom: -10px; left: 15500px;}
+#tree-43{ bottom: -10px; left: 16100px;}
+#tree-44{ bottom: -10px; left: 16400px;}
+#tree-45{ bottom: -10px; left: 16800px;}
+#tree-46{ bottom: -10px; left: 17000px;}
+#tree-47{ bottom: -10px; left: 17300px;}
+#tree-48{ bottom: -10px; left: 17450px;}
+#tree-49{ bottom: -10px; left: 17520px;}
+#tree-50{ bottom: -10px; left: 17900px;}
+#tree-51{ bottom: -10px; left: 18200px;}
 
 #hill-1{ bottom: 0; left: 0px;}
 #hill-2{ bottom: 0; left: 1780px;}
@@ -80,6 +89,11 @@
 #hill-25{ bottom: 0; left: 14050px;}
 #hill-26{ bottom: 0; left: 15130px;}
 #hill-27{ bottom: 0; left: 15400px;}
+#hill-28{ bottom: 0; left: 16500px;}
+#hill-29{ bottom: 0; left: 16950px;}
+#hill-30{ bottom: 0; left: 17400px;}
+#hill-31{ bottom: 0; left: 17550px;}
+#hill-32{ bottom: 0; left: 18100px;}
 
 #txt-wrap-1{bottom: -305px; left: 150px;}
 #txt-wrap-2{top: -180px; left: 9893px;}
@@ -112,6 +126,8 @@
 #h2-10{top: 40px; left: 14300px;}
 #h2-11{top: 40px; left: 15450px;}
 
+#h2-12{top: -40px; left: 17700px;}
+
 #subt-1{ top: 85px; left: 800px;}
 #subt-2{ top: 85px; left: 2500px;}
 #subt-3{ top: 85px; left: 4424px;}
@@ -138,9 +154,7 @@
 #txt-12{ top: -215px; left: 13288px; width: 350px;}
 #txt-13{ top: 220px; left: 12582px; width: 450px;}
 #txt-14{ top: 220px; left: 13100px; width: 450px;}
-#txt-15{ top: 450px; left: 12014px; width: 600px;}
-#txt-16{ top: 450px; left: 13351px; width: 400px;}
-#txt-17{ top: 450px; left: 14178px; width: 450px;}
+#txt-15{ top: 200px; left: 16600px; width: 400px;}
 
 #h3-1{ top: 15px;}
 #h3-2{ top: 200px; left: 931px; border-bottom: 2px solid #1a5489}
@@ -163,6 +177,12 @@
 #h3-19{ top: 214px; left: 14338px;}
 #h3-20{ top: 214px; left: 14600px;}
 #h3-21{ top: 214px; left: 15446px;}
+#h3-22{ top: 120px; left: 16915px;}
+#h3-23{ top: 142px; left: 17034px;}
+#h3-24{ top: 120px; left: 17137px;}
+#h3-25{ top: 140px; left: 17296px;}
+#h3-26{ top: 194px; left: 17073px;}
+#h3-27{ top: -265px; left: 17084px;}
 
 #arrow-1{top: -174px; left: 2271px;}
 #arrow-2{top: -150px; left: 3200px;}
@@ -207,6 +227,11 @@
 #figure-17{top: -41px; left: 14320px;}
 #figure-18{top: -89px; left: 14610px;}
 #figure-19{top: -168px; left: 15247px;}
+#figure-20{top: -45px; left: 16900px;}
+#figure-21{top: -23px; left: 17020px;}
+#figure-22{top: -45px; left: 17150px;}
+#figure-23{top: -23px; left: 17280px;}
+#figure-24{top: -230px; left: 17080px;}
 /**/
 #up-down-arrow-1{top: 75px; left: 8106px;}
 #up-down-arrow-2{top: 75px; left: 8245px;}
@@ -250,7 +275,7 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15660px;}
 
 .menu-circles-icons-end{
-  left: 16950px;
+  left: 18500px;
 }
 
 /*elements css*/
@@ -368,6 +393,14 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
 .figure14{
  width: 1147px; height: 278px;
  background: transparent url(../images/barco-carga.png) no-repeat;
+}
+.figure15{
+ width: 68px; height: 163px;
+ background: transparent url(../images/flecha-blanca.png) no-repeat;
+}
+.figure16{
+ width: 68px; height: 163px;
+ background: transparent url(../images/flecha-azul.png) no-repeat;
 }
 .blue-line-title{
   width: 3px; height: 19px;

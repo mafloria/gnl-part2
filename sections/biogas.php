@@ -16,7 +16,7 @@
                          <div id="tree-1" class="treeType2"></div>          
                      </div>
 
-                     <div class="group-animated animatedParent" data-appear-left-offset='-2500'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-2000'  data-sequence='300'>
                         <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id="1"></div>
                          <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id="2"></div>
                          
@@ -178,12 +178,32 @@
                     </div>
                     <div class="group-animated animatedParent" data-appear-left-offset='-15500'  data-sequence='300'>
                         <div id="hill-26" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
-                        <div id="tree-38" class="treeType1 animated fadeInLeftShort" data-id='1'></div> 
-                        <div id="tree-39" class="treeType1 animated fadeInLeftShort" data-id='2'></div> 
-                        <div id="tree-40" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
-                        <div id="hill-27" class="hillType2 animated fadeInLeftShort" data-id='4'></div>
-                        <div id="tree-41" class="treeType1 animated fadeInLeftShort" data-id='5'></div> 
-                        <div id="tree-42" class="treeType2 animated fadeInLeftShort" data-id='6'></div>
+                        <div id="tree-38" class="treeType1 animated fadeInLeftShort" data-id='2'></div> 
+                        <div id="tree-39" class="treeType1 animated fadeInLeftShort" data-id='3'></div> 
+                        <div id="tree-40" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
+                        <div id="hill-27" class="hillType2 animated fadeInLeftShort" data-id='5'></div>
+                        <div id="tree-41" class="treeType1 animated fadeInLeftShort" data-id='6'></div> 
+                        <div id="tree-42" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-16000'  data-sequence='300'>
+                        <div id="hill-28" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-38" class="treeType2 animated fadeInLeftShort" data-id='2'></div> 
+                        <div id="tree-43" class="treeType1 animated fadeInLeftShort" data-id='3'></div> 
+                        <div id="tree-44" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
+                        <div id="hill-29" class="hillType2 animated fadeInLeftShort" data-id='5'></div>
+                        <div id="tree-45" class="treeType1 animated fadeInLeftShort" data-id='6'></div> 
+                        <div id="tree-46" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
+                        <div id="tree-47" class="treeType1 animated fadeInLeftShort" data-id='8'></div> 
+                        <div id="tree-48" class="treeType2 animated fadeInLeftShort" data-id='9'></div>
+                        <div id="hill-30" class="hillType2 animated fadeInLeftShort" data-id='10'></div>
+                        <div id="tree-49" class="treeType1 animated fadeInLeftShort" data-id='11'></div> 
+                    </div>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-16700'  data-sequence='300'>
+                        <div id="tree-50" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="hill-31" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="tree-51" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="hill-32" class="hillType2 animated fadeInLeftShort" data-id='4'></div>
                     </div>
 
                     <!--NUBES / CLOUDS-->
@@ -318,7 +338,7 @@
                     </div>
 
                     <!--elementos landscape bottom 6 -->
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-9400'  data-sequence='600'>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-9400'  data-sequence='300'>
                          <div id="figure-3" class="figure3 absolute animated fadeInLeftShort" data-id="1"></div>
                          <div id="figure-4" class="figure4 absolute animated fadeInLeftShort" data-id="2"></div>    
                     </div>
@@ -411,6 +431,29 @@
                         <div id="b-line-8" class="b-line-8 absolute animated fadeInLeftShort" data-id="1"></div>
                         <h3 id="h3-21" class="title-h3-s absolute animated fadeInLeftShort" data-id="2">Terminales de recepción de GNL</h3>
                         <div id="figure-19" class="figure14 absolute animated fadeInLeftShort" data-id="3"></div> 
+                    </div>
+
+                    <!--elementos landscape bottom 11 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-17400'  data-sequence='200'>
+                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="1">El Bio-GNL y el GNL son los combustibles limpios más convenientes para largas distancias y elevadas demandas de gas en períodos corto</p> 
+                        <div id="figure-20" class="figure16 absolute animated fadeInDownShort" data-id="2"></div>
+                        <h3 id="h3-22" class="title-h3 absolute animated fadeInDownShort" data-id="3">CO2</h3>
+                        <div id="figure-21" class="figure16 absolute animated fadeInDownShort" data-id="4"></div> 
+                        <h3 id="h3-23" class="title-h3 absolute animated fadeInDownShort" data-id="5">NOX</h3>
+                        <div id="figure-22" class="figure16 absolute animated fadeInDownShort" data-id="6"></div>
+                        <h3 id="h3-24" class="title-h3 absolute animated fadeInDownShort" data-id="7">Particulado</h3> 
+                        <div id="figure-23" class="figure16 absolute animated fadeInDownShort" data-id="8"></div> 
+                        <h3 id="h3-25" class="title-h3 absolute animated fadeInDownShort" data-id="9">GEI</h3> 
+                        <h3 id="h3-26" class="title-h3 absolute animated fadeInDownShort" data-id="10">Emisiones</h3>
+
+                        <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="11"></div> 
+                        <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="12">Ahorro</h3> 
+                    </div>
+
+                    <!--elementos landscape bottom 12 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-17900'  data-sequence='300'>
+                        <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1">Monetice sus fuentes de biogás
+                            <br />transformándolas en Bio-GNL rentable</h2>
                     </div>
 
 
