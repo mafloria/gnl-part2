@@ -36,7 +36,7 @@ $(document).ready(function(){
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
-	var biogas_width = 17000;//valor del css: .gnc-biogas-landscape
+	var biogas_width = 23000;//valor del css: .gnc-biogas-landscape
 	var yacimiento_width = 16730;//valor del css: .gnc-yacimiento-landscape
 	var gasoducto_width = 16900;//valor del css: .gnc-gasoducto-landscape	
 	var open_section_name = "biogas";
