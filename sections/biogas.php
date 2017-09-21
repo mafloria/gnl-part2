@@ -67,35 +67,38 @@
                      </div>
 
 
-                    <div class="group-animated animatedParent" data-appear-left-offset='-7100'  data-sequence='300'>
-                        <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->transporte; ?></h2>
-                    </div>
-                    <!-- CNX1
-                    <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='200'>
-                        <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1">
-                            <h3 id="h3-9" class="title-h3 animated fadeInLeftShort" data-id="2">MAT-B</h3>
-                            <div id="wrap-objet-1" class="wrapObjet1 animated fadeInLeftShort" data-id="3"></div>
-                        </div>
-                    </div>
-                   -->
-                    <div class="group-animated animatedParent" data-appear-left-offset='-8100'  data-sequence='300'>
-                        <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_hija; ?></h2>
-                    </div>
-                    <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
-                        <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_hija; ?></h2>
-                    </div>
-                    <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>    
-                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->regreso_estacion_madre; ?></h2> 
-                    </div>
-                    <div class="group-animated animatedParent" data-appear-left-offset='-15100'  data-sequence='300'>    
-                        <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='300'>
+                        <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-5" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
+                        <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">Bio-GNL para los consumidores de alta potencia</h3>
                     </div>
 
+                    <!--elementos landscape top 6 --> 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-9200'  data-sequence='300'>
+                        <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-6" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
+                        <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">Bio-GNL para los consumidores de alta potencia</h3>
+                    </div>
+
+                    <!--elementos landscape top 7 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-10600'  data-sequence='300'>
+                        <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-7" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
+                    </div> 
+
+                    <!--elementos landscape top 8 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-11800'  data-sequence='300'>
+                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-8" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
+                    </div> 
+
+                    <!--elementos landscape top 9 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-12900'  data-sequence='300'>
+                        <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-9" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
+                    </div> 
+                                      
                     <!--ARBOLES Y MONTAñAS / TREES & HILLS -->
-                     
-                     
-                         
-                     
                      <div class="group-animated animatedParent"  data-appear-left-offset='-5800'  data-sequence='300'>
                          <div id="tree-13" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="hill-10" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
@@ -227,7 +230,7 @@
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->
                      <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='100'>
-                         <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biodigestor; ?></h3>
+                         <h3 id="h3-2" class="title-h3 absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biodigestor; ?></h3>
                          <div id="icon-1" class="icon1 absolute animated fadeInLeftShort" data-id="2"></div> 
                          <p id="icon-txt-1" class="txt-box1 animated fadeInLeftShort" data-id="3">Silos de granos</p>
 
@@ -251,20 +254,16 @@
                          <div id="line-1" class="linea-txt-1 absolute animated fadeInLeftShort" data-id="7"></div>
                          <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="8">Los efluentes del proceso se transforman en fertilizantes.</p>
                      </div>
-
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-300'  data-sequence='300'>                       
-                        <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>    
-                    </div>
   
                     
  
                     <!--elementos landscape bottom 2 --> 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>                       
-                        <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>
+                        <h3 id="h3-4" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>
                         <div id="arrow-1" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
                     </div>
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
-                        <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1">Criobox-Bio</h3>
+                        <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Criobox-Bio</h3>
                         <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Una estación Cryobox-Bio depura hasta 500 m3/h de Biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) para licuar el biometano obtenido y transformarlo en Bio-GNL.</p>
                         <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.
                             <br /><br />
@@ -273,13 +272,13 @@
                     </div>
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3500'  data-sequence='300'>                       
-                        <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->gas_biometano; ?></h3>
+                        <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->gas_biometano; ?></h3>
                         <div id="arrow-2" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
                     </div>
  
                     <!--elementos landscape bottom 3 -->                     
                      <div class="group-animated animatedParent"  data-appear-left-offset='-4750'  data-sequence='300'>
-                         <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1">Isotanque contenedor Bio-GNL</h3>
+                         <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Isotanque contenedor Bio-GNL</h3>
                          <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El Bio-GNL es almacenado en isotanques criogénicos para su posterior distribución a través de la red de Gasoducto Virtual.</p>
                          <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Todo el equipo de licuefacción puede ser relocalizado en tan solo horas una vez que el pozo ha sido agotado.</p>
                          <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
@@ -292,122 +291,99 @@
                      </div>
 
                      <!--elementos landscape bottom 5 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-7300'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-7500'  data-sequence='300'>
                          <div id="figure-1" class="figure1 absolute animated fadeInLeftShort" data-id="1"></div>
                          <div id="b-line-1" class="b-line-1 absolute animated fadeInLeftShort" data-id="2"></div>
                          <div id="blt-1" class="blue-line-title absolute animated fadeInLeftShort" data-id="3"></div>
+                         <h3 id="h3-8" class="title-h3-s absolute animated fadeInLeftShort" data-id="4">Operaciones en el upstream</h3>
+                    </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-7700'  data-sequence='300'>
+                         <div id="figure-2" class="figure2 absolute animated fadeInLeftShort" data-id="1"></div>
+                         <div id="b-line-2" class="b-line-2 absolute animated fadeInLeftShort" data-id="2"></div>
+                         <div id="blt-2" class="blue-line-title absolute animated fadeInLeftShort" data-id="3"></div>
+                         <h3 id="h3-9" class="title-h3-s absolute animated fadeInLeftShort" data-id="4">Industrias</h3>
                     </div>
 
                     <!--elementos landscape bottom 6 -->
- 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
-                        
-                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->alert_messages->a1_mat_b; ?></p>
-                        <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a1_mat_b2; ?></p>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-9400'  data-sequence='600'>
+                         <div id="figure-3" class="figure3 absolute animated fadeInLeftShort" data-id="1"></div>
+                         <div id="figure-4" class="figure4 absolute animated fadeInLeftShort" data-id="2"></div>    
+                    </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-9400'  data-sequence='300'>
+                        <div id="blt-3" class="blue-line-title absolute animated fadeInLeftShort" data-id="1"></div>
+                         <h3 id="h3-11" class="title-h3-s absolute animated fadeInLeftShort" data-id="2">Transporte</h3>
                     </div>
 
-                     <!--elementos landscape bottom 7 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='300'>
-                        <h3 id="h3-10" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">4</span></h3>
-                        <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->process->p4_centro_consumo_desc; ?></p>
-                    </div>
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
-                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->alert_messages->a2_intercambio_reconexion; ?></p>
+                    <!--elementos landscape bottom 7 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-10500'  data-sequence='200'>
+                        <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
+                        <h3 id="h3-12" class="title-h3 absolute animated fadeInLeftShort" data-id="2">CNX PATAGONIA</h3>
+                        <div id="figure-5" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
                     </div>
 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-10500'  data-sequence='200'>
+                        <h3 id="h3-13" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Estación de servicio con Galileo Patagonia</h3> 
+                        <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="2">Con la incorporación de un Módulo CNX de Galileo Patagonia y un surtidor dual, una estación existente se convierte en una estación multicombustible:</p>   
+                    </div>
 
                     <!--elementos landscape bottom 8 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-11700'  data-sequence='200'>
+                        <div id="txt-wrap-3" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
+                        <h3 id="h3-14" class="title-h3 absolute animated fadeInLeftShort" data-id="2">CNX PATAGONIA</h3>
+                        <div id="figure-6" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-12000'  data-sequence='200'>
+                        <div id="b-line-3" class="b-line-3 absolute animated fadeInLeftShort" data-id="1"></div>
+                        <div id="figure-7" class="figure6 absolute animated fadeInLeftShort" data-id="2"></div> 
+                        <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="3">BIO-GNL</p>  
+                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="4">BIO-GNL</p>       
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-12000'  data-sequence='200'>
+                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2">BIO-GNC para vehículos urbanos, que se benefician del bajo costo de este combustible</p> 
+                        <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="4">BIO-GNL para transporte pesado y de larga distancia, donde los beneficios principales están ligados a la performance y a la autonomía.</p>   
+                    </div>
 
                     <!--elementos landscape bottom 9 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11000'  data-sequence='300'>
-                        <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a3_suministro_continuo_titulo; ?></h3>
-                        <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->biogas->alert_messages->a3_suministro_continuo_desc; ?></p>
-                        <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-12900'  data-sequence='200'>
+                        <div id="txt-wrap-4" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
+                        <h3 id="h3-15" class="title-h3 absolute animated fadeInLeftShort" data-id="2">CNX PATAGONIA</h3>
+                        <div id="figure-8" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11200'  data-sequence='200'>
-                        <div id="figure-18" class="mat-s animated fadeInUpShort" data-id="1"></div>
-                        <div id="figure-19" class="mat-s animated fadeInUpShort" data-id="2"></div>
-                        <div id="figure-20" class="mat-s animated fadeInUpShort" data-id="3"></div>
-                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="4"></div>
-                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->comunidades_aisladas; ?></h3>
-                        <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="6"></div>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13100'  data-sequence='200'>
+                        <div id="b-line-4" class="b-line-4 absolute animated fadeInLeftShort" data-id="1"></div>
+                        <div id="figure-9" class="figure7 absolute animated fadeInLeftShort" data-id="2"></div>
+                        <div id="figure-10" class="figure8 absolute animated fadeInLeftShort" data-id="3"></div>
+                        <div id="figure-11" class="figure9 absolute animated fadeInLeftShort" data-id="4"></div>
+                        <div id="figure-12" class="figure8 absolute animated fadeInLeftShort" data-id="5"></div>
+                        <div id="figure-13" class="figure8 absolute animated fadeInLeftShort" data-id="6"></div>
+                        <div id="figure-14" class="figure8 absolute animated fadeInLeftShort" data-id="7"></div>     
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11500'  data-sequence='300'>
-                        <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->inyeccion_red; ?></h3>
-                        <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-13200'  data-sequence='200'>
+                        <div id="figure-15" class="figure10 absolute animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-16" class="title-h3 absolute animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
+                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="4">La operación es totalmente monitoreada a través del Sistema SCADA de Gaileo Technologies.</p>       
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11900'  data-sequence='200'>
-                        <div id="figure-21" class="mat-s animated fadeInUpShort" data-id="1"></div>
-                        <div id="figure-22" class="mat-s animated fadeInUpShort" data-id="2"></div>
-                        <div id="figure-23" class="mat-s animated fadeInUpShort" data-id="3"></div>
-                        <div id="figure-24" class="mat-s animated fadeInUpShort" data-id="4"></div>
-                        <div id="figure-25" class="mat-s animated fadeInUpShort" data-id="5"></div>
-                        <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="6"></div>
-                        <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="7"><?php echo $texts->biogas->road_info->minas_plantas; ?></h3>
-                        <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="8"></div>
-                    </div>
 
-                    <!--elementos landscape bottom 10 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-12400'  data-sequence='200'>
-                        <div id="figure-26" class="mat-s animated fadeInUpShort" data-id="1"></div>
-                        <div id="figure-27" class="mat-s animated fadeInUpShort" data-id="2"></div>
-                        <div id="figure-28" class="mat-s animated fadeInUpShort" data-id="3"></div>
-                        <div id="figure-29" class="mat-s animated fadeInUpShort" data-id="4"></div>
-                        <div id="figure-30" class="mat-s animated fadeInUpShort" data-id="5"></div>
-                        <div id="figure-31" class="mat-s animated fadeInUpShort" data-id="6"></div>
-                        <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="7"></div>
-                        <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="8"><?php echo $texts->biogas->road_info->usinas; ?></h3>
-                        <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="9"></div>
-                        <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="10"></div>
-                        <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="11"></div>
-                    </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-12900'  data-sequence='200'>
-                        <div id="figure-32" class="mat-s animated fadeInUpShort" data-id="1"></div>
-                        <div id="figure-33" class="mat-s animated fadeInUpShort" data-id="2"></div>
-                        <div id="figure-34" class="mat-s animated fadeInUpShort" data-id="3"></div>
-                        <div id="y-line-5" class="y-line animated fadeInLeftShort" data-id="4"></div>
-                        <h3 id="h3-18" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->centros_turisticos; ?></h3>
-                        <div id="figure-12" class="figure10 animated fadeInLeftShort" data-id="6"></div>
-                    </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-12600'  data-sequence='300'>
-                        <div id="warning-4" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a4_sistema_recompresion_desc; ?></p>
-                    </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-13300'  data-sequence='200'>
-                        <div id="figure-35" class="mat-s animated fadeInUpShort" data-id="1"></div>
-                        <div id="figure-36" class="mat-s animated fadeInUpShort" data-id="2"></div>
-                        <div id="figure-37" class="mat-s animated fadeInUpShort" data-id="3"></div>
-                        <div id="y-line-6" class="y-line animated fadeInLeftShort" data-id="4"></div>
-                        <h3 id="h3-19" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->estaciones_servicio; ?></h3>
-                        <div id="figure-14" class="figure11 animated fadeInLeftShort" data-id="6"></div>
-                    </div>
 
-                    <!--elementos landscape bottom 11 -->
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-13950'  data-sequence='300'>
-                    <h3 id="h3-20" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">7</span></h3>
-                    <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->process->p7_trailer_vst_a_estacionmadre_desc; ?></p>
-                    </div>
 
-                    <!--elementos landscape bottom 12 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-15000'  data-sequence='300'>
-                        <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span><?php echo $texts->biogas->process->p8_plataformas_pac; ?></h3>
-                        <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->process->p8_plataformas_pac_desc; ?></p>
-                    </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-15200'  data-sequence='300'>
-                        <div id="up-down-arrow-5" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
-                        <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
-                    </div>
 
+
+
+
+
+                    
+                    <!-- menu end-->
                     <div class="menu-circles-icons-end">
                         <img class="logo-intro" src="svg/titulo-gnc.svg" data-id="1">
                         <p class="pick-btn" data-id="2"><?php echo $texts->intro->selecciona_otra_fuente; ?></p>

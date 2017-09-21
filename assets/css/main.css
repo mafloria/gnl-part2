@@ -284,10 +284,14 @@ a.back-home span{
   margin-right: 0.2em;
 }
 .title-h3{
-  position: absolute;
-  z-index: 11;
   text-align: center;
   line-height: 28px;
+}
+.title-h3-s{
+  background-color: #0c99ef;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
 .section{
   width: 1280px;
