@@ -37,8 +37,8 @@ $(document).ready(function(){
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
 	var biogas_width = 23000;//valor del css: .gnc-biogas-landscape
-	var yacimiento_width = 16730;//valor del css: .gnc-yacimiento-landscape
-	var gasoducto_width = 16900;//valor del css: .gnc-gasoducto-landscape	
+	var yacimiento_width = 23730;//valor del css: .gnc-yacimiento-landscape
+	var gasoducto_width = 23900;//valor del css: .gnc-gasoducto-landscape	
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
