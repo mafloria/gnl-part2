@@ -97,6 +97,18 @@
                         <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
                         <h4 id="subt-9" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
                     </div> 
+
+                     <!--elementos landscape top 10 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14100'  data-sequence='300'>
+                        <h2 id="h2-10" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-10" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
+                    </div> 
+
+                    <!--elementos landscape top 11 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='300'>
+                        <h2 id="h2-11" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+                        <h4 id="subt-11" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
+                    </div> 
                                       
                     <!--ARBOLES Y MONTAñAS / TREES & HILLS -->
                      <div class="group-animated animatedParent"  data-appear-left-offset='-5800'  data-sequence='300'>
@@ -364,9 +376,41 @@
                     </div>
 
                      <div class="group-animated animatedParent" data-appear-left-offset='-13200'  data-sequence='200'>
-                        <div id="figure-15" class="figure10 absolute animated fadeInLeftShort" data-id="2"></div>
+                        <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="1">La operación es totalmente monitoreada a través del Sistema SCADA de Gaileo Technologies.</p>  
                         <h3 id="h3-16" class="title-h3 absolute animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
-                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="4">La operación es totalmente monitoreada a través del Sistema SCADA de Gaileo Technologies.</p>       
+                        <div id="figure-15" class="figure10 absolute animated fadeInLeftShort" data-id="3"></div>          
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13300'  data-sequence='200'>
+                        <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="1">Todo centro logístico puede convertirse en un punto de carga multicombustible, alimentando flotas con Bio-GNC y Bio-GNL a un precio de mercado competitivo, cuidando los costos y el medio ambiente.</p>  
+                        <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="2">Cuando el nivel de abastecimiento es bajo, el módulo CNX coloca una orden de reabastecimiento, asegurando un suministro ininterrumpido de Bio-GNL.</p> 
+                        <div id="warning-3" class="warning-icon absolute animated fadeInLeftShort" data-id="3"></div>     
+                    </div>
+
+                    <!--elementos landscape bottom 10 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='200'>
+                        <h3 id="h3-17" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Gas natural gas para:</h3>
+                        <div id="figure-16" class="figure11 absolute animated fadeInLeftShort" data-id="2"></div> 
+                        <div id="b-line-5" class="b-line-5 absolute animated fadeInLeftShort" data-id="3"></div>
+                        <div id="blt-4" class="blue-line-title absolute animated fadeInLeftShort" data-id="4"></div>
+                        <h3 id="h3-18" class="title-h3-s absolute animated fadeInLeftShort" data-id="5">Comunidades aisladas</h3>
+
+                        <div id="figure-17" class="figure12 absolute animated fadeInLeftShort" data-id="6"></div> 
+                        <div id="b-line-6" class="b-line-6 absolute animated fadeInLeftShort" data-id="7"></div>
+                        <div id="blt-5" class="blue-line-title absolute animated fadeInLeftShort" data-id="8"></div>
+                        <h3 id="h3-19" class="title-h3-s absolute animated fadeInLeftShort" data-id="9">Inyección en la red<br />de gas natural</h3>
+
+                        <div id="figure-18" class="figure13 absolute animated fadeInLeftShort" data-id="10"></div> 
+                        <div id="b-line-7" class="b-line-7 absolute animated fadeInLeftShort" data-id="11"></div>
+                        <div id="blt-6" class="blue-line-title absolute animated fadeInLeftShort" data-id="12"></div>
+                        <h3 id="h3-20" class="title-h3-s absolute animated fadeInLeftShort" data-id="13">Terminales de recepción de GNL</h3>
+                    </div>
+
+                    <!--elementos landscape bottom 10 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='300'>
+                        <div id="b-line-8" class="b-line-8 absolute animated fadeInLeftShort" data-id="1"></div>
+                        <h3 id="h3-21" class="title-h3-s absolute animated fadeInLeftShort" data-id="2">Terminales de recepción de GNL</h3>
+                        <div id="figure-19" class="figure14 absolute animated fadeInLeftShort" data-id="3"></div> 
                     </div>
 
 
