@@ -16,64 +16,69 @@
              <div id="tree-1" class="treeType2"></div>          
          </div>
 
+         <div class="group-animated animatedParent" data-appear-left-offset='-2600'  data-sequence='300'>
+             <h2 id="h2-0" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
+             <h4 id="subt-0" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+         </div>
+
          <!--elementos landscape top 2 --> 
-         <div class="group-animated animatedParent" data-appear-left-offset='-2500'  data-sequence='300'>
+         <div class="group-animated animatedParent" data-appear-left-offset='-4100'  data-sequence='300'>
              <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-             <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+             <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas <br />en pozos no conectados</h4>
          </div>
          
          <!--elementos landscape top 3 --> 
-         <div class="group-animated animatedParent" data-appear-left-offset='-4700'  data-sequence='300'>
+         <div class="group-animated animatedParent" data-appear-left-offset='-5000'  data-sequence='300'>
             <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+            <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas<br />en pozos no conectados</h4>
          </div>
 
          <!--elementos landscape top 4 --> 
-         <div class="group-animated animatedParent" data-appear-left-offset='-6400'  data-sequence='300'>
-            <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODUCTO VIRTUAL BIO-GNL</h2>
+         <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='300'>
+            <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODUCTO VIRTUAL GNL</h2>
             <h4 id="subt-4" class="subtitle animated fadeInLeftShort" data-id="2">Valorización del gas</h4>
          </div>
 
 
-        <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-8200'  data-sequence='300'>
             <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-5" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
-            <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">Bio-GNL para los consumidores de alta potencia</h3>
+            <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 6 --> 
-        <div class="group-animated animatedParent" data-appear-left-offset='-9200'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-9500'  data-sequence='300'>
             <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-6" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
-            <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">Bio-GNL para los consumidores de alta potencia</h3>
+            <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 7 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-10600'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='300'>
             <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-7" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
         <!--elementos landscape top 8 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-11800'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-12800'  data-sequence='300'>
             <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-8" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
         <!--elementos landscape top 9 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-12900'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
             <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-9" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
          <!--elementos landscape top 10 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-14100'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-15800'  data-sequence='300'>
             <h2 id="h2-10" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-10" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
         </div> 
 
         <!--elementos landscape top 11 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-16800'  data-sequence='300'>
             <h2 id="h2-11" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-11" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
         </div> 
@@ -300,95 +305,102 @@
             <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="13">En cada pozo, una solución de Galileo</p>    
         </div>
 
+        <div class="group-animated animatedParent"  data-appear-left-offset='-2700'  data-sequence='300'>
+            <h3 id="h3-0" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta de acondicionamiento de GAS ZPTS</h3>
+            <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="2">El gas es tratado por la Planta ZPTS de Acondicionamiento Gas, que reduce y elimina las impurezas hasta alcanzar la composición de gas natural adecuada para la licuefacción.</p>
+        </div>
+
         <!--elementos landscape bottom 2 --> 
-        <div class="group-animated animatedParent"  data-appear-left-offset='-2500'  data-sequence='300'>
-            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Criobox-Bio</h3>
-            <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Una estación Cryobox-Bio depura hasta 500 m3/h de Biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) para licuar el biometano obtenido y transformarlo en Bio-GNL.</p>
-            <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.
-                <br /><br />
-            Todo el equipo de licuefacción es modular y escalable.</p>
+        <div class="group-animated animatedParent"  data-appear-left-offset='-4200'  data-sequence='300'>
+            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Criobox LNG</h3>
+            <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Una Estación Cryobox de Producción de GNL, conectada a la ZPTS por medio de tuberías flexibles, licúa el gas natural.
+            <br /><br /><br />
+            La Estación Cryobox elimina la necesidad de contar con infraestructura de gathering , permitiéndole al productor de hidrocarburos monetizar el gas de testing o la reducción del flaring desde el primer día.</p>
+            <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">La unidad Cryobox tiene capacidad para producir hasta 15 toneladas diarias de GNL y funciones automáticas para recuperar el boil-off.
+            <br /><br />
+            Una sola ZPTS puede proporcionar gas limpio a varias unidades Cryobox a la vez. Todo el equipo de licuefacción es modular y escalable.</p>
             <div id="warning-1" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
+            <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="5"></div>
         </div>
 
 
         <!--elementos landscape bottom 3 -->                     
-         <div class="group-animated animatedParent"  data-appear-left-offset='-4750'  data-sequence='300'>
-             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Isotanque contenedor Bio-GNL</h3>
-             <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El Bio-GNL es almacenado en isotanques criogénicos para su posterior distribución a través de la red de Gasoducto Virtual.</p>
+         <div class="group-animated animatedParent"  data-appear-left-offset='-5000'  data-sequence='300'>
+             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Isotanque contenedor GNL</h3>
+             <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El GNL es almacenado en isotanques criogénicos para su posterior distribución a través de la red de Gasoducto Virtual.</p>
              <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Todo el equipo de licuefacción puede ser relocalizado en tan solo horas una vez que el pozo ha sido agotado.</p>
-             <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
+             <div id="warning-3" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
          </div>
 
 
         <!--elementos landscape bottom 4 -->
-         <div class="group-animated animatedParent"  data-appear-left-offset='-6500'  data-sequence='300'>
-             <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Al acondicionar el Biogás y licuar el biometano en el lugar, las unidades Cryobox permiten la distribución del Bio-GNL en tanques criogénicos a través del Gasoducto Virtual. La logística es igual a la empleada en la distribución de los combustibles líquidos.</p>
+         <div class="group-animated animatedParent"  data-appear-left-offset='-7200'  data-sequence='300'>
+             <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Al licuar el gas en el área del pozo, las unidades Cryobox permiten la distribución del GNL en tanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
          </div>
 
          <!--elementos landscape bottom 5 -->
-        <div class="group-animated animatedParent"  data-appear-left-offset='-7500'  data-sequence='300'>
+        <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='150'>
              <div id="figure-1" class="figure1 absolute animated fadeInLeftShort" data-id="1"></div>
              <div id="b-line-1" class="b-line-1 absolute animated fadeInLeftShort" data-id="2"></div>
              <div id="blt-1" class="blue-line-title absolute animated fadeInLeftShort" data-id="3"></div>
-             <h3 id="h3-8" class="title-h3-s absolute animated fadeInLeftShort" data-id="4">Operaciones en el upstream</h3>
-        </div>
-
-        <div class="group-animated animatedParent"  data-appear-left-offset='-7700'  data-sequence='300'>
-             <div id="figure-2" class="figure2 absolute animated fadeInLeftShort" data-id="1"></div>
-             <div id="b-line-2" class="b-line-2 absolute animated fadeInLeftShort" data-id="2"></div>
-             <div id="blt-2" class="blue-line-title absolute animated fadeInLeftShort" data-id="3"></div>
-             <h3 id="h3-9" class="title-h3-s absolute animated fadeInLeftShort" data-id="4">Industrias</h3>
+             <h3 id="h3-8" class="title-h3-s absolute animated fadeInLeftShort" data-id="4">Operaciones en<br />el upstream</h3>
+             <div id="figure-30" class="figure24 absolute animated fadeInLeftShort" data-id="5"></div>
+             <div id="b-line-9" class="b-line-10 absolute animated fadeInLeftShort" data-id="6"></div>
+             <div id="blt-7" class="blue-line-title absolute animated fadeInLeftShort" data-id="7"></div>
+             <h3 id="h3-28" class="title-h3-s absolute animated fadeInLeftShort" data-id="8">Emprendimientos<br />mineros</h3>
+             <div id="figure-31" class="figure18 absolute animated fadeInLeftShort" data-id="9"></div>
+             <div id="b-line-10" class="b-line-1 absolute animated fadeInLeftShort" data-id="10"></div>
+             <div id="blt-8" class="blue-line-title absolute animated fadeInLeftShort" data-id="11"></div>
+             <h3 id="h3-29" class="title-h3-s absolute animated fadeInLeftShort" data-id="12">Usinas</h3>
+             <div id="figure-2" class="figure19 absolute animated fadeInLeftShort" data-id="13"></div>
+             <div id="b-line-2" class="b-line-9 absolute animated fadeInLeftShort" data-id="14"></div>
+             <div id="blt-2" class="blue-line-title absolute animated fadeInLeftShort" data-id="15"></div>
+             <h3 id="h3-9" class="title-h3-s absolute animated fadeInLeftShort" data-id="16">Industrias</h3>
         </div>
 
         <!--elementos landscape bottom 6 -->
-         <div class="group-animated animatedParent"  data-appear-left-offset='-9400'  data-sequence='300'>
+         <div class="group-animated animatedParent"  data-appear-left-offset='-9500'  data-sequence='300'>
              <div id="figure-3" class="figure3 absolute animated fadeInLeftShort" data-id="1"></div>
              <div id="figure-4" class="figure4 absolute animated fadeInLeftShort" data-id="2"></div>    
         </div>
-        <div class="group-animated animatedParent"  data-appear-left-offset='-9400'  data-sequence='300'>
+        <div class="group-animated animatedParent"  data-appear-left-offset='-9500'  data-sequence='300'>
             <div id="blt-3" class="blue-line-title absolute animated fadeInLeftShort" data-id="1"></div>
              <h3 id="h3-11" class="title-h3-s absolute animated fadeInLeftShort" data-id="2">Transporte</h3>
         </div>
 
         <!--elementos landscape bottom 7 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-10500'  data-sequence='200'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='200'>
             <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-12" class="title-h3 absolute animated fadeInLeftShort" data-id="2">CNX PATAGONIA</h3>
             <div id="figure-5" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
-        <div class="group-animated animatedParent" data-appear-left-offset='-10500'  data-sequence='200'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-11600'  data-sequence='200'>
             <h3 id="h3-13" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Estación de servicio con Galileo Patagonia</h3> 
             <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="2">Con la incorporación de un Módulo CNX de Galileo Patagonia y un surtidor dual, una estación existente se convierte en una estación multicombustible:</p>   
         </div>
 
         <!--elementos landscape bottom 8 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-11700'  data-sequence='200'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-12700'  data-sequence='200'>
             <div id="txt-wrap-3" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-14" class="title-h3 absolute animated fadeInLeftShort" data-id="2">CNX PATAGONIA</h3>
             <div id="figure-6" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
-        </div>
-
-        <div class="group-animated animatedParent" data-appear-left-offset='-12000'  data-sequence='200'>
-            <div id="b-line-3" class="b-line-3 absolute animated fadeInLeftShort" data-id="1"></div>
-            <div id="figure-7" class="figure6 absolute animated fadeInLeftShort" data-id="2"></div> 
-            <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="3">BIO-GNC</p>  
-            <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="4">BIO-GNL</p>       
-        </div>
-
-        <div class="group-animated animatedParent" data-appear-left-offset='-12000'  data-sequence='200'>
-            <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2">BIO-GNC para vehículos urbanos, que se benefician del bajo costo de este combustible</p> 
-            <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="4">BIO-GNL para transporte pesado y de larga distancia, donde los beneficios principales están ligados a la performance y a la autonomía.</p>   
+            <div id="b-line-3" class="b-line-3 absolute animated fadeInLeftShort" data-id="4"></div>
+            <div id="figure-7" class="figure6 absolute animated fadeInLeftShort" data-id="5"></div> 
+            <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="6">GNC</p>  
+            <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="7">GNL</p>       
+            <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="8">GNC para vehículos urbanos, que se benefician del bajo costo de este combustible</p> 
+            <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="9">GNL para transporte pesado y de larga distancia, donde los beneficios principales están ligados a la performance y a la autonomía.</p>   
         </div>
 
         <!--elementos landscape bottom 9 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-12900'  data-sequence='200'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='200'>
             <div id="txt-wrap-4" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-15" class="title-h3 absolute animated fadeInLeftShort" data-id="2">CNX PATAGONIA</h3>
             <div id="figure-8" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
-        <div class="group-animated animatedParent" data-appear-left-offset='-13100'  data-sequence='200'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='200'>
             <div id="b-line-4" class="b-line-4 absolute animated fadeInLeftShort" data-id="1"></div>
             <div id="figure-9" class="figure7 absolute animated fadeInLeftShort" data-id="2"></div>
             <div id="figure-10" class="figure8 absolute animated fadeInLeftShort" data-id="3"></div>
@@ -398,20 +410,20 @@
             <div id="figure-14" class="figure8 absolute animated fadeInLeftShort" data-id="7"></div>     
         </div>
 
-         <div class="group-animated animatedParent" data-appear-left-offset='-13200'  data-sequence='200'>
+         <div class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='200'>
             <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="1">La operación es totalmente monitoreada a través del Sistema SCADA de Gaileo Technologies.</p>  
             <h3 id="h3-16" class="title-h3 absolute animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
             <div id="figure-15" class="figure10 absolute animated fadeInLeftShort" data-id="3"></div>          
         </div>
 
-        <div class="group-animated animatedParent" data-appear-left-offset='-13300'  data-sequence='200'>
-            <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="1">Todo centro logístico puede convertirse en un punto de carga multicombustible, alimentando flotas con Bio-GNC y Bio-GNL a un precio de mercado competitivo, cuidando los costos y el medio ambiente.</p>  
-            <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="2">Cuando el nivel de abastecimiento es bajo, el módulo CNX coloca una orden de reabastecimiento, asegurando un suministro ininterrumpido de Bio-GNL.</p> 
-            <div id="warning-3" class="warning-icon absolute animated fadeInLeftShort" data-id="3"></div>     
+        <div class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='200'>
+            <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="1">Todo centro logístico puede convertirse en un punto de carga multicombustible, alimentando flotas con GNC y GNL a un precio de mercado competitivo, cuidando los costos y el medio ambiente.</p>  
+            <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="2">Cuando el nivel de abastecimiento es bajo, el módulo CNX coloca una orden de reabastecimiento, asegurando un suministro ininterrumpido de GNL.</p> 
+            <div id="warning-4" class="warning-icon absolute animated fadeInLeftShort" data-id="3"></div>     
         </div>
 
         <!--elementos landscape bottom 10 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='200'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-15200'  data-sequence='200'>
             <h3 id="h3-17" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Gas natural gas para:</h3>
             <div id="figure-16" class="figure11 absolute animated fadeInLeftShort" data-id="2"></div> 
             <div id="b-line-5" class="b-line-5 absolute animated fadeInLeftShort" data-id="3"></div>
@@ -430,15 +442,15 @@
         </div>
 
         <!--elementos landscape bottom 10 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-16900'  data-sequence='300'>
             <div id="b-line-8" class="b-line-8 absolute animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-21" class="title-h3-s absolute animated fadeInLeftShort" data-id="2">Terminales de recepción de GNL</h3>
             <div id="figure-19" class="figure14 absolute animated fadeInLeftShort" data-id="3"></div> 
         </div>
 
         <!--elementos landscape bottom 11 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-17400'  data-sequence='200'>
-            <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="1">El Bio-GNL y el GNL son los combustibles limpios más convenientes para largas distancias y elevadas demandas de gas en períodos corto</p> 
+        <div class="group-animated animatedParent" data-appear-left-offset='-18400'  data-sequence='200'>
+            <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="1">El GNL es el combustible limpio más conveniente para largas distancias y elevadas demandas de gas en períodos cortos.</p> 
             <div id="figure-20" class="figure16 absolute animated fadeInDownShort" data-id="2"></div>
             <h3 id="h3-22" class="title-h3 absolute animated fadeInDownShort" data-id="3">CO2</h3>
             <div id="figure-21" class="figure16 absolute animated fadeInDownShort" data-id="4"></div> 
@@ -454,9 +466,8 @@
         </div>
 
         <!--elementos landscape bottom 12 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-17900'  data-sequence='300'>
-            <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1">Monetice sus fuentes de biogás
-                <br />transformándolas en Bio-GNL rentable</h2>
+        <div class="group-animated animatedParent" data-appear-left-offset='-18900'  data-sequence='300'>
+            <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1">Monetice sus pozos no conectados con GNL</h2>
         </div>
 
 
