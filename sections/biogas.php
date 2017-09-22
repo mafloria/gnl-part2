@@ -257,6 +257,7 @@
         <div class="rueda rueda3"></div>
         <div class="rueda rueda4"></div>
         <div class="rueda rueda5"></div>
+        <div class="rueda rueda6"></div>
     </div>
     <!--CAMION -->
      <div class="landscape-bottom">

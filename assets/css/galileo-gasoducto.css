@@ -9,6 +9,12 @@
   margin-top: -222px;
   margin-left: 580px;
 }
+.camion{
+  top: 360px;
+}
+.camion-animated{
+  top: 360px;
+}
 /*elements position*/
 #tree-1{ bottom: -10px; left: 10px;}
 #tree-2{ bottom: -10px; left: 1796px;}

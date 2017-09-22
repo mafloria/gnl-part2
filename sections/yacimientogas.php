@@ -258,36 +258,11 @@
         <div class="rueda rueda3"></div>
         <div class="rueda rueda4"></div>
         <div class="rueda rueda5"></div>
+        <div class="rueda rueda6"></div>
     </div>
     <!--CAMION -->
      <div class="landscape-bottom">
-         <!--elementos landscape bottom 1 
-         <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='100'>
-             <h3 id="h3-2" class="title-h3 absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biodigestor; ?></h3>
-             <div id="icon-1" class="icon1 absolute animated fadeInLeftShort" data-id="2"></div> 
-             <p id="icon-txt-1" class="txt-box1 animated fadeInLeftShort" data-id="3">Silos de granos</p>
-
-             <div id="icon-2" class="icon2 absolute animated fadeInLeftShort" data-id="4"></div> 
-             <p id="icon-txt-2" class="txt-box1 animated fadeInLeftShort" data-id="5">residuos orgánicos</p> 
-
-             <div id="icon-3" class="icon3 absolute animated fadeInLeftShort" data-id="6"></div> 
-             <p id="icon-txt-3" class="txt-box1 animated fadeInLeftShort" data-id="7">Lodos cloacales></p>
-         </div>
-
-         <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='100'>
-            <div id="icon-4" class="icon4 absolute animated fadeInLeftShort" data-id="1"></div> 
-             <p id="icon-txt-4" class="txt-box1 animated fadeInLeftShort" data-id="2">Especies cultivables no comestibles</p>
-
-             <div id="icon-5" class="icon5 absolute animated fadeInLeftShort" data-id="3"></div> 
-             <p id="icon-txt-5" class="txt-box1 animated fadeInLeftShort" data-id="4">Estiércol y guano de animales estabulados o en feedlot</p>
-
-             <div id="icon-6" class="icon6 absolute animated fadeInLeftShort" data-id="5"></div> 
-             <p id="icon-txt-6" class="txt-box1 animated fadeInLeftShort" data-id="6">Efluentes y residuos de la industria alimenticia</p>
-
-             <div id="line-1" class="linea-txt-1 absolute animated fadeInLeftShort" data-id="7"></div>
-             <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="8">Los efluentes del proceso se transforman en fertilizantes.</p>
-         </div>
-        -->
+         <!--elementos landscape bottom 1 -->
         
         <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='100'>
             <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1"></div> 

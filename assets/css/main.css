@@ -384,56 +384,60 @@ img.logo-intro{
   z-index: 12;
 }
 .camion{
-  width: 777px;
-  height: 188px;
+  width: 470px;
+  height: 132px;
   background: transparent url(../images/camion-1.png) no-repeat; 
-  top: 243px;
-  z-index: 12;
+  z-index: 13;
 }
 .camion-animated{
-  width: 777px;
-  height: 188px;
+  width: 470px;
+  height: 132px;
   background: transparent url(../images/camion.png) no-repeat; 
-  top: 243px;
-  z-index: 12;
+  z-index: 13;
   position: relative;  
 }
 .rueda{
-  width: 52px;
-  height: 51px;
+  width: 36px;
+  height: 36px;
   position: absolute;
-  bottom: 3px;
+  bottom: 1px;
   background: transparent url(../images/rueda.png) no-repeat; 
 }
 .rueda1{
-  left: 107px;
+  left: 18px;
   transform:rotate(70deg);
   -webkit-transform:rotate(70deg);
   -moz-transform:rotate(70deg);
 }
 .rueda2{
-  left: 167px;
+  left: 55px;
   transform:rotate(140deg);
   -webkit-transform:rotate(140deg);
   -moz-transform:rotate(140deg);
 }
 .rueda3{
-  left: 276px;
+  left: 93px;
   transform:rotate(210deg);
   -webkit-transform:rotate(210deg);
   -moz-transform:rotate(210deg);
 }
 .rueda4{
-  left: 484px;
+  left: 282px;
   transform:rotate(140deg);
   -webkit-transform:rotate(140deg);
   -moz-transform:rotate(140deg);
 }
 .rueda5{
-  left: 677px;
+  left: 320px;
   transform:rotate(70deg);
   -webkit-transform:rotate(70deg);
   -moz-transform:rotate(70deg);
+}
+.rueda6{
+  left: 403px;
+  transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
 }
 
 /* animacion ruedas */
@@ -452,20 +456,14 @@ img.logo-intro{
 
 .truck-fixed{position: fixed; left: 28%;}
 
-.firstTruck-biogas-start{position: absolute; left: 3413px;}/*3560px*/
+.firstTruck-biogas-start{position: absolute; left: 5500px;}/*3560px*/
 .firstTruck-biogas-stop{position: absolute; left: 7983px;}
-.secondTruck-biogas-start{position: absolute;left: 12845px;}
-.secondTruck-biogas-stop{position: absolute;left: 14452px;}
 
-.firstTruck-yacimiento-start{position: absolute; left: 3440px;}
+.firstTruck-yacimiento-start{position: absolute; left: 5500px;}
 .firstTruck-yacimiento-stop{position: absolute; left: 7983px;}
-.secondTruck-yacimiento-start{position: absolute;left: 12793px;}
-.secondTruck-yacimiento-stop{position: absolute;left: 14303px;}
 
-.firstTruck-gasoducto-start{position: absolute; left: 3453px;}
+.firstTruck-gasoducto-start{position: absolute; left: 55003px;}
 .firstTruck-gasoducto-stop{position: absolute; left: 7983px;}
-.secondTruck-gasoducto-start{position: absolute;left: 12791px;}
-.secondTruck-gasoducto-stop{position: absolute;left: 14353px;}
 
 /*-----------------------------------------------*/
 .landscape-top{

@@ -36,7 +36,7 @@
 
         <!--elementos landscape top 4 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-7100'  data-sequence='300'>
-            <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODUCTO VIRTUAL BIO-GNL</h2>
+            <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODUCTO VIRTUAL GNL</h2>
             <h4 id="subt-4" class="subtitle animated fadeInLeftShort" data-id="2">Llevamos el gas natural más <br />allá de los gasoductos</h4>
          </div>
 
@@ -44,14 +44,14 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-8400'  data-sequence='300'>
             <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-5" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
-            <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">Bio-GNL para los consumidores de alta potencia</h3>
+            <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 6 --> 
         <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
             <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
             <h4 id="subt-6" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
-            <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">Bio-GNL para los consumidores de alta potencia</h3>
+            <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 7 -->
@@ -255,6 +255,7 @@
         <div class="rueda rueda3"></div>
         <div class="rueda rueda4"></div>
         <div class="rueda rueda5"></div>
+        <div class="rueda rueda6"></div>
     </div>
     <!--CAMION -->
      <div class="landscape-bottom">
