@@ -457,19 +457,6 @@
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        
         <!-- menu end-->
         <div class="menu-circles-icons-end">
             <img class="logo-intro" src="svg/titulo-gnc.svg" data-id="1">
