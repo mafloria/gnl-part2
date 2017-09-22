@@ -45,8 +45,12 @@
                     <div class="section-content content-landing center">
 
                         <img class="logo-intro" src="svg/titulo-gnc.svg">
-                        <p class="txt-description"><?php echo $texts->intro->intro_text; ?></p>
-                        <p class="pick-btn"><?php echo $texts->intro->continue_button; ?></p>
+                        <div class="land-title-gnl">
+                            <h2><span class="gnl-h">GNL</span> en pequeña escala</h2>
+                            <p>Soluciones de Producción Distribuida de GNL</p>
+                        </div>
+                        <p class="txt-description">Nuestras Soluciones de Producción Distribuida de GNL están diseñadas para acondicionar y licuar todo tipo de gas allí donde esté su fuente. Con ellas, podrá monetizar recursos que hasta ahora carecían de valor y proveer GNL o Bio-GNL como combustibles limpios.</p>
+                        <p class="pick-btn">SELECCIONE UNA FUENTE DE GAS</p>
                         <form method="POST">
                             <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
                             <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
