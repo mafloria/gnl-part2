@@ -313,12 +313,12 @@ a.back-home span{
   float: left;
 }
 p.txt-description{
-  font-size: 1.4em;
+  font-size: 1.2em;
   width: 100%;
   margin: 0 auto;
 }
 p.pick-btn{
-  font-size: 1.6em;
+  font-size: 1.3em;
   padding: 0.5em 1em;
   background-color: #1a5489;
   margin: 1.1em 0;
@@ -353,7 +353,7 @@ img.logo-intro{
   margin-bottom: 2em;
 }
 .land-title-gnl h2{
-  font-size: 3em;
+  font-size: 2.3em;
   width: 100%;
   color: #1a5489;
   border-bottom: 4px solid #1a5489;
@@ -362,7 +362,7 @@ img.logo-intro{
   font-size: 1.5em; 
 }
 .land-title-gnl p{
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 1.6em;
 }
 /**/
@@ -543,12 +543,12 @@ img.logo-intro{
   z-index: 12;
 }
 .menu-circles-icons a{
-  width: 23%;
+  width: 25%;
   height: auto;
   float: left;
   display: block;
   transition: all 0.5s ease;
-  margin: 0 2.6em;	
+  margin: 0 1.8em;	
 }
 .menu-end{
   width: 70%;
