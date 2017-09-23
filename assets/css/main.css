@@ -342,6 +342,9 @@ img.logo-intro{
   margin: 0 0 1em 0;
   transition: all 0.5s ease;
 }
+.menu-circles-icons-end img.logo-intro{
+  width: 50%;
+}
 .column-right{
   width: 50%;
   float: right;
