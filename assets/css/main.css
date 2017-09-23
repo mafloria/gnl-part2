@@ -321,7 +321,7 @@ p.pick-btn{
   font-size: 1.6em;
   padding: 0.5em 1em;
   background-color: #1a5489;
-  margin: 1.5em 0;
+  margin: 1.1em 0;
   width: auto;
   display: inline-block;
   border-radius: 0.2em;
@@ -362,8 +362,8 @@ img.logo-intro{
   font-size: 1.5em; 
 }
 .land-title-gnl p{
-  font-size: 1.7em;
-  line-height: 2em;
+  font-size: 1.6em;
+  line-height: 1.6em;
 }
 /**/
 .bottom-nav{
@@ -549,7 +549,6 @@ img.logo-intro{
   display: block;
   transition: all 0.5s ease;
   margin: 0 2.6em;	
-  opacity: .6;
 }
 .menu-end{
   width: 70%;
@@ -561,7 +560,6 @@ img.logo-intro{
   height: auto;
   float: left;
   transition: all 0.5s ease;
-  opacity: .6;
   margin: 0 2em;
 }
 .menu-circles-icons-end a img,
@@ -576,10 +574,6 @@ img.logo-intro{
   background-color: #1a5489;
   text-align: center;
   margin: 2em 0;
-}
-.menu-circles-icons a:hover,
-.menu-end a:hover{
-  opacity: 1;
 }
 input.lng-btn{
   position: absolute;

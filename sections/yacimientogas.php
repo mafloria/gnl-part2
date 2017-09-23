@@ -453,10 +453,10 @@
 
             <div class="menu-end" data-id="3">
                 <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
-                    <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
+                    <img src="assets/images/biogas-btn-<?php echo $lang; ?>.gif">
                 </a>
                 <a id="continue-gasoducto-process" class="view-process continue-process gasoducto-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
-                    <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">
+                    <img src="assets/images/gasoducto-btn-<?php echo $lang; ?>.gif">
                 </a>
             </div>
         </div>

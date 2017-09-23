@@ -57,13 +57,13 @@
                         </form>
                         <div class="menu-circles-icons">
                             <a id="view-biogas-process" class="view-process" href="javascript:void(0);">
-                                <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
+                                <img src="assets/images/biogas-btn-<?php echo $lang; ?>.gif">
                             </a>
                             <a id="view-yacimiento-process" class="view-process" href="javascript:void(0);">
-                                <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">    
+                                <img src="assets/images/yacimiento-btn-<?php echo $lang; ?>.gif">    
                             </a>
                             <a id="view-gasoducto-process" class="view-process" href="javascript:void(0);">
-                                <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">   
+                                <img src="assets/images/gasoducto-btn-<?php echo $lang; ?>.gif">   
                             </a>
                         </div> 
 
