@@ -477,11 +477,11 @@ img.logo-intro{
 .firstTruck-biogas-start{position: absolute; left: 5500px;}/*3560px*/
 .firstTruck-biogas-stop{position: absolute; left: 14350px;}
 
-.firstTruck-yacimiento-start{position: absolute; left: 5500px;}
-.firstTruck-yacimiento-stop{position: absolute; left: 7983px;}
+.firstTruck-yacimiento-start{position: absolute; left: 6350px;}
+.firstTruck-yacimiento-stop{position: absolute; left: 15283px;}
 
-.firstTruck-gasoducto-start{position: absolute; left: 55003px;}
-.firstTruck-gasoducto-stop{position: absolute; left: 7983px;}
+.firstTruck-gasoducto-start{position: absolute; left: 6603px;}
+.firstTruck-gasoducto-stop{position: absolute; left: 15980px;}
 
 /*-----------------------------------------------*/
 .landscape-top{

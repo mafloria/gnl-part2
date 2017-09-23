@@ -248,8 +248,8 @@
           
     </div>
     <!-- CAMION -->
-    <div id="truck-biogas" class="camion firstTruck-biogas-stop"></div>
-    <div id="truck-biogas-animated" class="camion-animated truck-fixed">
+    <div id="truck-gasoducto" class="camion firstTruck-gasoducto-stop"></div>
+    <div id="truck-gasoducto-animated" class="camion-animated truck-fixed">
         <div class="rueda rueda1"></div>
         <div class="rueda rueda2"></div>
         <div class="rueda rueda3"></div>

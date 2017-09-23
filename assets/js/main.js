@@ -101,8 +101,8 @@ $(document).ready(function(){
     	var position = $(".front").position();
                 console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
-                if(integer_position_left >= 5100 ){//|| integer_position_left > 17400     //biogas 4310           	
-					if(((open_section_name=="biogas" && integer_position_left > 14000))){ //||(open_section_name=="yacimiento" && integer_position_left > 8805)||(open_section_name=="gasoducto" && integer_position_left > 8834)) && integer_position_left < 13700
+                if((open_section_name=="biogas" && integer_position_left >= 5100) || (open_section_name=="yacimiento" && integer_position_left > 6000) || (open_section_name=="gasoducto" && integer_position_left > 6034) ){//|| integer_position_left > 17400     //biogas 5100           	
+					if( (open_section_name=="biogas" && integer_position_left > 14000) || (open_section_name=="yacimiento" && integer_position_left > 14800) ||(open_section_name=="gasoducto" && integer_position_left > 15500) ){ // && integer_position_left < 13700
 						//$(".camion-section").hide();												
 						//if((open_section_name=="yacimiento" && integer_position_left < 13666) || integer_position_left < 19700){ //camion PARADO para comenzar
 							console.log(open_section_name+": camion para");						
