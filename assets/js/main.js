@@ -68,18 +68,31 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		if(!isMobile.any()){
+		//if(!isMobile.any()){
 			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
 		
 			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
-		}
+		//}
 	}
 	//********************** end windows size
     
     if(isMobile.any()){
-    	window.onscroll = function(e) {
+    	/*window.onscroll = function(e) {
 			  display_camion_accion();
-		}
+		}*/
+		//horizontal scroll
+	 	var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            //height: $(window).innerHeight(),  // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                //console.log(percent);
+                
+                /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
+                //tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
+             	display_camion_accion();
+            } //end onScroll
+            
+        }); //end scroll invert	
     }else{
     	$(".scrollTonav").hide();
     	//horizontal scroll
@@ -102,23 +115,17 @@ $(document).ready(function(){
                 console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if((open_section_name=="biogas" && integer_position_left >= 5100) || (open_section_name=="yacimiento" && integer_position_left > 6000) || (open_section_name=="gasoducto" && integer_position_left > 6034) ){//|| integer_position_left > 17400     //biogas 5100           	
-					if( (open_section_name=="biogas" && integer_position_left > 14000) || (open_section_name=="yacimiento" && integer_position_left > 14800) ||(open_section_name=="gasoducto" && integer_position_left > 15500) ){ // && integer_position_left < 13700
-						//$(".camion-section").hide();												
-						//if((open_section_name=="yacimiento" && integer_position_left < 13666) || integer_position_left < 19700){ //camion PARADO para comenzar
+					if( (open_section_name=="biogas" && integer_position_left > 13990) || (open_section_name=="yacimiento" && integer_position_left > 14855) ||(open_section_name=="gasoducto" && integer_position_left > 15565) ){ // && integer_position_left < 13700
 							console.log(open_section_name+": camion para");						
-							$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-stop');
-							//$("#truck-"+open_section_name).removeClass('truck-fixed');
+							$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-stop');						
 							$("#truck-"+open_section_name).show();
 							$("#truck-"+open_section_name+"-animated").hide();					
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');							
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
-						//}
 					}
-					else{ //CAMION RODANDO
-						//if((open_section_name=="yacimiento" && integer_position_left < 15169) || (open_section_name=="gasoducto" && integer_position_left < 15169) || (open_section_name=="biogas" && integer_position_left < 14400)){//biogas=15483  yacimiento=15169 gasoducto=15169							 		 
+					else{ //CAMION RODANDO							 		 
 							console.log(open_section_name+": camion rueda");
-							//$(".camion-section").show();
 							$("#truck-"+open_section_name).hide();//addClass('truck-fixed');
 							$("#truck-"+open_section_name+"-animated").show();
 							$(".rueda").addClass("rueda_andando");
@@ -126,21 +133,17 @@ $(document).ready(function(){
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');						
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
-						//}
 					}
 				}
 				else{//CAMION COMIENZA quieto
 					console.log("else externo hide");							
-					//if(integer_position_left < 19700){  
 						console.log(open_section_name+": se ve camion al inicio");							
 						$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
-						//$("#truck-"+open_section_name).removeClass('truck-fixed');
 						$("#truck-"+open_section_name).show();
 						$("#truck-"+open_section_name+"-animated").hide();						
 						$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');		
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
-					//}
 				}
     }
     
