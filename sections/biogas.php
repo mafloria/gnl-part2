@@ -291,11 +291,11 @@
         
 
         <!--elementos landscape bottom 2 --> 
-        <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>                       
-            <h3 id="h3-4" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>
+        <div class="group-animated animatedParent"  data-appear-left-offset='-2700'  data-sequence='300'>                       
+            <h3 id="h3-4" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->gas_biometano; ?></h3>
             <div id="arrow-1" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
         </div>
-        <div class="group-animated animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
+        <div class="group-animated animatedParent"  data-appear-left-offset='-2900'  data-sequence='300'>
             <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Criobox-Bio</h3>
             <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Una estación Cryobox-Bio depura hasta 500 m3/h de Biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) para licuar el biometano obtenido y transformarlo en Bio-GNL.</p>
             <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.
@@ -304,8 +304,8 @@
             <div id="warning-1" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
         </div>
 
-        <div class="group-animated animatedParent"  data-appear-left-offset='-3500'  data-sequence='300'>                       
-            <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->gas_biometano; ?></h3>
+        <div class="group-animated animatedParent"  data-appear-left-offset='-3000'  data-sequence='300'>                       
+            <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>
             <div id="arrow-2" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
         </div>
 
@@ -325,10 +325,12 @@
 
          <!--elementos landscape bottom 5 -->
         <div class="group-animated animatedParent"  data-appear-left-offset='-7500'  data-sequence='300'>
-             <div id="figure-1" class="figure1 absolute animated fadeInLeftShort" data-id="1"></div>
-             <div id="b-line-1" class="b-line-1 absolute animated fadeInLeftShort" data-id="2"></div>
-             <div id="blt-1" class="blue-line-title absolute animated fadeInLeftShort" data-id="3"></div>
-             <h3 id="h3-8" class="title-h3-s absolute animated fadeInLeftShort" data-id="4">Operaciones en el upstream</h3>
+             <div id="figure-1" class="figure18 absolute animated fadeInLeftShort" data-id="1"></div>
+             <div id="figure-1a" class="figure18a absolute animated fadeInLeftShort" data-id="2"></div>
+             <div id="figure-1b" class="figure18a absolute animated fadeInLeftShort" data-id="3"></div>
+             <div id="b-line-1" class="b-line-1 absolute animated fadeInLeftShort" data-id="4"></div>
+             <div id="blt-1" class="blue-line-title absolute animated fadeInLeftShort" data-id="5"></div>
+             <h3 id="h3-8" class="title-h3-s absolute animated fadeInLeftShort" data-id="6">Usinas</h3>
         </div>
 
         <div class="group-animated animatedParent"  data-appear-left-offset='-7700'  data-sequence='300'>

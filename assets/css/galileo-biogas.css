@@ -165,11 +165,11 @@
 #h3-1{ top: 15px;}
 #h3-2{ top: 200px; left: 931px; border-bottom: 2px solid #1a5489;}
 #h3-3{ top: 115px; left: 7300px;}
-#h3-4{ top: -185px; left: 2150px;}
+#h3-4{ top: -200px; left: 2079px;}
 #h3-5{ top: 150px; left: 2215px;}
-#h3-6{ top: -188px; left: 3000px;}
+#h3-6{ top: -162px; left: 3080px;}
 #h3-7{ top: 120px; left: 4100px;}
-#h3-8{ top: 213px; left: 7079px;}
+#h3-8{ top: 213px; left: 7175px;}
 #h3-9{ top: 213px; left: 7760px;}
 #h3-10{ top: 120px; left: 8684px;}
 #h3-11{ top: 213px; left: 8865px;}
@@ -215,6 +215,8 @@
 #blt-6{top: 195px; left: 14742px;}
 
 #figure-1{top: -103px; left: 7150px;}
+#figure-1a{top: -90px; left: 7065px;}
+#figure-1b{top: -90px; left: 7270px;}
 #figure-2{top: -132px; left: 7607px;}
 #figure-3{top: -61px; left: 8430px;}
 #figure-4{top: -65px; left: 8530px; z-index: 8}
@@ -407,6 +409,42 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
 .figure16{
  width: 68px; height: 163px;
  background: transparent url(../images/flecha-azul.png) no-repeat;
+}
+.figure17{
+ width: 113px; height: 75px;
+ background: transparent url(../images/pipeline-booster.png) no-repeat;
+}
+.figure18{
+ width: 135px; height: 150px;
+ background: transparent url(../images/torre-electrica-1.png) no-repeat;
+}
+.figure18a{
+ width: 103px; height: 115px;
+ background: transparent url(../images/torre-electrica-2.png) no-repeat;
+}
+.figure19{
+ width: 301px; height: 251px;
+ background: transparent url(../images/industrias-sml.png) no-repeat;
+}
+.figure20{
+ width: 69px; height: 112px;
+ background: transparent url(../images/orphan-wells.png) no-repeat;
+}
+.figure21{
+ width: 75px; height: 57px;
+ background: transparent url(../images/wellhead.png) no-repeat;
+}
+.figure22{
+ width: 78px; height: 48px;
+ background: transparent url(../images/gathering-gas-lift.png) no-repeat;
+}
+.figure23{
+ width: 78px; height: 59px;
+ background: transparent url(../images/flaring.png) no-repeat;
+}
+.figure24{
+ width: 301px; height: 160px;
+ background: transparent url(../images/mineria.png) no-repeat;
 }
 .blue-line-title{
   width: 3px; height: 19px;
