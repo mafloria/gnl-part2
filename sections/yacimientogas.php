@@ -276,7 +276,7 @@
             <div id="figure-28" class="figure22 absolute animated fadeInLeftShort" data-id="9"></div> 
             <h3 id="h3wrap-4" class="h3wrap absolute animated fadeInLeftShort" data-id="10">Gas-lift</h3>
             <div id="figure-29" class="figure23 absolute animated fadeInLeftShort" data-id="11"></div> 
-            <h3 id="h3wrap-5" class="h3wrap absolute animated fadeInLeftShort" data-id="12">Pozos de testing</h3>
+            <h3 id="h3wrap-5" class="h3wrap absolute animated fadeInLeftShort" data-id="12">Reducción del flaring</h3>
             <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="13">En cada pozo, una solución de Galileo</p>    
         </div>
 
