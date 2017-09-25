@@ -44,7 +44,7 @@
                 <section class="section screen-1" id="home">
                     <div class="section-content content-landing center">
 
-                        <img class="logo-intro" src="svg/titulo-gnc.svg">
+                        <img class="logo-intro" src="assets/images/titulo-gnc-<?php echo $lang; ?>.png">
                         <div class="land-title-gnl">
                             <h2><span class="gnl-h">GNL</span> en pequeña escala</h2>
                             <p>Soluciones de Producción Distribuida de GNL</p>

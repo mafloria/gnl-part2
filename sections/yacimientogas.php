@@ -448,7 +448,7 @@
 
         <!-- menu end-->
         <div class="menu-circles-icons-end " data-appear-left-offset='-12000'  data-sequence='300'>
-            <img class="logo-intro" src="svg/titulo-gnc.svg" data-id="1">
+            <img class="logo-intro" src="assets/images/titulo-gnc-<?php echo $lang; ?>.png" data-id="1">
             <p class="pick-btn" data-id="2"><?php echo $texts->intro->selecciona_otra_fuente; ?></p>
 
             <div class="menu-end" data-id="3">
