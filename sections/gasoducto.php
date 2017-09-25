@@ -267,7 +267,7 @@
 
         <!--elementos landscape bottom 2 --> 
         <div class="group-animated animatedParent"  data-appear-left-offset='-2500'  data-sequence='300'>
-            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta de acondicionamiento de GAS ZPTS</h3>
+            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta ZPTS de acondicionamiento de Gas</h3>
             <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">El gas natural es tratado por la Planta ZPTS de Acondicionamiento, que reduce y elimina las impurezas hasta alcanzar la composición de Gas adecuada para la licuefacción.</p>
         </div>
 
