@@ -97,13 +97,8 @@ $(document).ready(function(){
     	$(".scrollTonav").hide();
     	//horizontal scroll
 	 	var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
-            {
-            //height: $(window).innerHeight(),  // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            {            
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
-                //console.log(percent);
-                
-                /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
-                //tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
              	display_camion_accion();
             } //end onScroll
             
@@ -173,6 +168,7 @@ $(document).ready(function(){
 		//let the first truck in place
 		$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
 		$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
+		$(".camion").hide();
 	});
 	
 	

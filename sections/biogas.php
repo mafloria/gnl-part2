@@ -62,8 +62,8 @@
 
          <!--elementos landscape top 4 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-6400'  data-sequence='300'>
-            <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODUCTO VIRTUAL BIO-GNL</h2>
-            <h4 id="subt-4" class="subtitle animated fadeInLeftShort" data-id="2">Valorización del gas</h4>
+            <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">Gaseoducto virtual DE BIO - GNL</h2>
+            <h4 id="subt-4" class="subtitle animated fadeInLeftShort" data-id="2">Valorización del gas <br /> Transporte sin tuberías</h4>
          </div>
 
 
@@ -311,7 +311,7 @@
 
         <!--elementos landscape bottom 3 -->                     
          <div class="group-animated animatedParent"  data-appear-left-offset='-4750'  data-sequence='300'>
-             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Isotanque contenedor Bio-GNL</h3>
+             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Almacenamiento de Bio - GNL</h3>
              <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El Bio-GNL es almacenado en isotanques criogénicos para su posterior distribución a través de la red de Gasoducto Virtual.</p>
              <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Todo el equipo de licuefacción puede ser relocalizado en tan solo horas una vez que el pozo ha sido agotado.</p>
              <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>

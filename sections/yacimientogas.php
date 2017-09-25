@@ -7,8 +7,8 @@
     <div class="landscape-top">
      <!--elementos landscape top 1 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='300'>
-            <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+            <?php /*<h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
+            <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4> */?>
          </div> 
 
          <div class="group-animated">
@@ -18,25 +18,25 @@
 
          <div class="group-animated animatedParent" data-appear-left-offset='-2600'  data-sequence='300'>
              <h2 id="h2-0" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-             <h4 id="subt-0" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+             <h4 id="subt-0" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas en áreas remotas.</h4>
          </div>
 
          <!--elementos landscape top 2 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-4100'  data-sequence='300'>
              <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-             <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas <br />en pozos no conectados</h4>
+             <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas en áreas remotas.</h4>
          </div>
          
          <!--elementos landscape top 3 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-5000'  data-sequence='300'>
             <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas<br />en pozos no conectados</h4>
+            <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas en áreas remotas.</h4>
          </div>
 
          <!--elementos landscape top 4 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='300'>
             <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODUCTO VIRTUAL GNL</h2>
-            <h4 id="subt-4" class="subtitle animated fadeInLeftShort" data-id="2">Valorización del gas</h4>
+            <h4 id="subt-4" class="subtitle animated fadeInLeftShort" data-id="2">Valorización del gas <br />Transporte sin tuberías.</h4>
          </div>
 
 
@@ -281,13 +281,13 @@
         </div>
 
         <div class="group-animated animatedParent"  data-appear-left-offset='-2700'  data-sequence='300'>
-            <h3 id="h3-0" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta de acondicionamiento de GAS ZPTS</h3>
-            <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="2">El gas es tratado por la Planta ZPTS de Acondicionamiento Gas, que reduce y elimina las impurezas hasta alcanzar la composición de gas natural adecuada para la licuefacción.</p>
+            <h3 id="h3-0" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta ZPTS de acondicionamiento de Gas</h3>
+            <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="2">El gas natural es tratado por la Planta ZPTS de Acondicionamiento, que reduce y elimina las impurezas hasta alcanzar la composición de Gas adecuada para la licuefacción.</p>
         </div>
 
         <!--elementos landscape bottom 2 --> 
         <div class="group-animated animatedParent"  data-appear-left-offset='-4200'  data-sequence='300'>
-            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Criobox LNG</h3>
+            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Estación Cryobox de producción de GNL</h3>
             <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Una Estación Cryobox de Producción de GNL, conectada a la ZPTS por medio de tuberías flexibles, licúa el gas natural.
             <br /><br /><br />
             La Estación Cryobox elimina la necesidad de contar con infraestructura de gathering , permitiéndole al productor de hidrocarburos monetizar el gas de testing o la reducción del flaring desde el primer día.</p>
@@ -301,7 +301,7 @@
 
         <!--elementos landscape bottom 3 -->                     
          <div class="group-animated animatedParent"  data-appear-left-offset='-5000'  data-sequence='300'>
-             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Isotanque contenedor GNL</h3>
+             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Almacenamiento de GNL</h3>
              <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El GNL es almacenado en isotanques criogénicos para su posterior distribución a través de la red de Gasoducto Virtual.</p>
              <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Todo el equipo de licuefacción puede ser relocalizado en tan solo horas una vez que el pozo ha sido agotado.</p>
              <div id="warning-3" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
@@ -310,7 +310,7 @@
 
         <!--elementos landscape bottom 4 -->
          <div class="group-animated animatedParent"  data-appear-left-offset='-7200'  data-sequence='300'>
-             <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Al licuar el gas en el área del pozo, las unidades Cryobox permiten la distribución del GNL en tanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
+             <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Al licuar el gas en el área del pozo, las unidades Cryobox permiten la distribución del GNL en isotanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
          </div>
 
          <!--elementos landscape bottom 5 -->
@@ -352,7 +352,7 @@
 
         <div class="group-animated animatedParent" data-appear-left-offset='-11600'  data-sequence='200'>
             <h3 id="h3-13" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Estación de servicio con Galileo Patagonia</h3> 
-            <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="2">Con la incorporación de un Módulo CNX de Galileo Patagonia y un surtidor dual, una estación existente se convierte en una estación multicombustible:</p>   
+            <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="2">Con la incorporación de un Módulo CNX de Galileo Patagonia y un surtidor dual, una estación existente se convierte en una estación multicombustible.</p>   
         </div>
 
         <!--elementos landscape bottom 8 -->
@@ -399,7 +399,7 @@
 
         <!--elementos landscape bottom 10 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-15200'  data-sequence='200'>
-            <h3 id="h3-17" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Gas natural gas para:</h3>
+            <h3 id="h3-17" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Gas natural para:</h3>
             <div id="figure-16" class="figure11 absolute animated fadeInLeftShort" data-id="2"></div> 
             <div id="b-line-5" class="b-line-5 absolute animated fadeInLeftShort" data-id="3"></div>
             <div id="blt-4" class="blue-line-title absolute animated fadeInLeftShort" data-id="4"></div>
