@@ -287,7 +287,7 @@
          </div>
 
          <div class="group-animated animatedParent"  data-appear-left-offset='-7100'  data-sequence='300'>
-            <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="1">Al licuar el gas, las unidades Cryobox permiten la distribución del GNL en tanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
+            <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="1">Al licuar el gas, las unidades Cryobox permiten la distribución del GNL isotanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
          </div> 
 
          <!--elementos landscape bottom 5 -->
