@@ -119,7 +119,7 @@
 		    "p3_almacenamiento_gnl":"Almacenamiento de GNL",
 		    "p3_almacenamiento_gnl_desc":"LNG is stored in cryogenic iso-tanks to supply cryogenic trailers for further distribution through the LNG Virtual Pipeline network.",
 		    "p4_licuar_gas_desc":"While liquefying on-site, the Cryobox units enable the distribution of LNG in cryogenic ISO containers via Virtual Pipeline and apply logistics similar to those of other liquid fuels.",
-		    "p5_estacion_servicio":"Estación de servicio con Galileo Patagonia",
+		    "p5_estacion_servicio":"Fueling station with Galileo Patagonia",
 		    "p5_estacion_servicio_desc":"By incorporating a Galileo Patagonia CNX Module and a dual gas dispenser, a fueling station turns into a multi-fuel station, ready to supply.",
 		    "p6_gnc_desc":"Urban vehicles with low-cost CNG",
 		    "p7_gnl_desc":"Heavy-duty vehicles and long-distance transport with LNG, which offers performance and autonomy as main benefits.",		    
