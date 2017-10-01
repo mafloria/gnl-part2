@@ -60,7 +60,7 @@
 		    "p6_biognl_desc":"Heavy-duty vehicles and long-distance transport with Bio-LNG, which offers performance and autonomy as main benefits.",
 		    "p7_centro_logistico_desc":"Every fleet yard can turn into a multi-fuel supply center, feeding fleets with Bio-CNG and Bio-LNG at competitive market prices, reducing costs and preserving the environment.",
 		 	"p8_gnl_limpio_co2":"CO<sub>2</sub>",
-		 	"p8_gnl_limpio_nox":"NOX",
+		 	"p8_gnl_limpio_nox":"NO<sub>X</sub>",
 		 	"p8_gnl_limpio_particulado":"Particulate",
 		 	"p8_gnl_limpio_gei":"GEI"	 	   
 	    },
@@ -74,122 +74,123 @@
 	},
 	
 	"yacimiento":{
-    	"intro":{		    
-    		"biognc_titulo": "GNC",
-		    "biognc_subtitulo":"Gas Natural Comprimido",
+    	"intro":{    		
 		    "back_link": "Regresar"    
 		},	    
-	    "top_titles":{
-		    "fuentes":"FUENTES",	    	    
-		    "estacion_madre":"ESTACIÓN MADRE",
-		    "estacion_madre_desc":"Plataformas PAC",
-		    "transporte":"TRANSPORTE",
-		    "estacion_hija":"ESTACIÓN HIJA",
-		    "estacion_hija_desc":"Plataformas PAD",
-		    "regreso_estacion_madre":"REGRESO A LA ESTACIÓN MADRE"
+	    "top_titles":{		        	   
+		    "estacion_madre":"MOTHER STATION",
+		    "estacion_madre_desc":"On-site gas conditioning and liquefaction in orphan wells",
+		    "gasoducto_virtual":"LNG VIRTUAL PIPELINE",
+		    "gasoducto_virtual_desc":"Delivery to the valorization sites",
+		    "estacion_hija":"DAUGHTER STATIONS",
+		    "estacion_hija_desc":"Energy efficiency through customizable supply",
+		    "estacion_hija_desc2":"LNG fuel for HHP applications",
+		    "estacion_hija_desc3":"Galileo Patagonia"
 	    },
 	    "road_info":{
-		    "gasnatural":"Gas Natural",
-		    "secador":"Secador",		    	    
-			"gasnatural_comprimido":"Gas Natural <br/>Comprimido",
-			"abastecimiento":"Energy efficiency through customizable supply",
-			"upstream":"Operaciones en el upstream",
-			"comunidades_aisladas":"Comunidades aisladas",
-			"comunidades_aisladas_desc":"Abastecimiento a medida",
-			"inyeccion_red":"Inyección en la red de <br/>gas natural",
-			"minas_plantas":"Plantas industriales",
-			"usinas":"Usinas",
-			"centros_turisticos":"Centros turísticos",
-			"estaciones_servicio":"Estaciones de servicio"
+	    	"upstream":"Upstream operations",
+	    	"emprender_minero":"Mining projects",
+	    	"usinas":"Power generation",
+	    	"industrias":"Industries",
+			"transporte":"Transportation",
+	    	"cnx_patagonia":"CNX PATAGONIA",
+	    	"gnc":"CNG",
+			"gnl":"LNG",
+			"gas_natural_para":"Natural gas for:",	
+	    	"comunidades_aisladas":"Outlying communities",
+	    	"inyeccion_red":"Injection into the <br/>natural gas grid",
+	    	"terminales_recepcion":"LNG Terminals",
+	    	"ahorro":"Saving",
+	    	"emisiones":"Lower emissions",
+	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. "	    	
 	    },
 	    "process":{
-		    "pozo_box_title":"En cada pozo, una solución de Galileo",
-		    "pozo_box_op0":"Pozos no <br/>conectados",
+		    "pozo_box_title":"Gas fields",
+		    "pozo_box_op0":"orphan wells",
 		    "pozo_box_op1":"Wellhead",
 		    "pozo_box_op2":"Gathering",
 		    "pozo_box_op3":"Gas-lift",
-		    "pozo_box_op4":"Reducción del flaring",
-		    "p1_paquete_compresion":"Paquete de Compresión Microbox-Bio",
-		    "p1_paquete_compresion_desc":"En la estación madre, paquetes de compresión de GNC Microbox&reg o Gigabox&reg, conectados a la fuente de gas natural, comprimen el fluido a una presión de 250 bar (3625 psi).",		    
-		    "p2_modulos_mat":"Módulos MAT",
-		    "p2_modulos_mat_desc":"El GNC es enviado desde los paquetes de compresión a las plataformas PAC&reg; que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.",
-		    "p2_modulos_mat_desc2":"Los contenedores MAT pueden almacenar 1500 Nm&sup3; (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.",
-		    "p3_trailer_vst":"Tráiler VST",
-		    "p3_trailer_vst_desc":"Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4",
-		    "p3_trailer_vst_desc2":"MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.",
-		    "p4_centro_consumo_desc":"Una vez en el centro de consumo, los mecanismos de polipasto hidráulico del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD y simultáneamente retiran los vacíos.",
-		    "p5_depositado_pad_desc":"Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta  Reguladora de Presión (PRP), cuya función es proveer gas natural en los rangos de presión de salida y caudal requeridos por los usuarios finales.",
-		    "p6_gas_red_tuberias_desc":"Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en el upstream, las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas natural.",
-		    "p7_trailer_vst_a_estacionmadre_desc":"El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.",
-		    "p8_plataformas_pac":"Plataformas PAC",
-		    "p8_plataformas_pac_desc":"A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque."
+		    "pozo_box_op4":"Gas flaring reduction",
+		    "pozo_box_desc":"A Galileo Solution for every well.",
+			"p1_planta_zpts":"ZPTS Plant for Gas Conditioning",
+		    "p1_planta_zpts_desc":"A ZPTS Plant for Gas Conditioning reduces and eliminates impurities until reaching the suitable natural gas composition for liquefaction.",
+		    "p2_estacion_cryobox_desc":"A Cryobox LNG Production Station, connected to the ZPTS by means of flexible pipes, liquefies the natural gas. ",		    
+		    "p2_estacion_cryobox_desc2":"The Cryobox has a daily production capacity of 15 metric tons (10 k gallons) of LNG and features automatic functions to recover boil-off gas.",
+		    "p3_almacenamiento_gnl":"Almacenamiento de GNL",
+		    "p3_almacenamiento_gnl_desc":"LNG is stored in cryogenic iso-tanks to supply cryogenic trailers for further distribution through the LNG Virtual Pipeline network.",
+		    "p4_licuar_gas_desc":"While liquefying on-site, the Cryobox units enable the distribution of LNG in cryogenic ISO containers via Virtual Pipeline and apply logistics similar to those of other liquid fuels.",
+		    "p5_estacion_servicio":"Estación de servicio con Galileo Patagonia",
+		    "p5_estacion_servicio_desc":"By incorporating a Galileo Patagonia CNX Module and a dual gas dispenser, a fueling station turns into a multi-fuel station, ready to supply.",
+		    "p6_gnc_desc":"Urban vehicles with low-cost CNG",
+		    "p7_gnl_desc":"Heavy-duty vehicles and long-distance transport with LNG, which offers performance and autonomy as main benefits.",		    
+		    "p8_centro_logistico_desc":"Every fleet yard can turn into a multi-fuel supply center, feeding fleets with CNG and LNG at competitive market prices, reducing costs and preserving the environment.",
+			"p9_gnl_limpio_co2":"CO<sub>2</sub>",
+		 	"p9_gnl_limpio_nox":"NO<sub>X</sub>",
+		 	"p9_gnl_limpio_particulado":"Particulate",
+		 	"p9_gnl_limpio_gei":"GEI"
 	    },
 	    "alert_messages":{
-		    "a1_secador":"En caso de ser necesario, un Secador elimina el vapor de agua contenido en el gas natural que ingresa al sistema. El mismo puede estar integrado dentro del paquete de compresión o funcionar como una unidad separada.",
-		    "a1_mat_b":"Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.",
-		    "a1_mat_b2":"Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.",
-		    "a2_intercambio_reconexion":"La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.",
-		    "a3_suministro_continuo_titulo":"Suministro continuo y monitoreado 24/7",
-		    "a3_suministro_continuo_desc":"Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.",
-		    "a4_sistema_recompresion_desc":"En las estaciones de GNC abastecidas por Gasoducto Virtual, un sistema de recompresión acelera los tiempos de carga surtidores EMB&reg;."
+		    "a1_estacion_cryobox_desc": " The Cryobox eliminates the necessity of gas gathering infrastructure, enabling you as an oil producer to monetize the well testing and the flaring gas reduction right from day one.",
+		    "a1_estacion_cryobox_desc2": "One ZPTS can provide clean gas to several Cryobox units at once. All the liquefaction equipment is modular and scalable.",
+		    "a2_almacenamiento_gnl_desc": "All the liquefaction equipment can be relocated within hours to a new gas producing field when the wells have been depleted.",
+		    "a3_suministro_continuo_titulo":"Continuous and 24/7 monitored supply",
+		    "a3_suministro_continuo_desc":"The operation is entirely monitored through Galileo Technologies SCADA System.",
+		    "a4_nivel_abastacimiento_desc":"When supply levels are low, the CNX module places a resupply order which ensures an uninterrupted LNG availability."		    		    
 	    }
 	},
 	
 	"gasoducto":{
-    	"intro":{		    
-		    "gnc_titulo": "GNC",
-		    "gnc_subtitulo":"Gas Natural Comprimido",
+    	"intro":{		    		    
 		    "back_link": "Regresar"	    
 		},	    
-	    "top_titles":{
-		    "fuentes":"FUENTES",	    	    
-		    "estacion_madre":"ESTACIÓN MADRE",
-		    "estacion_madre_desc":"Plataformas PAC",
-		    "transporte":"TRANSPORTE",
-		    "estacion_hija":"ESTACIÓN HIJA",
-		    "estacion_hija_desc":"Plataformas PAD",
-		    "regreso_estacion_madre":"REGRESO A LA ESTACIÓN MADRE"
+	    "top_titles":{		        	   
+		    "estacion_madre":"MOTHER STATION",
+		    "estacion_madre_desc":"On-site gas conditioning and liquefaction in orphan wells",
+		    "gasoducto_virtual":"LNG VIRTUAL PIPELINE",
+		    "gasoducto_virtual_desc":"Delivery to the valorization sites",
+		    "estacion_hija":"DAUGHTER STATIONS",
+		    "estacion_hija_desc":"Energy efficiency through customizable supply",
+		    "estacion_hija_desc2":"LNG fuel for HHP applications",
+		    "estacion_hija_desc3":"Galileo Patagonia",
+		    "estacion_hija_desc4":"Nuestro Gasoducto Virtual de GNL expande el alcance de la<br/>infraestructura de distribución de los gasoductos. "
 	    },
-	    "road_info":{
-		    "gasoducto_virtual":"El Gasoducto Virtual <br/> expande el alcance de <br/>la red de Gasoductos",
-		    "secador":"Secador",
-		    "gasnatural_comprimido":"Gas Natural <br/>Comprimido",
-		    "gasnatural":"Gas Natural",
-		    "abastecimiento":"Abastecimiento a medida",
-			"upstream":"Operaciones en el upstream",
-			"comunidades_aisladas":"Comunidades aisladas",
-			"comunidades_aisladas_desc":"Abastecimiento a medida",			
-			"minas_plantas":"Plantas industriales",
-			"usinas":"Usinas",
-			"centros_turisticos":"Centros turísticos",
-			"estaciones_servicio":"Estaciones de servicio"
+	    "road_info":{	    		    
+	    	"usinas":"Power generation",
+	    	"industrias":"Industries",
+			"transporte":"Transportation",
+	    	"cnx_patagonia":"CNX PATAGONIA",
+	    	"gnc":"CNG",
+			"gnl":"LNG",
+	    	"comunidades_aisladas":"Natural gas for Outlying communities",	    	
+	    	"ahorro":"Saving",
+	    	"emisiones":"Lower emissions",
+	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. "	    	
 	    },
-	    "process":{
-		    "fuentes_gnc_box_titulo":"Los Pipeline Boosters de Galileo eliminan las caídas de presión en las redes de distribución de gas natural.",
-		    "fuentes_gnc_box_op1":"Pipeline Booster",		    
-		    "p1_paquete_compresion":"Paquetes de Compresión Microbox y Giabox",
-		    "p1_paquete_compresion_desc":"En la estación madre, paquetes de compresión de GNC Microbox o Gigabox, conectados a la fuente de gas natural, comprimen el fluido a una presión de 250 bar (3625 psi).",		    
-		    "p2_modulos_mat":"Módulos MAT",
-		    "p2_modulos_mat_desc":"El GNC es enviado desde los paquetes de compresión a las plataformas PAC que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.",
-		    "p2_modulos_mat_desc2":"Los contenedores MAT pueden almacenar 1500 Nm&sup3; (420 GGE) de GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.",		    
-		    "p3_trailer_vst":"Tráiler VST",
-		    "p3_trailer_vst_desc":"Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo.",
-		    "p3_trailer_vst_desc2":"Los VST presentan configuraciones de transporte para 2, 3 ó 4 MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.",		    		    
-		    "p4_centro_consumo_desc":"Una vez en el centro de consumo, , los mecanismos de polipasto hidráulico del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD y simultáneamente retiran los vacíos.",		    
-		    "p5_depositado_pad_desc":"Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta  Reguladora de Presión (PRP), cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.",		    
-		    "p6_gas_red_tuberias_desc":"Finalmente, el gas es distribuido a través de una red de tuberías parque los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas natural.",	    
-		    "p7_trailer_vst_a_estacionmadre_desc":"El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.",		    
-		    "p8_plataformas_pac":"Plataformas PAC",
-		    "p8_plataformas_pac_desc":"A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque."
+	    "process":{		    
+		    "pozo_box_op0":"Pipeline Booster",		    
+			"p1_planta_zpts":"ZPTS Plant for Gas Conditioning",
+		    "p1_planta_zpts_desc":"A ZPTS Plant for Gas Conditioning reduces and eliminates impurities until reaching the suitable natural gas composition for liquefaction.",
+		    "p2_estacion_cryobox":"Estación Cryobox de producción de GNL",
+		    "p2_estacion_cryobox_desc":"A Cryobox LNG Production Station, connected to the ZPTS by means of flexible pipes, liquefies the natural gas. ",		    
+		    "p2_estacion_cryobox_desc2":"The Cryobox has a daily production capacity of 15 metric tons (10 k gallons) of LNG and features automatic functions to recover boil-off gas.",
+		    "p3_almacenamiento_gnl":"Almacenamiento de GNL",
+		    "p3_almacenamiento_gnl_desc":"LNG is stored in cryogenic iso-tanks to supply cryogenic trailers for further distribution through the LNG Virtual Pipeline network.",
+		    "p4_licuar_gas_desc":"While liquefying on-site, the Cryobox units enable the distribution of LNG in cryogenic ISO containers via Virtual Pipeline and apply logistics similar to those of other liquid fuels.",
+		    "p5_estacion_servicio":"Estación de servicio con Galileo Patagonia",
+		    "p5_estacion_servicio_desc":"By incorporating a Galileo Patagonia CNX Module and a dual gas dispenser, a fueling station turns into a multi-fuel station, ready to supply.",
+		    "p6_gnc_desc":"Urban vehicles with low-cost CNG",
+		    "p7_gnl_desc":"Heavy-duty vehicles and long-distance transport with LNG, which offers performance and autonomy as main benefits.",		    
+		    "p8_centro_logistico_desc":"Every fleet yard can turn into a multi-fuel supply center, feeding fleets with CNG and LNG at competitive market prices, reducing costs and preserving the environment.",
+			"p9_gnl_limpio_co2":"CO<sub>2</sub>",
+		 	"p9_gnl_limpio_nox":"NO<sub>X</sub>",
+		 	"p9_gnl_limpio_particulado":"Particulate",
+		 	"p9_gnl_limpio_gei":"GEI"
 	    },
-	    "alert_messages":{
-		    "a1_secador":"En caso de ser necesario, un Secador elimina el vapor de agua contenido en el gas natural que ingresa al sistema.  El mismo puede estar integrado dentro del paquete de compresión o funcionar como una unidad separada.",		    
-		    "a1_mat_b":"Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de GNC, y abastecer flotas en sus propios centros logísticos.",
-		    "a1_mat_b2":"Los MAT-B cuentan con booster de recompresión y surtidor para distribuir GNC a granel.",		    
-		    "a2_intercambio_reconexion":"La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.",		    
-		    "a3_suministro_continuo_titulo":"Suministro continuo y monitoreado 24/7",
-		    "a3_suministro_continuo_desc":"Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.",		    
-		    "a4_sistema_recompresion_desc":"En las estaciones de GNC abastecidas por Gasoducto Virtual, un sistema de recompresión acelera los tiempos de carga surtidores EMB."
+	    "alert_messages":{		    
+		    "a1_estacion_cryobox_desc": "One ZPTS can provide clean gas to several Cryobox units at once. All the liquefaction equipment is modular and scalable.",		    
+		    "a2_suministro_continuo_titulo":"Continuous and 24/7 monitored supply",
+		    "a2_suministro_continuo_desc":"The operation is entirely monitored through Galileo Technologies SCADA System.",
+		    "a3_nivel_abastacimiento_desc":"When supply levels are low, the CNX module places a resupply order which ensures an uninterrupted LNG availability."		    		    
 	    }
 	}
     
