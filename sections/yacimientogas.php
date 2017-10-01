@@ -41,45 +41,45 @@
 
 
         <div class="group-animated animatedParent" data-appear-left-offset='-8200'  data-sequence='300'>
-            <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-5" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
             <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 6 --> 
         <div class="group-animated animatedParent" data-appear-left-offset='-9500'  data-sequence='300'>
-            <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-6" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
             <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 7 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='300'>
-            <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-7" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
         <!--elementos landscape top 8 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-12800'  data-sequence='300'>
-            <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-8" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
         <!--elementos landscape top 9 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
-            <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-9" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
          <!--elementos landscape top 10 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-15800'  data-sequence='300'>
-            <h2 id="h2-10" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-10" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-10" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
         </div> 
 
         <!--elementos landscape top 11 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-16800'  data-sequence='300'>
-            <h2 id="h2-11" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-11" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-11" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
         </div> 
                           
@@ -276,18 +276,18 @@
             <div id="figure-28" class="figure22 absolute animated fadeInLeftShort" data-id="9"></div> 
             <h3 id="h3wrap-4" class="h3wrap absolute animated fadeInLeftShort" data-id="10">Gas-lift</h3>
             <div id="figure-29" class="figure23 absolute animated fadeInLeftShort" data-id="11"></div> 
-            <h3 id="h3wrap-5" class="h3wrap absolute animated fadeInLeftShort" data-id="12">Reducción del flaring</h3>
+            <h3 id="h3wrap-5" class="h3wrap absolute animated fadeInLeftShort" data-id="12">Pozos de testing <br />Reducción del flaring</h3>
             <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="13">En cada pozo, una solución de Galileo</p>    
         </div>
 
         <div class="group-animated animatedParent"  data-appear-left-offset='-2700'  data-sequence='300'>
             <h3 id="h3-0" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta ZPTS de acondicionamiento de Gas</h3>
-            <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="2">El gas natural es tratado por la Planta ZPTS de Acondicionamiento, que reduce y elimina las impurezas hasta alcanzar la composición de Gas adecuada para la licuefacción.</p>
+            <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="2">El gas natural es tratado por la Planta ZPTS de Acondicionamiento de Gas, que reduce y elimina las impurezas hasta alcanzar la composición adecuada para la licuefacción.</p>
         </div>
 
         <!--elementos landscape bottom 2 --> 
         <div class="group-animated animatedParent"  data-appear-left-offset='-4200'  data-sequence='300'>
-            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Estación Cryobox de producción de GNL</h3>
+            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1"></h3>
             <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Una Estación Cryobox de Producción de GNL, conectada a la ZPTS por medio de tuberías flexibles, licúa el gas natural.
             <br /><br /><br />
             La Estación Cryobox elimina la necesidad de contar con infraestructura de gathering , permitiéndole al productor de hidrocarburos monetizar el gas de testing o la reducción del flaring desde el primer día.</p>
@@ -310,7 +310,7 @@
 
         <!--elementos landscape bottom 4 -->
          <div class="group-animated animatedParent"  data-appear-left-offset='-7200'  data-sequence='300'>
-             <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Al licuar el gas, las unidades Cryobox permiten la distribución del GNL isotanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
+             <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Al licuar el gas, las unidades Cryobox permiten la distribución del GNL en isotanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
          </div>
 
          <!--elementos landscape bottom 5 -->

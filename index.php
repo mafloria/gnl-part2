@@ -10,7 +10,7 @@
     curl_close($ch);
     
     $texts = json_decode($texts_file);
-    //print_r($lang);
+    //print_r($texts);
 ?>
 <!doctype html>
 <html class="no-js" lang="es">
@@ -46,12 +46,12 @@
 
                         <img class="logo-intro" src="assets/images/titulo-gnc-<?php echo $lang; ?>.png">
                         <div class="land-title-gnl">
-                            <h2><span class="gnl-h">GNL</span> en pequeña escala</h2>
-                            <p>Soluciones de Producción Distribuida de GNL</p>
+                            <h2><span class="gnl-h"><?php echo $texts->intro->gnl; ?></span><?php echo $texts->intro->gnl_pequeno; ?></h2>
+                            <p><?php echo $texts->intro->gnl_pequeno_desc; ?></p>
                         </div>
-                        <p class="txt-description">Nuestras Soluciones de Producción Distribuida de GNL están diseñadas para acondicionar y licuar todo tipo de gas allí donde esté su fuente. Con ellas, podrá monetizar recursos que hasta ahora carecían de valor y proveer GNL o Bio-GNL como combustibles limpios.</p>
-                        <p class="pick-btn">SELECCIONE UNA FUENTE DE GAS</p>
-                        <form method="POST">
+                        <p class="txt-description"><?php echo $texts->intro->intro_text; ?></p>
+                        <p class="pick-btn"><?php echo $texts->intro->continue_button; ?></p>
+                        <form method="GET">
                             <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
                             <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
                         </form>
@@ -88,10 +88,6 @@
     <script src="assets/js/dist/css3-animate-it.js"></script>
     <script src="assets/js/main.js?v=0.99"></script>
         
-    <style>
-        /* Ensure elements load hidden before ScrollReveal runs 
-        .sr .fooReveal { visibility: hidden; }        */
-    </style>
 </html>
 
 

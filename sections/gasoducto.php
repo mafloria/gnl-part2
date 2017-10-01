@@ -7,8 +7,8 @@
     <div class="landscape-top">
      <!--elementos landscape top 1 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='300'>
-            <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+            <?php /*<h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
+            <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4> */ ?>
          </div> 
 
          <div class="group-animated">
@@ -19,19 +19,19 @@
          <!--elementos landscape top 2 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-2500'  data-sequence='300'>
              <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-             <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+             <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_madre_desc; ?></h4>
          </div>
 
          <!--elementos landscape top 3a --> 
         <div class="group-animated animatedParent" data-appear-left-offset='-4100'  data-sequence='300'>
             <h2 id="h2-3a" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-3a" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+            <h4 id="subt-3a" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_madre_desc; ?></h4>
          </div>
          
          <!--elementos landscape top 3 --> 
         <div class="group-animated animatedParent" data-appear-left-offset='-5900'  data-sequence='300'>
             <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+            <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_madre_desc; ?></h4>
          </div>
 
         <!--elementos landscape top 4 --> 
@@ -42,39 +42,39 @@
 
 
         <div class="group-animated animatedParent" data-appear-left-offset='-8400'  data-sequence='300'>
-            <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-5" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
             <h3 id="h3-3" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 6 --> 
         <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
-            <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-6" class="subtitle animated fadeInLeftShort" data-id="2">Abastecimiento a medida</h4>
             <h3 id="h3-10" class="title-h3 absolute animated fadeInLeftShort" data-id="3">GNL para los consumidores de alta potencia</h3>
         </div>
 
         <!--elementos landscape top 7 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-11300'  data-sequence='300'>
-            <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-7" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
         <!--elementos landscape top 8 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-12500'  data-sequence='300'>
-            <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-8" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
         <!--elementos landscape top 9 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-14600'  data-sequence='300'>
-            <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-9" class="subtitle animated fadeInLeftShort" data-id="2">Galileo Patagonia</h4>
         </div> 
 
          <!--elementos landscape top 10 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-15800'  data-sequence='300'>
-            <h2 id="h2-10" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJA</h2>
+            <h2 id="h2-10" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIONES HIJAS</h2>
             <h4 id="subt-10" class="subtitle animated fadeInLeftShort" data-id="2">Nuestro Gasoducto Virtual de GNL expande el alcance de la<br />
             infraestructura de distribución de los gasoductos. </h4>
         </div> 
@@ -268,7 +268,7 @@
         <!--elementos landscape bottom 2 --> 
         <div class="group-animated animatedParent"  data-appear-left-offset='-2500'  data-sequence='300'>
             <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1">Planta ZPTS de acondicionamiento de Gas</h3>
-            <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">El gas natural es tratado por la Planta ZPTS de Acondicionamiento, que reduce y elimina las impurezas hasta alcanzar la composición de Gas adecuada para la licuefacción.</p>
+            <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">El gas natural es tratado por la Planta ZPTS de Acondicionamiento de Gas, que reduce y elimina las impurezas hasta alcanzar la composición adecuada para la licuefacción.</p>
         </div>
 
         <!--elementos landscape bottom 3 -->                     
@@ -287,7 +287,7 @@
          </div>
 
          <div class="group-animated animatedParent"  data-appear-left-offset='-7100'  data-sequence='300'>
-            <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="1">Al licuar el gas, las unidades Cryobox permiten la distribución del GNL isotanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
+            <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="1">Al licuar el gas, las unidades Cryobox permiten la distribución del GNL en isotanques criogénicos a través del Gasoducto Virtual, igualando la logística de distribución de los combustibles líquidos.</p>
          </div> 
 
          <!--elementos landscape bottom 5 -->
@@ -324,7 +324,7 @@
 
         <div class="group-animated animatedParent" data-appear-left-offset='-11200'  data-sequence='200'>
             <h3 id="h3-13" class="title-h3 absolute animated fadeInLeftShort" data-id="1">Estación de servicio con Galileo Patagonia</h3> 
-            <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="2">Con la incorporación de un Módulo CNX de Galileo Patagonia y un surtidor dual, una estación existente se convierte en una estación multicombustible:</p>   
+            <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="2">Con la incorporación de un Módulo CNX de Galileo Patagonia y un surtidor dual, una estación existente se convierte en una estación multicombustible.</p>   
         </div>
 
         <!--elementos landscape bottom 8 -->
@@ -380,7 +380,7 @@
             <div id="figure-16" class="figure11 absolute animated fadeInLeftShort" data-id="2"></div> 
             <div id="b-line-5" class="b-line-5 absolute animated fadeInLeftShort" data-id="3"></div>
             <div id="blt-4" class="blue-line-title absolute animated fadeInLeftShort" data-id="4"></div>
-            <h3 id="h3-18" class="title-h3-s absolute animated fadeInLeftShort" data-id="5">Comunidades aisladas</h3>
+            <h3 id="h3-18" class="title-h3-s absolute animated fadeInLeftShort" data-id="5">Gas natural para comunidades aisladas</h3>
         </div>
 
         <!--elementos landscape bottom 11 -->
