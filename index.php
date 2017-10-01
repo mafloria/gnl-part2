@@ -2,7 +2,7 @@
 	include("config/set_lang.php");
 	include("config/config.php");
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $language_url."gasoducto-".$lang.".txt");
+    curl_setopt($ch, CURLOPT_URL, $language_url."galileo-gnl-".$lang.".txt");
     curl_setopt($ch, CURLOPT_HEADER, FALSE);    
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
     $texts_file = curl_exec($ch);
