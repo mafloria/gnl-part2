@@ -145,14 +145,14 @@
 		},	    
 	    "top_titles":{		        	   
 		    "estacion_madre":"MOTHER STATION",
-		    "estacion_madre_desc":"On-site gas conditioning and liquefaction in orphan wells",
+		    "estacion_madre_desc":"On-site gas conditioning and liquefaction",
 		    "gasoducto_virtual":"LNG VIRTUAL PIPELINE",
-		    "gasoducto_virtual_desc":"Delivery to the valorization sites",
+		    "gasoducto_virtual_desc":"We bring natural gas beyond pipelines",
 		    "estacion_hija":"DAUGHTER STATIONS",
 		    "estacion_hija_desc":"Energy efficiency through customizable supply",
 		    "estacion_hija_desc2":"LNG fuel for HHP applications",
 		    "estacion_hija_desc3":"Galileo Patagonia",
-		    "estacion_hija_desc4":"Nuestro Gasoducto Virtual de GNL expande el alcance de la<br/>infraestructura de distribución de los gasoductos. "
+		    "estacion_hija_desc4":"Our LNG Virtual Pipeline expands the reach of the <br/>natural gas distribution infrastructure"
 	    },
 	    "road_info":{	    		    
 	    	"usinas":"Power generation",
@@ -164,7 +164,7 @@
 	    	"comunidades_aisladas":"Natural gas for Outlying communities",	    	
 	    	"ahorro":"Saving",
 	    	"emisiones":"Lower emissions",
-	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. "	    	
+	    	"monetice":"Now, LNG can drive your projects."	    	
 	    },
 	    "process":{		    
 		    "pozo_box_op0":"Pipeline Booster",		    

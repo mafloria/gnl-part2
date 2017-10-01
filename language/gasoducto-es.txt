@@ -164,7 +164,7 @@
 	    	"comunidades_aisladas":"Gas natural para comunidades aisladas",	    	
 	    	"ahorro":"Ahorro",
 	    	"emisiones":"Menos emisiones",
-	    	"monetice":"Monetice sus pozos no conectados con GNL"	
+	    	"monetice":"Ahora, el GNL puede impulsar sus proyectos. "	
 	    },
 	    "process":{		   
 		    "pozo_box_op0":"Pipeline Booster",		    
