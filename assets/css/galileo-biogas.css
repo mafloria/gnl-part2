@@ -113,9 +113,9 @@
 #icon-5{top: 0px; left: 1200px;}
 #icon-6{top: 130px; left: 1200px;}
 
-#icon-txt-1{top: -100px; left: 663px; width: 120px;}
+#icon-txt-1{top: -90px; left: 663px; width: 120px;}
 #icon-txt-2{top: 32px; left: 663px; width: 120px;}
-#icon-txt-3{top: 147px; left: 663px; width: 120px;}
+#icon-txt-3{top: 152px; left: 663px; width: 120px;}
 #icon-txt-4{top: -98px; left: 1365px; width: 200px;}
 #icon-txt-5{top: 17px; left: 1365px; width: 200px;}
 #icon-txt-6{top: 175px; left: 1365px; width: 200px;}
@@ -132,19 +132,20 @@
 #h2-10{top: 40px; left: 14300px;}
 #h2-11{top: 40px; left: 15450px;}
 
-#h2-12{top: -40px; left: 17700px;}
+#h2-12{top: -95px; left: 16400px;}
 
 #subt-1{ top: 85px; left: 800px;}
 #subt-2{ top: 85px; left: 2500px;}
 #subt-3{ top: 85px; left: 4424px;}
 #subt-4{ top: 85px; left: 6100px;}
-#subt-5{ top: 85px; left: 7399px;}
+#subt-5{ top: 85px; left: 7429px;}
 #subt-6{ top: 85px; left: 8797px;}
 #subt-7{ top: 85px; left: 10355px;}
 #subt-8{ top: 85px; left: 11558px;}
 #subt-9{ top: 85px; left: 13028px;}
 #subt-10{ top: 85px; left: 14328px;}
 #subt-11{ top: 85px; left: 15470px;}
+#subt-12{top: 30px; left: 16400px; font-size: 1.85em;}
 
 #txt-1{ top: 250px; left: 579px; width: 200px;}
 #txt-2{ top: 192px; left: 2216px; width: 450px;}
@@ -162,9 +163,9 @@
 #txt-14{ top: 220px; left: 13100px; width: 450px;}
 #txt-15{ top: 200px; left: 16600px; width: 400px;}
 
-#h3-1{ top: 15px;}
+#h3-1{ top: -195px; left: 1365px;}
 #h3-2{ top: 200px; left: 931px; border-bottom: 2px solid #1a5489;}
-#h3-3{ top: 115px; left: 7300px;}
+#h3-3{ top: 115px; left: 7320px;}
 #h3-4{ top: -200px; left: 2079px;}
 #h3-5{ top: 150px; left: 2215px;}
 #h3-6{ top: -162px; left: 3080px;}
@@ -180,18 +181,20 @@
 #h3-16{ top: -241px; left: 13286px;}
 #h3-17{ top: -174px; left: 13854px;}
 #h3-18{ top: 213px; left: 13941px;}
-#h3-19{ top: 214px; left: 14338px;}
+#h3-19{ top: 214px; left: 14565px;}
 #h3-20{ top: 214px; left: 14600px;}
 #h3-21{ top: 214px; left: 15446px;}
-#h3-22{ top: 120px; left: 16915px;}
-#h3-23{ top: 142px; left: 17034px;}
-#h3-24{ top: 120px; left: 17137px;}
-#h3-25{ top: 140px; left: 17296px;}
-#h3-26{ top: 194px; left: 17073px;}
-#h3-27{ top: -265px; left: 17084px;}
+#h3-22{ top: 120px; left: 15615px;}
+#h3-23{ top: 142px; left: 15734px;}
+#h3-24{ top: 120px; left: 15837px;}
+#h3-25{ top: 140px; left: 15996px;}
+#h3-26{ top: 194px; left: 15773px;}
+#h3-27{ top: -265px; left: 15784px;}
+#h3-28{ top: 185px; left: 15175px; width: 400px; text-align: left; color: white; background-color: #1a5489; padding: 10px; font-weight: normal; font-size: 1.3em;}
 
+#arrow-0{top: -184px; left: 1477px;}
 #arrow-1{top: -174px; left: 2271px;}
-#arrow-2{top: -150px; left: 3200px;}
+#arrow-2{top: -150px; left: 3205px;}
 
 #warning-1{top: 275px; left: 2670px;}
 #warning-2{top: 157px; left: 4540px;}
@@ -203,7 +206,7 @@
 #b-line-3{top: -43px; left: 11409px;}
 #b-line-4{top: -43px; left: 12855px;}
 #b-line-5{top: 76px; left: 13802px;}
-#b-line-6{top: 76px; left: 14311px;}
+#b-line-6{top: 76px; left: 14577px;}
 #b-line-7{top: 76px; left: 14611px;}
 #b-line-8{top: 234px; left: 14905px;}
 
@@ -211,7 +214,7 @@
 #blt-2{top: 195px; left: 7814px;}
 #blt-3{top: 195px; left: 8915px;}
 #blt-4{top: 195px; left: 14045px;}
-#blt-5{top: 195px; left: 14423px;}
+#blt-5{top: 195px; left: 14668px;}
 #blt-6{top: 195px; left: 14742px;}
 
 #figure-1{top: -103px; left: 7150px;}
@@ -232,14 +235,14 @@
 #figure-14{top: 7px; left: 13527px;}
 #figure-15{top: -300px; left: 13412px;}
 #figure-16{top: -130px; left: 13796px;}
-#figure-17{top: -41px; left: 14320px;}
+#figure-17{top: -41px; left: 14566px;}
 #figure-18{top: -89px; left: 14610px;}
 #figure-19{top: -168px; left: 15247px;}
-#figure-20{top: -45px; left: 16900px;}
-#figure-21{top: -23px; left: 17020px;}
-#figure-22{top: -45px; left: 17150px;}
-#figure-23{top: -23px; left: 17280px;}
-#figure-24{top: -230px; left: 17080px;}
+#figure-20{top: -45px; left: 15600px;}
+#figure-21{top: -23px; left: 15720px;}
+#figure-22{top: -45px; left: 15850px;}
+#figure-23{top: -23px; left: 15980px;}
+#figure-24{top: -230px; left: 15780px;}
 /**/
 #up-down-arrow-1{top: 75px; left: 8106px;}
 #up-down-arrow-2{top: 75px; left: 8245px;}
@@ -283,7 +286,7 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15660px;}
 
 .menu-circles-icons-end{
-  left: 18500px;
+  left: 17200px;
 }
 
 /*elements css*/

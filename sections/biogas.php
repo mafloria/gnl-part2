@@ -16,49 +16,17 @@
              <div id="tree-1" class="treeType2"></div>          
          </div>
 
-         <div class="group-animated animatedParent" data-appear-left-offset='-2000'  data-sequence='300'>
-            <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id="1"></div>
-             <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id="2"></div>
-             
-             <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id="3"></div>
-             <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id="4"></div>    
-         </div>
-
          <!--elementos landscape top 2 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-3200'  data-sequence='300'>
              <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
              <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_madre_desc; ?></h4>
          </div>
-         <div class="group-animated animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
-             <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
-             <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>
-             <div id="tree-6" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
-             <div id="tree-7" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
-             <div id="hill-4" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
-         </div>
-
+         
          <!--elementos landscape top 3 --> 
-         <div class="group-animated animatedParent"  data-appear-left-offset='-4100'  data-sequence='300'> 
-             <div id="tree-8" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
-             <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
-             <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='3'></div> 
-             <div id="hill-6" class="hillType1 animated fadeInLeftShort" data-id='4'></div>
-             <div id="tree-10" class="treeType2 animated fadeInLeftShort" data-id='5'></div>
-             <div id="hill-7" class="hillType2 animated fadeInLeftShort" data-id='6'></div>
-         </div>
-
          <div class="group-animated animatedParent" data-appear-left-offset='-4700'  data-sequence='300'>
             <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
             <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_madre_desc; ?></h4>
          </div>
-
-         <div class="group-animated animatedParent"  data-appear-left-offset='-4700'  data-sequence='300'> 
-             <div id="tree-11" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
-             <div id="hill-8" class="hillType1 animated fadeInLeftShort" data-id='7'></div>
-             <div id="hill-9" class="hillType2 animated fadeInLeftShort" data-id='8'></div>
-             <div id="tree-12" class="treeType2 animated fadeInLeftShort" data-id='9'></div>
-         </div>
-
 
          <!--elementos landscape top 4 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-6400'  data-sequence='300'>
@@ -105,12 +73,36 @@
         </div> 
 
         <!--elementos landscape top 11 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='300'>
-            <h2 id="h2-11" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_hija; ?></h2>
-            <h4 id="subt-11" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_hija_desc; ?></h4>
-        </div> 
+
                           
         <!--ARBOLES Y MONTAñAS / TREES & HILLS -->
+        <div class="group-animated animatedParent" data-appear-left-offset='-2000'  data-sequence='300'>
+            <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id="1"></div>
+             <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id="2"></div>
+             <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id="3"></div>
+             <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id="4"></div>    
+         </div>
+         <div class="group-animated animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
+             <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
+             <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>
+             <div id="tree-6" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
+             <div id="tree-7" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
+             <div id="hill-4" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
+         </div>
+         <div class="group-animated animatedParent"  data-appear-left-offset='-4100'  data-sequence='300'> 
+             <div id="tree-8" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
+             <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
+             <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='3'></div> 
+             <div id="hill-6" class="hillType1 animated fadeInLeftShort" data-id='4'></div>
+             <div id="tree-10" class="treeType2 animated fadeInLeftShort" data-id='5'></div>
+             <div id="hill-7" class="hillType2 animated fadeInLeftShort" data-id='6'></div>
+         </div>
+          <div class="group-animated animatedParent"  data-appear-left-offset='-4700'  data-sequence='300'> 
+             <div id="tree-11" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
+             <div id="hill-8" class="hillType1 animated fadeInLeftShort" data-id='7'></div>
+             <div id="hill-9" class="hillType2 animated fadeInLeftShort" data-id='8'></div>
+             <div id="tree-12" class="treeType2 animated fadeInLeftShort" data-id='9'></div>
+         </div>
          <div class="group-animated animatedParent"  data-appear-left-offset='-5800'  data-sequence='300'>
              <div id="tree-13" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
              <div id="hill-10" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
@@ -286,6 +278,10 @@
 
              <div id="line-1" class="linea-txt-1 absolute animated fadeInLeftShort" data-id="7"></div>
              <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="8"><?php echo $texts->biogas->process->fuentes_biogas_desc; ?></p>
+
+             <h3 id="h3-1" class="title-green absolute animated fadeInLeftShort" data-id="9"><?php echo $texts->biogas->road_info->biogas; ?></h3>
+            <div id="arrow-0" class="red-arrow absolute animated fadeInLeftShort" data-id="10"></div>
+
          </div>
 
         
@@ -305,7 +301,7 @@
         </div>
 
         <div class="group-animated animatedParent"  data-appear-left-offset='-3000'  data-sequence='300'>                       
-            <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>
+            <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1">Bio-GNL</h3>
             <div id="arrow-2" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
         </div>
 
@@ -422,39 +418,28 @@
             <div id="b-line-6" class="b-line-6 absolute animated fadeInLeftShort" data-id="7"></div>
             <div id="blt-5" class="blue-line-title absolute animated fadeInLeftShort" data-id="8"></div>
             <h3 id="h3-19" class="title-h3-s absolute animated fadeInLeftShort" data-id="9"><?php echo $texts->biogas->road_info->inyeccion_red; ?></h3>
-
-            <div id="figure-18" class="figure13 absolute animated fadeInLeftShort" data-id="10"></div> 
-            <div id="b-line-7" class="b-line-7 absolute animated fadeInLeftShort" data-id="11"></div>
-            <div id="blt-6" class="blue-line-title absolute animated fadeInLeftShort" data-id="12"></div>
-            <h3 id="h3-20" class="title-h3-s absolute animated fadeInLeftShort" data-id="13"><?php echo $texts->biogas->road_info->terminales_recepcion; ?></h3>
-        </div>
-
-        <!--elementos landscape bottom 10 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='300'>
-            <div id="b-line-8" class="b-line-8 absolute animated fadeInLeftShort" data-id="1"></div>
-            <h3 id="h3-21" class="title-h3-s absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->road_info->terminales_recepcion; ?></h3>
-            <div id="figure-19" class="figure14 absolute animated fadeInLeftShort" data-id="3"></div> 
         </div>
 
         <!--elementos landscape bottom 11 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-17400'  data-sequence='200'>
-             
-            <div id="figure-20" class="figure16 absolute animated fadeInDownShort" data-id="2"></div>	
-            <h3 id="h3-22" class="title-h3 absolute animated fadeInDownShort" data-id="3"><?php echo $texts->biogas->process->p8_gnl_limpio_co2; ?></h3>
-            <div id="figure-21" class="figure16 absolute animated fadeInDownShort" data-id="4"></div> 
-            <h3 id="h3-23" class="title-h3 absolute animated fadeInDownShort" data-id="5"><?php echo $texts->biogas->process->p8_gnl_limpio_nox; ?></h3>
-            <div id="figure-22" class="figure16 absolute animated fadeInDownShort" data-id="6"></div>
-            <h3 id="h3-24" class="title-h3 absolute animated fadeInDownShort" data-id="7"><?php echo $texts->biogas->process->p8_gnl_limpio_particulado; ?></h3> 
-            <div id="figure-23" class="figure16 absolute animated fadeInDownShort" data-id="8"></div> 
-            <h3 id="h3-25" class="title-h3 absolute animated fadeInDownShort" data-id="9"><?php echo $texts->biogas->process->p8_gnl_limpio_gei; ?></h3>             
-
-            <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="11"></div> 
-            <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="12"><?php echo $texts->biogas->road_info->ahorro; ?></h3> 
+        <div class="group-animated animatedParent" data-appear-left-offset='-15700'  data-sequence='200'>  
+            <div id="figure-20" class="figure16 absolute animated fadeInDownShort" data-id="1"></div>	
+            <h3 id="h3-22" class="title-h3 absolute animated fadeInDownShort" data-id="2"><?php echo $texts->biogas->process->p8_gnl_limpio_co2; ?></h3>
+            <div id="figure-21" class="figure16 absolute animated fadeInDownShort" data-id="3"></div> 
+            <h3 id="h3-23" class="title-h3 absolute animated fadeInDownShort" data-id="4"><?php echo $texts->biogas->process->p8_gnl_limpio_nox; ?></h3>
+            <div id="figure-22" class="figure16 absolute animated fadeInDownShort" data-id="5"></div>
+            <h3 id="h3-24" class="title-h3 absolute animated fadeInDownShort" data-id="6"><?php echo $texts->biogas->process->p8_gnl_limpio_particulado; ?></h3> 
+            <div id="figure-23" class="figure16 absolute animated fadeInDownShort" data-id="7"></div> 
+            <h3 id="h3-25" class="title-h3 absolute animated fadeInDownShort" data-id="8"><?php echo $texts->biogas->process->p8_gnl_limpio_gei; ?></h3> 
+            <h3 id="h3-26" class="title-h3 absolute animated fadeInDownShort" data-id="9">Menos emisiones</h3>             
+            <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="10"></div> 
+            <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="11"><?php echo $texts->biogas->road_info->ahorro; ?></h3> 
+            <h3 id="h3-28" class="title-h3 absolute animated fadeInUpShort" data-id="12">El Bio-GNL y el GNL son los combustibles limpios más convenientes para largas distancias y elevadas demandas de gas en períodos corto.</h3>
         </div>
 
         <!--elementos landscape bottom 12 -->
-        <div class="group-animated animatedParent" data-appear-left-offset='-17900'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-15900'  data-sequence='300'>
             <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->monetice; ?></h2>
+            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2">GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL</h4>
         </div>
 
 
