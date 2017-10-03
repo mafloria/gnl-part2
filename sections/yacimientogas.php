@@ -200,7 +200,7 @@
             <div id="hill-30" class="hillType2 animated fadeInLeftShort" data-id='10'></div>
             <div id="tree-49" class="treeType1 animated fadeInLeftShort" data-id='11'></div> 
         </div>
-        <div class="group-animated animatedParent" data-appear-left-offset='-16700'  data-sequence='300'>
+        <div class="group-animated animatedParent" data-appear-left-offset='-18900'  data-sequence='300'>
             <div id="tree-50" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
             <div id="hill-31" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
             <div id="tree-51" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
@@ -445,11 +445,13 @@
 
             <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="11"></div> 
             <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="12"><?php echo $texts->yacimiento->road_info->ahorro; ?></h3> 
+            <h3 id="h3-30" class="title-h3 absolute animated fadeInUpShort" data-id="13">El GNL es el combustible limpio más conveniente para largas distancias y elevadas demandas de gas en períodos cortos.</h3>
         </div>
 
         <!--elementos landscape bottom 12 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-18900'  data-sequence='300'>
             <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->monetice; ?></h2>
+            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2">GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL</h4>
         </div>
 
 

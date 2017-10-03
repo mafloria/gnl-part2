@@ -71,8 +71,8 @@
 #tree-47{ bottom: -10px; left: 17300px;}
 #tree-48{ bottom: -10px; left: 17450px;}
 #tree-49{ bottom: -10px; left: 17520px;}
-#tree-50{ bottom: -10px; left: 17900px;}
-#tree-51{ bottom: -10px; left: 18200px;}
+#tree-50{ bottom: -10px; left: 18500px;}
+#tree-51{ bottom: -10px; left: 18900px;}
 
 #hill-1{ bottom: 0; left: 150px;}
 #hill-2{ bottom: 0; left: 1780px;}
@@ -104,8 +104,8 @@
 #hill-28{ bottom: 0; left: 16500px;}
 #hill-29{ bottom: 0; left: 16950px;}
 #hill-30{ bottom: 0; left: 17400px;}
-#hill-31{ bottom: 0; left: 17550px;}
-#hill-32{ bottom: 0; left: 18100px;}
+#hill-31{ bottom: 0; left: 18520px;}
+#hill-32{ bottom: 0; left: 18800px;}
 
 #txt-wrap-1{top: -235px; left: 1200px;}
 #txt-wrap-2{top: -180px; left: 10893px;}
@@ -138,7 +138,7 @@
 #h2-9{top: 40px; left: 13970px;}
 #h2-10{top: 40px; left: 15300px;}
 #h2-11{top: 40px; left: 16450px;}
-#h2-12{top: -20px; left: 18600px;}
+#h2-12{top: -65px; left: 18700px;}
 
 #subt-0{ top: 85px; left: 2200px;}
 #subt-1{ top: 85px; left: 730px;}
@@ -152,6 +152,7 @@
 #subt-9{ top: 85px; left: 14028px;}
 #subt-10{ top: 85px; left: 15328px;}
 #subt-11{ top: 85px; left: 16470px;}
+#subt-12{top: 30px; left: 18730px; font-size: 1.85em;}
 
 #txt-0{ top: 240px; left: 2140px; width: 450px;}
 #txt-1{ top: 333px; left: 1200px; width: 150px;}
@@ -200,10 +201,11 @@
 #h3-23{ top: 142px; left: 18034px;}
 #h3-24{ top: 120px; left: 18137px;}
 #h3-25{ top: 140px; left: 18296px;}
-#h3-26{ top: 194px; left: 18073px;}
+#h3-26{ top: 194px; left: 18033px;}
 #h3-27{ top: -265px; left: 18084px;}
 #h3-28{ top: 213px; left: 7918px;}
 #h3-29{ top: 213px; left: 8340px;}
+#h3-30{ top: 185px; left: 17520px; width: 400px; text-align: left; color: white; background-color: #1a5489; padding: 10px; font-weight: normal; font-size: 1.3em;}
 
 #arrow-0{top: -150px; left: 1844px;}
 #arrow-1{top: -150px; left: 2815px;}
