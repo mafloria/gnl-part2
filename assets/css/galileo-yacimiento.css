@@ -121,11 +121,11 @@
 #icon-txt-6{top: 175px; left: 1365px; width: 200px;}
 
 #h2-0{top: 40px; left: 2230px;}
-#h2-1{top: 40px; left: 830px;}
+#h2-1{top: 40px; left: 745px;}
 #h2-2{top: 40px; left: 3750px;}
 #h2-3{top: 40px; left: 5300px;}
-#h2-4{top: 40px; left: 6680px;}
-#h2-5{top: 40px; left: 8100px;}
+#h2-4{top: 40px; left: 6712px;}
+#h2-5{top: 40px; left: 7647px;}
 #h2-6{top: 40px; left: 9470px;}
 #h2-7{top: 40px; left: 11300px;}
 #h2-8{top: 40px; left: 12500px;}
@@ -135,11 +135,11 @@
 #h2-12{top: -20px; left: 18600px;}
 
 #subt-0{ top: 85px; left: 2200px;}
-#subt-1{ top: 85px; left: 800px;}
+#subt-1{ top: 85px; left: 730px;}
 #subt-2{ top: 85px; left: 3700px;}
 #subt-3{ top: 85px; left: 5268px;}
 #subt-4{ top: 85px; left: 6800px;}
-#subt-5{ top: 85px; left: 8125px;}
+#subt-5{ top: 85px; left: 7683px;}
 #subt-6{ top: 85px; left: 9497px;}
 #subt-7{ top: 85px; left: 11355px;}
 #subt-8{ top: 85px; left: 12558px;}
@@ -147,8 +147,8 @@
 #subt-10{ top: 85px; left: 15328px;}
 #subt-11{ top: 85px; left: 16470px;}
 
-#txt-0{ top: 240px; left: 2118px; width: 450px;}
-#txt-1{ top: 360px; left: 1200px; width: 150px;}
+#txt-0{ top: 240px; left: 2140px; width: 450px;}
+#txt-1{ top: 333px; left: 1200px; width: 150px;}
 #txt-2{ top: 170px; left: 3400px; width: 450px;}
 #txt-3{ top: 170px; left: 3940px; width: 450px;}
 #txt-4{ top: 200px; left: 4941px; width: 450px;}
@@ -164,16 +164,20 @@
 #txt-14{ top: 220px; left: 14100px; width: 450px;}
 #txt-15{ top: 200px; left: 17600px; width: 400px;}
 
+#h3-01{ top: -160px; left: 1683px;}
+#h3-02{ top: -160px; left: 2590px;}
+#h3-03{ top: -160px; left: 3245px;}
+#h3-04{ top: -160px; left: 4225px;}
 #h3-0{ top: 200px; left: 2140px;}
 #h3-1{ top: -268px; left: 1217px;}
 #h3-2{ top: 200px; left: 931px; border-bottom: 2px solid #1a5489;}
-#h3-3{ top: 115px; left: 8030px;}
+#h3-3{ top: 115px; left: 7583px;}
 #h3-4{ top: -185px; left: 2150px;}
 #h3-5{ top: 131px; left: 3400px;}
 #h3-6{ top: -188px; left: 3000px;}
 #h3-7{ top: 160px; left: 4941px;}
-#h3-8{ top: 213px; left: 7638px;}
-#h3-9{ top: 213px; left: 8603px;}
+#h3-8{ top: 213px; left: 7438px;}
+#h3-9{ top: 213px; left: 8723px;}
 #h3-10{ top: 120px; left: 9386px;}
 #h3-11{ top: 213px; left: 9565px;}
 #h3-12{ top: -200px; left: 11021px;}
@@ -183,7 +187,7 @@
 #h3-16{ top: -241px; left: 14286px;}
 #h3-17{ top: -174px; left: 14854px;}
 #h3-18{ top: 213px; left: 14941px;}
-#h3-19{ top: 214px; left: 15338px;}
+#h3-19{ top: 214px; left: 15315px;}
 #h3-20{ top: 214px; left: 15558px;}
 #h3-21{ top: 214px; left: 16446px;}
 #h3-22{ top: 120px; left: 17915px;}
@@ -193,18 +197,20 @@
 #h3-26{ top: 194px; left: 18073px;}
 #h3-27{ top: -265px; left: 18084px;}
 #h3-28{ top: 213px; left: 7918px;}
-#h3-29{ top: 213px; left: 8284px;}
+#h3-29{ top: 213px; left: 8340px;}
 
-#arrow-1{top: -174px; left: 2271px;}
-#arrow-2{top: -150px; left: 3200px;}
+#arrow-0{top: -150px; left: 1844px;}
+#arrow-1{top: -150px; left: 2815px;}
+#arrow-2{top: -150px; left: 3470px;}
+#arrow-3{top: -150px; left: 4505px;}
 
 #warning-1{top: 253px; left: 3365px;}
 #warning-2{top: 253px; left: 3905px;}
 #warning-3{top: 200px; left: 5476px;}
 #warning-4{top: 217px; left: 14065px;}
 
-#b-line-1{top: 54px; left: 7620px;}
-#b-line-2{top: 83px; left: 8500px;}
+#b-line-1{top: 54px; left: 7420px;}
+#b-line-2{top: 83px; left: 8623px;}
 #b-line-3{top: -43px; left: 12409px;}
 #b-line-4{top: -43px; left: 13855px;}
 #b-line-5{top: 76px; left: 14802px;}
@@ -212,19 +218,19 @@
 #b-line-7{top: 76px; left: 15572px;}
 #b-line-8{top: 234px; left: 15884px;}
 #b-line-9{top: 55px; left: 7840px;}
-#b-line-10{top: 55px; left: 8229px;}
+#b-line-10{top: 55px; left: 8285px;}
 
-#blt-1{top: 195px; left: 7710px;}
-#blt-2{top: 195px; left: 8649px;}
+#blt-1{top: 195px; left: 7510px;}
+#blt-2{top: 195px; left: 8771px;}
 #blt-3{top: 195px; left: 9615px;}
 #blt-4{top: 195px; left: 15045px;}
 #blt-5{top: 195px; left: 15423px;}
 #blt-6{top: 195px; left: 15703px;}
 #blt-7{top: 195px; left: 7999px;}
-#blt-8{top: 195px; left: 8318px;}
+#blt-8{top: 195px; left: 8375px;}
 
-#figure-1{top: -103px; left: 7650px;}
-#figure-2{top: -188px; left: 8510px;}
+#figure-1{top: -103px; left: 7450px;}
+#figure-2{top: -188px; left: 8635px;}
 #figure-3{top: -61px; left: 9130px;}
 #figure-4{top: -65px; left: 9230px; z-index: 8}
 #figure-5{top: -144px; left: 10934px;}
@@ -253,7 +259,7 @@
 #figure-28{top: 124px; left: 1225px;}
 #figure-29{top: 210px; left: 1225px;}
 #figure-30{top: -100px; left: 7850px;}
-#figure-31{top: -100px; left: 8255px;}
+#figure-31{top: -100px; left: 8305px;}
 /**/
 #up-down-arrow-1{top: 75px; left: 8106px;}
 #up-down-arrow-2{top: 75px; left: 8245px;}
@@ -296,7 +302,7 @@
 #h3wrap-2{top: 0px; left: 1210px;}
 #h3wrap-3{top: 91px; left: 1207px;}
 #h3wrap-4{top: 177px; left: 1210px;}
-#h3wrap-5{top: 282px; left: 1210px;}
+#h3wrap-5{top: 273px; left: 1210px;}
 
 a#continue-yacimiento-process{top: 100px; left: 15904px;}
 a#continue-gasoducto-process{top: 100px; left: 16122px}
