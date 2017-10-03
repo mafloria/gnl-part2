@@ -121,7 +121,7 @@
 #icon-txt-6{top: 175px; left: 1365px; width: 200px;}
 
 #h2-1{top: 40px; left: 830px;}
-#h2-2{top: 40px; left: 2250px;}
+#h2-2{top: 40px; left: 2190px;}
 #h2-3a{top: 40px; left: 3850px;}
 #h2-3{top: 40px; left: 5605px;}
 #h2-4{top: 40px; left: 6900px;}
@@ -132,14 +132,13 @@
 #h2-9{top: 40px; left: 14170px;}
 #h2-10{top: 40px; left: 15600px;}
 #h2-11{top: 40px; left: 15450px;}
-
-#h2-12{top: -10px; left: 17700px;}
+#h2-12{top: -60px; left: 17700px;}
 
 #subt-1{ top: 85px; left: 800px;}
-#subt-2{ top: 85px; left: 2200px;}
+#subt-2{ top: 85px; left: 2150px;}
 #subt-3a{ top: 85px; left: 3820px;}
 #subt-3{ top: 85px; left: 5570px;}
-#subt-4{ top: 85px; left: 6985px;}
+#subt-4{ top: 85px; left: 6960px;}
 #subt-5{ top: 85px; left: 8622px;}
 #subt-6{ top: 85px; left: 9997px;}
 #subt-7{ top: 85px; left: 11555px;}
@@ -147,9 +146,10 @@
 #subt-9{ top: 85px; left: 14228px;}
 #subt-10{ top: 85px; left: 15475px;}
 #subt-11{ top: 85px; left: 15470px;}
+#subt-12{top: 30px; left: 17725px; font-size: 1.85em;}
 
 #txt-1{ top: 250px; left: 579px; width: 200px;}
-#txt-2{ top: 230px; left: 2100px; width: 450px;}
+#txt-2{ top: 230px; left: 2120px; width: 450px;}
 #txt-3{ top: 192px; left: 3855px; width: 450px;}
 #txt-4{ top: 180px; left: 3517px; width: 420px;}
 #txt-5{ top: 177px; left: 4025px; width: 420px;}
@@ -165,9 +165,15 @@
 #txt-15{ top: 200px; left: 16600px; width: 400px;}
 #txt-16{ top: 210px; left: 6623px; width: 400px;}
 
-#h3-1{ top: 15px;}
+
+#h3-0{ top: -4px; left: 1258px;}
+#h3-01{ top: 115px; left: 1748px; font-size: 1.1em;}
+#h3-02{ top: -160px; left: 2590px;}
+#h3-03{ top: -160px; left: 3360px;}
+#h3-04{ top: -160px; left: 4225px;}
+#h3-1{ top: -160px; left: 1683px;}
 #h3-2{ top: 85px; left: 1050px;}
-#h3-3{ top: 118px; left: 8517px;}
+#h3-3{ top: 118px; left: 8538px;}
 #h3-4{ top: -185px; left: 2150px;}
 #h3-5{ top: 190px; left: 2120px; border-bottom: 1px solid #1a5489;}
 #h3-6{ top: -188px; left: 3000px;}
@@ -182,7 +188,7 @@
 #h3-15{ top: -201px; left: 13876px;}
 #h3-16{ top: -241px; left: 14486px;}
 #h3-17{ top: -174px; left: 13854px;}
-#h3-18{ top: 213px; left: 15642px;}
+#h3-18{ top: 213px; left: 15570px;}
 #h3-19{ top: 214px; left: 14338px;}
 #h3-20{ top: 214px; left: 14600px;}
 #h3-21{ top: 214px; left: 15446px;}
@@ -190,12 +196,15 @@
 #h3-23{ top: 142px; left: 17034px;}
 #h3-24{ top: 120px; left: 17137px;}
 #h3-25{ top: 140px; left: 17296px;}
-#h3-26{ top: 194px; left: 17073px;}
+#h3-26{ top: 194px; left: 17044px;}
 #h3-27{ top: -265px; left: 17084px;}
 #h3-28{ top: 160px; left: 5250px}
+#h3-29{ top: 185px; left: 16546px; width: 400px; text-align: left; color: white; background-color: #1a5489; padding: 10px; font-weight: normal; font-size: 1.3em;}
 
-#arrow-1{top: -174px; left: 2271px;}
-#arrow-2{top: -150px; left: 3200px;}
+#arrow-0{top: -150px; left: 1844px;}
+#arrow-1{top: -150px; left: 2815px;}
+#arrow-2{top: -150px; left: 3585px;}
+#arrow-3{top: -150px; left: 4505px;}
 
 #warning-1{top: 275px; left: 2670px;}
 #warning-2{top: 177px; left: 3990px;}

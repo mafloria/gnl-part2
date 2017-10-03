@@ -262,20 +262,30 @@
          <div class="group-animated animatedParent" data-appear-left-offset='500'  data-sequence='100'>
              <div id="figure-25" class="figure17 absolute animated fadeInUpShort" data-id="1"></div> 
              <h3 id="h3-2" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->process->pozo_box_op0; ?></h3>
+             <h3 id="h3-0" class="title-green absolute animated fadeInLeftShort" data-id="3">Red de distribución <br />de gas natural</h3>
          </div>
 
         <!--elementos landscape bottom 2 --> 
         <div class="group-animated animatedParent"  data-appear-left-offset='-2500'  data-sequence='300'>
-            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->process->p1_planta_zpts; ?></h3>
-            <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->process->p1_planta_zpts_desc; ?></p>
+            <h3 id="h3-1" class="title-green absolute animated fadeInLeftShort" data-id="1">Gas Natural</h3>
+            <div id="arrow-0" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
+            <h3 id="h3-01" class="title-green absolute animated fadeInLeftShort" data-id="3">Red de distribución <br />de gas natural</h3>
+            <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="4"><?php echo $texts->gasoducto->process->p1_planta_zpts; ?></h3>
+            <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="5"><?php echo $texts->gasoducto->process->p1_planta_zpts_desc; ?></p>
+            <h3 id="h3-02" class="title-green absolute animated fadeInLeftShort" data-id="6">Gas Natural Limpio</h3>
+            <div id="arrow-1" class="red-arrow absolute animated fadeInLeftShort" data-id="7"></div>
         </div>
 
         <!--elementos landscape bottom 3 -->                     
          <div class="group-animated animatedParent"  data-appear-left-offset='-4000'  data-sequence='300'>
-             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->process->p2_estacion_cryobox; ?></h3>
-             <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->process->p2_estacion_cryobox_desc; ?><br /><br /><?php echo $texts->gasoducto->process->p2_estacion_cryobox_desc2; ?></p>
-             <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->gasoducto->alert_messages->a1_estacion_cryobox_desc; ?></p>
-             <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="4"></div>
+            <h3 id="h3-03" class="title-green absolute animated fadeInLeftShort" data-id="1">Gas Natural Limpio</h3>
+            <div id="arrow-2" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
+             <h3 id="h3-7" class="title-h3 absolute animated fadeInLeftShort" data-id="3"><?php echo $texts->gasoducto->process->p2_estacion_cryobox; ?></h3>
+             <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="4"><?php echo $texts->gasoducto->process->p2_estacion_cryobox_desc; ?><br /><br /><?php echo $texts->gasoducto->process->p2_estacion_cryobox_desc2; ?></p>
+             <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="5"><?php echo $texts->gasoducto->alert_messages->a1_estacion_cryobox_desc; ?></p>
+             <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="6"></div>
+             <h3 id="h3-04" class="title-green absolute animated fadeInLeftShort" data-id="7">GNL Gas Natural Licuado</h3>
+            <div id="arrow-3" class="red-arrow absolute animated fadeInLeftShort" data-id="8"></div>
          </div>
 
          
@@ -396,11 +406,13 @@
 
             <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="11"></div> 
             <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="12"><?php echo $texts->gasoducto->road_info->ahorro; ?></h3>
+            <h3 id="h3-29" class="title-h3 absolute animated fadeInUpShort" data-id="13">El GNL es el combustible limpio más conveniente para largas distancias y elevadas demandas de gas en períodos cortos.</h3>
         </div>
 
         <!--elementos landscape bottom 12 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-18000'  data-sequence='300'>
             <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->road_info->monetice; ?></h2>
+            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2">GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL</h4>
         </div>
 
 
