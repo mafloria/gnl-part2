@@ -15,8 +15,14 @@
 .camion-animated{
   top: 345px;
 }
+.green-bg{
+  background-color: #a9b77b;
+}
+.landscape-bottom{
+  background: #a9b77b url(../images/border-top-bottom-landscape-y2.png) top repeat-x;
+}
 /*elements position*/
-#tree-1{ bottom: -10px; left: 10px;}
+#tree-1{ bottom: -10px; left: 266px;}
 #tree-2{ bottom: -10px; left: 1796px;}
 #tree-3{ bottom: -20px; left: 1570px;}
 #tree-4{ bottom: -10px; left: 2454px;}
@@ -68,7 +74,7 @@
 #tree-50{ bottom: -10px; left: 17900px;}
 #tree-51{ bottom: -10px; left: 18200px;}
 
-#hill-1{ bottom: 0; left: 0px;}
+#hill-1{ bottom: 0; left: 150px;}
 #hill-2{ bottom: 0; left: 1780px;}
 #hill-3{ bottom: 0; left: 1900px;}
 #hill-4{ bottom: 0; left: 2970px;}
@@ -322,12 +328,18 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
 .treeType1{
   z-index: 4; position: absolute;
   width: 80px; height: 117px;
-  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
+  background: transparent url(../images/arbol-galileo-1-y2.png) no-repeat;
 }
 .treeType2{
   z-index: 4; position: absolute;
   width: 64px; height: 94px;
-  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
+  background: transparent url(../images/arbol-galileo-2-y2.png) no-repeat;  
+}
+.hillType1{
+  background: transparent url(../images/montana-galileo-1-y2.png) no-repeat;
+}
+.hillType2{
+  background: transparent url(../images/montana-galileo-2-y2.png) no-repeat;
 }
 .txtWrap1{
   z-index: 11; position: absolute;
