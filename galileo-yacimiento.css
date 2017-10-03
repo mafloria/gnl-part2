@@ -1,0 +1,534 @@
+/* ESTILOS YACIMIENTOS- UXDEVCO */
+.gnc-yacimiento-landscape{
+  width: 21000px;
+  max-height: 670px;
+}
+.main-landscape-image{
+  position: inherit;
+  z-index: 10;
+  margin-top: -222px;
+  margin-left: 500px;
+}
+.camion{
+  top: 345px;
+}
+.camion-animated{
+  top: 345px;
+}
+.green-bg{
+  background-color: #a9b77b;
+}
+.landscape-bottom{
+  background: #a9b77b url(../images/border-top-bottom-landscape-y2.png) top repeat-x;
+}
+/*elements position*/
+#tree-1{ bottom: -10px; left: 266px;}
+#tree-2{ bottom: -10px; left: 1796px;}
+#tree-3{ bottom: -20px; left: 1570px;}
+#tree-4{ bottom: -10px; left: 2454px;}
+#tree-5{ bottom: -25px; left: 2650px;}
+#tree-6{ bottom: -10px; left: 2850px;}
+#tree-7{ bottom: -25px; left: 3150px;}
+#tree-8{ bottom: -10px; left: 3500px;}
+#tree-9{ bottom: -25px; left: 3850px;}
+#tree-10{ bottom: -18px; left: 3990px;}
+#tree-11{ bottom: -25px; left: 4600px;}
+#tree-12{ bottom: -14px; left: 5112px;}
+#tree-13{ bottom: -30px; left: 5230px;}
+#tree-14{ bottom: -20px; left: 5380px;}
+#tree-15{ bottom: -14px; left: 5600px;}
+#tree-16{ bottom: -25px; left: 5750px;}
+#tree-17{ bottom: -14px; left: 5920px;}
+#tree-18{ bottom: -25px; left: 6450px;}
+#tree-19{ bottom: -15px; left: 6570px;}
+#tree-20{ bottom: -15px; left: 7000px;}
+#tree-21{ bottom: -25px; left: 6750px;}
+#tree-22{ bottom: -15px; left: 7420px;}
+#tree-23{ bottom: -25px; left: 8018px;}
+#tree-24{ bottom: -15px; left: 8227px;}
+#tree-25{ bottom: -15px; left: 9550px;}
+#tree-26{ bottom: -25px; left: 9750px;}
+#tree-27{ bottom: -10px; left: 10300px;}
+#tree-28{ bottom: -10px; left: 10700px;}
+#tree-29{ bottom: -10px; left: 11000px;}
+#tree-30{ bottom: -10px; left: 12120px;}
+#tree-31{ bottom: -10px; left: 12300px;}
+#tree-32{ bottom: -10px; left: 12950px;}
+#tree-33{ bottom: -10px; left: 13300px;}
+#tree-34{ bottom: -10px; left: 13450px;}
+#tree-35{ bottom: -10px; left: 13600px;}
+#tree-36{ bottom: -10px; left: 13750px;}
+#tree-37{ bottom: -10px; left: 14100px;}
+#tree-38{ bottom: -10px; left: 14700px;}
+#tree-39{ bottom: -25px; left: 15200px;}
+#tree-40{ bottom: -10px; left: 15300px;}
+#tree-41{ bottom: -25px; left: 15400px;}
+#tree-42{ bottom: -10px; left: 15500px;}
+#tree-43{ bottom: -10px; left: 16100px;}
+#tree-44{ bottom: -10px; left: 16400px;}
+#tree-45{ bottom: -10px; left: 16800px;}
+#tree-46{ bottom: -10px; left: 17000px;}
+#tree-47{ bottom: -10px; left: 17300px;}
+#tree-48{ bottom: -10px; left: 17450px;}
+#tree-49{ bottom: -10px; left: 17520px;}
+#tree-50{ bottom: -10px; left: 18500px;}
+#tree-51{ bottom: -10px; left: 18900px;}
+
+#hill-1{ bottom: 0; left: 150px;}
+#hill-2{ bottom: 0; left: 1780px;}
+#hill-3{ bottom: 0; left: 1900px;}
+#hill-4{ bottom: 0; left: 2970px;}
+#hill-5{ bottom: 0; left: 3500px;}
+#hill-6{ bottom: 0; left: 3600px;}
+#hill-7{ bottom: 0; left: 4050px;}
+#hill-8{ bottom: 0; left: 4750px;}
+#hill-9{ bottom: 0; left: 5017px;}
+#hill-10{ bottom: 0; left: 5250px;}
+#hill-11{ bottom: 0; left: 5400px;}
+#hill-12{ bottom: 0; left: 6350px;}
+#hill-13{ bottom: 0; left: 6550px;}
+#hill-14{ bottom: 0; left: 8025px;}
+#hill-15{ bottom: 0; left: 8213px;}
+#hill-16{ bottom: 0; left: 9720px;}
+#hill-17{ bottom: -6px; left: 9514px;}
+#hill-18{ bottom: 0; left: 10800px;}
+#hill-19{ bottom: 0; left: 11000px;}
+#hill-20{ bottom: 0; left: 12150px;}
+#hill-21{ bottom: 0; left: 12235px;}
+#hill-22{ bottom: 0; left: 12900px;}
+#hill-23{ bottom: 0; left: 13040px;}
+#hill-24{ bottom: 0; left: 13900px;}
+#hill-25{ bottom: 0; left: 14050px;}
+#hill-26{ bottom: 0; left: 15130px;}
+#hill-27{ bottom: 0; left: 15400px;}
+#hill-28{ bottom: 0; left: 16500px;}
+#hill-29{ bottom: 0; left: 16950px;}
+#hill-30{ bottom: 0; left: 17400px;}
+#hill-31{ bottom: 0; left: 18520px;}
+#hill-32{ bottom: 0; left: 18800px;}
+
+#txt-wrap-1{top: -235px; left: 1200px;}
+#txt-wrap-2{top: -180px; left: 10893px;}
+#txt-wrap-3{top: -180px; left: 12100px;}
+#txt-wrap-4{top: -180px; left: 13550px;}
+
+#icon-1{top: -130px; left: 500px;}
+#icon-2{top: 0px; left: 500px;}
+#icon-3{top: 130px; left: 490px;}
+#icon-4{top: -132px; left: 1200px;}
+#icon-5{top: 0px; left: 1200px;}
+#icon-6{top: 130px; left: 1200px;}
+
+#icon-txt-1{top: -100px; left: 663px; width: 120px;}
+#icon-txt-2{top: 32px; left: 663px; width: 120px;}
+#icon-txt-3{top: 147px; left: 663px; width: 120px;}
+#icon-txt-4{top: -98px; left: 1365px; width: 200px;}
+#icon-txt-5{top: 17px; left: 1365px; width: 200px;}
+#icon-txt-6{top: 175px; left: 1365px; width: 200px;}
+
+#h2-0{top: 40px; left: 2230px;}
+#h2-1{top: 40px; left: 745px;}
+#h2-2{top: 40px; left: 3750px;}
+#h2-3{top: 40px; left: 5300px;}
+#h2-4{top: 40px; left: 6712px;}
+#h2-5{top: 40px; left: 7647px;}
+#h2-6{top: 40px; left: 9470px;}
+#h2-7{top: 40px; left: 11300px;}
+#h2-8{top: 40px; left: 12500px;}
+#h2-9{top: 40px; left: 13970px;}
+#h2-10{top: 40px; left: 15300px;}
+#h2-11{top: 40px; left: 16450px;}
+#h2-12{top: -65px; left: 18700px;}
+
+#subt-0{ top: 85px; left: 2200px;}
+#subt-1{ top: 85px; left: 730px;}
+#subt-2{ top: 85px; left: 3700px;}
+#subt-3{ top: 85px; left: 5268px;}
+#subt-4{ top: 85px; left: 6800px;}
+#subt-5{ top: 85px; left: 7683px;}
+#subt-6{ top: 85px; left: 9497px;}
+#subt-7{ top: 85px; left: 11355px;}
+#subt-8{ top: 85px; left: 12558px;}
+#subt-9{ top: 85px; left: 14028px;}
+#subt-10{ top: 85px; left: 15328px;}
+#subt-11{ top: 85px; left: 16470px;}
+#subt-12{top: 30px; left: 18730px; font-size: 1.85em;}
+
+#txt-0{ top: 240px; left: 2140px; width: 450px;}
+#txt-1{ top: 333px; left: 1200px; width: 150px;}
+#txt-2{ top: 170px; left: 3400px; width: 450px;}
+#txt-3{ top: 170px; left: 3940px; width: 450px;}
+#txt-4{ top: 200px; left: 4941px; width: 450px;}
+#txt-5{ top: 200px; left: 5510px; width: 450px;}
+#txt-6{ top: 210px; left: 6650px; width: 500px;}
+#txt-7{ top: 250px; left: 10900px; width: 450px;}
+#txt-8{ top: 220px; left: 12107px; width: 400px;}
+#txt-9{ top: 220px; left: 12650px; width: 400px;}
+#txt-10{ top: -127px; left: 12800px; width: 70px;}
+#txt-11{ top: -127px; left: 13101px; width: 70px;}
+#txt-12{ top: -215px; left: 14288px; width: 350px;}
+#txt-13{ top: 220px; left: 13582px; width: 450px;}
+#txt-14{ top: 220px; left: 14100px; width: 450px;}
+#txt-15{ top: 200px; left: 17600px; width: 400px;}
+
+#h3-01{ top: -160px; left: 1683px;}
+#h3-02{ top: -160px; left: 2590px;}
+#h3-03{ top: -160px; left: 3245px;}
+#h3-04{ top: -160px; left: 4225px;}
+#h3-0{ top: 200px; left: 2140px;}
+#h3-1{ top: -268px; left: 1217px;}
+#h3-2{ top: 200px; left: 931px; border-bottom: 2px solid #1a5489;}
+#h3-3{ top: 115px; left: 7583px;}
+#h3-4{ top: -185px; left: 2150px;}
+#h3-5{ top: 131px; left: 3400px;}
+#h3-6{ top: -188px; left: 3000px;}
+#h3-7{ top: 160px; left: 4941px;}
+#h3-8{ top: 213px; left: 7438px;}
+#h3-9{ top: 213px; left: 8723px;}
+#h3-10{ top: 120px; left: 9386px;}
+#h3-11{ top: 213px; left: 9565px;}
+#h3-12{ top: -200px; left: 11021px;}
+#h3-13{ top: 216px; left: 10900px;}
+#h3-14{ top: -201px; left: 12226px;}
+#h3-15{ top: -201px; left: 13676px;}
+#h3-16{ top: -241px; left: 14286px;}
+#h3-17{ top: -174px; left: 14854px;}
+#h3-18{ top: 213px; left: 14941px;}
+#h3-19{ top: 214px; left: 15315px;}
+#h3-20{ top: 214px; left: 15558px;}
+#h3-21{ top: 214px; left: 16446px;}
+#h3-22{ top: 120px; left: 17915px;}
+#h3-23{ top: 142px; left: 18034px;}
+#h3-24{ top: 120px; left: 18137px;}
+#h3-25{ top: 140px; left: 18296px;}
+#h3-26{ top: 194px; left: 18033px;}
+#h3-27{ top: -265px; left: 18084px;}
+#h3-28{ top: 213px; left: 7918px;}
+#h3-29{ top: 213px; left: 8340px;}
+#h3-30{ top: 185px; left: 17520px; width: 400px; text-align: left; color: white; background-color: #1a5489; padding: 10px; font-weight: normal; font-size: 1.3em;}
+
+#arrow-0{top: -150px; left: 1844px;}
+#arrow-1{top: -150px; left: 2815px;}
+#arrow-2{top: -150px; left: 3470px;}
+#arrow-3{top: -150px; left: 4505px;}
+
+#warning-1{top: 253px; left: 3365px;}
+#warning-2{top: 253px; left: 3905px;}
+#warning-3{top: 200px; left: 5476px;}
+#warning-4{top: 217px; left: 14065px;}
+
+#b-line-1{top: 54px; left: 7420px;}
+#b-line-2{top: 83px; left: 8623px;}
+#b-line-3{top: -43px; left: 12409px;}
+#b-line-4{top: -43px; left: 13855px;}
+#b-line-5{top: 76px; left: 14802px;}
+#b-line-6{top: 76px; left: 15311px;}
+#b-line-7{top: 76px; left: 15572px;}
+#b-line-8{top: 234px; left: 15884px;}
+#b-line-9{top: 55px; left: 7840px;}
+#b-line-10{top: 55px; left: 8285px;}
+
+#blt-1{top: 195px; left: 7510px;}
+#blt-2{top: 195px; left: 8771px;}
+#blt-3{top: 195px; left: 9615px;}
+#blt-4{top: 195px; left: 15045px;}
+#blt-5{top: 195px; left: 15423px;}
+#blt-6{top: 195px; left: 15703px;}
+#blt-7{top: 195px; left: 7999px;}
+#blt-8{top: 195px; left: 8375px;}
+
+#figure-1{top: -103px; left: 7450px;}
+#figure-2{top: -188px; left: 8635px;}
+#figure-3{top: -61px; left: 9130px;}
+#figure-4{top: -65px; left: 9230px; z-index: 8}
+#figure-5{top: -144px; left: 10934px;}
+#figure-6{top: -144px; left: 12136px;}
+#figure-7{top: -136px; left: 12784px;}
+#figure-8{top: -144px; left: 13591px;}
+#figure-9{top: 34px; left: 14042px;}
+#figure-10{top: 7px; left: 14135px;}
+#figure-11{top: -172px; left: 14224px;}
+#figure-12{top: 7px; left: 14264px;}
+#figure-13{top: 7px;; left: 14396px;}
+#figure-14{top: 7px; left: 14527px;}
+#figure-15{top: -300px; left: 14412px;}
+#figure-16{top: -130px; left: 14796px;}
+#figure-17{top: -41px; left: 15320px;}
+#figure-18{top: -89px; left: 15571px;}
+#figure-19{top: -168px; left: 16047px;}
+#figure-20{top: -45px; left: 17900px;}
+#figure-21{top: -23px; left: 18020px;}
+#figure-22{top: -45px; left: 18150px;}
+#figure-23{top: -23px; left: 18280px;}
+#figure-24{top: -230px; left: 18080px;}
+#figure-25{top: -226px; left: 1229px;}
+#figure-26{top: -70px; left: 1228px;}
+#figure-27{top: 35px; left: 1224px;}
+#figure-28{top: 124px; left: 1225px;}
+#figure-29{top: 210px; left: 1225px;}
+#figure-30{top: -100px; left: 7850px;}
+#figure-31{top: -100px; left: 8305px;}
+/**/
+#up-down-arrow-1{top: 75px; left: 8106px;}
+#up-down-arrow-2{top: 75px; left: 8245px;}
+#up-down-arrow-3{top: 75px; left: 8382px;}
+#up-down-arrow-4{top: 75px; left: 8517px;}
+#up-down-arrow-5{top: 123px; left: 14850px;}
+#up-down-arrow-6{top: 123px; left: 14980px;}
+
+#cloud-1{top: 130px; left: 100px;}
+#cloud-2{top: 70px; left: 0px;}
+#cloud-3{top: 130px; left: 500px;}
+#cloud-4{top: 90px; left: 1000px;}
+#cloud-5{top: 50px; left: 1200px;}
+#cloud-6{top: 90px; left: 1500px;}
+#cloud-7{top: 20px; left: 2200px;}
+#cloud-8{top: 130px; left: 2500px;}
+#cloud-9{top: 110px; left: 3200px;}
+#cloud-10{top: 65px; left: 3500px;}
+#cloud-11{top: 110px; left: 3800px;}
+#cloud-12{top: 70px; left: 4400px;}
+#cloud-13{top: 120px; left: 4700px;}
+#cloud-14{top: 70px; left: 5000px;}
+#cloud-15{top: 100px; left: 6000px;}
+#cloud-16{top: 100px; left: 6600px;}
+#cloud-17{top: 20px; left: 7400px;}
+#cloud-18{top: 70px; left: 8100px;}
+#cloud-19{top: 70px; left: 8600px;}
+#cloud-20{top: 70px; left: 9200px;}
+#cloud-21{top: 250px; left: 10500px;}
+#cloud-22{top: 20px; left: 11000px;}
+#cloud-23{top: 160px; left: 11900px;}
+#cloud-24{top: 120px; left: 12500px;}
+#cloud-25{top: 150px; left: 12900px;}
+#cloud-26{top: 100px; left: 13500px;}
+#cloud-27{top: 150px; left: 13900px;}
+#cloud-28{top: 20px; left: 14500px;}
+#cloud-29{top: 35px; left: 14900px;}
+
+#h3wrap-1{top: -107px; left: 1210px;}
+#h3wrap-2{top: 0px; left: 1210px;}
+#h3wrap-3{top: 91px; left: 1207px;}
+#h3wrap-4{top: 177px; left: 1210px;}
+#h3wrap-5{top: 273px; left: 1210px;}
+
+a#continue-yacimiento-process{top: 100px; left: 15904px;}
+a#continue-gasoducto-process{top: 100px; left: 16122px}
+.menu-circles-icons-end p.pick-btn{top: 0;left: 15660px;}
+
+.menu-circles-icons-end{
+  left: 19500px;
+}
+
+/*elements css*/
+.h3wrap{
+  font-size: 1em;
+  text-align: center;
+  width: 110px;
+  line-height: 1em;
+}
+.treeType1{
+  z-index: 4; position: absolute;
+  width: 80px; height: 117px;
+  background: transparent url(../images/arbol-galileo-1-y2.png) no-repeat;
+}
+.treeType2{
+  z-index: 4; position: absolute;
+  width: 64px; height: 94px;
+  background: transparent url(../images/arbol-galileo-2-y2.png) no-repeat;  
+}
+.hillType1{
+  background: transparent url(../images/montana-galileo-1-y2.png) no-repeat;
+}
+.hillType2{
+  background: transparent url(../images/montana-galileo-2-y2.png) no-repeat;
+}
+.txtWrap1{
+  z-index: 11; position: absolute;
+  width: 128px; height: 563px;
+  background: transparent url(../images/gas-fields-bg.png) no-repeat;
+  padding: 20px 0;
+}
+.txtWrap2{
+  width: 407px; height: 311px;
+  z-index: 10; position: absolute;
+  background: transparent url(../images/cnx-bg.png) no-repeat;
+  padding: 0;
+}
+#line-1{
+  width: 120px; height: 177px;
+  background: transparent url(../images/linea01.png) no-repeat;
+  top: 100px; left: 788px;
+}
+.red-arrow{
+  width: 74px; height: 9px;
+  background: transparent url(../images/arrow1.png) no-repeat;
+}
+.warning-icon{
+  width: 25px; height: 25px;
+  background: transparent url(../images/icono-warning.png) no-repeat;  
+}
+.icon1{
+  width: 152px; height: 111px;
+  background: transparent url(../images/biogas-01.png) no-repeat;
+}
+.icon2{
+ width: 152px; height: 110px;
+ background: transparent url(../images/biogas-02.png) no-repeat;
+}
+.icon3{
+ width: 161px; height: 111px;
+ background: transparent url(../images/biogas-03.png) no-repeat;
+}
+.icon4{
+ width: 152px; height: 111px;
+ background: transparent url(../images/biogas-04.png) no-repeat;
+}
+.icon5{
+ width: 152px; height: 111px;
+ background: transparent url(../images/biogas-05.png) no-repeat;;
+}
+.icon6{
+ width: 152px; height: 111px;
+ background: transparent url(../images/biogas-06.png) no-repeat;
+}
+.figure1{
+ width: 210px; height: 148px;
+ background: transparent url(../images/cuasianas-upstream.png) no-repeat;
+}
+.figure2{
+ width: 433px; height: 211px;
+ background: transparent url(../images/industrias.png) no-repeat;
+}
+.figure3{
+ width: 1027px; height: 216px;
+ background: transparent url(../images/yate.png) no-repeat;
+}
+.figure4{
+ width: 308px; height: 26px;
+ background: transparent url(../images/tren.png) no-repeat;
+}
+.figure5{
+ width: 319px; height: 225px;
+ background: transparent url(../images/cnx-figure.png) no-repeat;
+}
+.figure6{
+ width: 399px; height: 218px;
+ background: transparent url(../images/estacion-servicio-gnl.png) no-repeat;
+}
+.figure7{
+ width: 83px; height: 59px;
+ background: transparent url(../images/carro-rojo.png) no-repeat;
+}
+.figure8{
+ width: 99px; height: 83px;
+ background: transparent url(../images/camion-amarillo.png) no-repeat;
+}
+.figure9{
+ width: 461px; height: 195px;
+ background: transparent url(../images/bodega.png) no-repeat;
+}
+.figure10{
+ width: 80px; height: 58px;
+ background: transparent url(../images/medidor.gif) no-repeat;
+}
+.figure11{
+ width: 474px; height: 197px;
+ background: transparent url(../images/comunidades.png) no-repeat;
+}
+.figure12{
+ width: 218px; height: 110px;
+ background: transparent url(../images/inyeccion-red.png) no-repeat;
+}
+.figure13{
+ width: 255px; height: 158px;
+ background: transparent url(../images/terminal-recepcion.png) no-repeat;
+}
+.figure14{
+ width: 1147px; height: 278px;
+ background: transparent url(../images/barco-carga.png) no-repeat;
+}
+.figure15{
+ width: 68px; height: 163px;
+ background: transparent url(../images/flecha-blanca.png) no-repeat;
+}
+.figure16{
+ width: 68px; height: 163px;
+ background: transparent url(../images/flecha-azul.png) no-repeat;
+}
+.figure17{
+ width: 113px; height: 75px;
+ background: transparent url(../images/pipeline-booster.png) no-repeat;
+}
+.figure18{
+ width: 135px; height: 150px;
+ background: transparent url(../images/torre-electrica-1.png) no-repeat;
+}
+.figure19{
+ width: 301px; height: 251px;
+ background: transparent url(../images/industrias-sml.png) no-repeat;
+}
+.figure20{
+ width: 69px; height: 112px;
+ background: transparent url(../images/orphan-wells.png) no-repeat;
+}
+.figure21{
+ width: 75px; height: 57px;
+ background: transparent url(../images/wellhead.png) no-repeat;
+}
+.figure22{
+ width: 78px; height: 48px;
+ background: transparent url(../images/gathering-gas-lift.png) no-repeat;
+}
+.figure23{
+ width: 78px; height: 59px;
+ background: transparent url(../images/flaring.png) no-repeat;
+}
+.figure24{
+ width: 301px; height: 160px;
+ background: transparent url(../images/mineria.png) no-repeat;
+}
+.blue-line-title{
+  width: 3px; height: 19px;
+  background: transparent url(../images/linea-azul-01.png) no-repeat;
+}
+.b-line-1{
+  width: 181px; height: 101px;
+  background: transparent url(../images/linea-azul-12.png) no-repeat;
+}
+.b-line-2{
+  width: 632px; height: 67px;
+  background: transparent url(../images/linea-azul-03.png) no-repeat;
+}
+.b-line-3{
+  width: 563px; height: 146px;
+  background: transparent url(../images/linea-azul-05.png) no-repeat;
+}
+.b-line-4{
+  width: 332px; height: 162px;
+  background: transparent url(../images/linea-azul-06.png) no-repeat;
+}
+.b-line-5{
+  width: 476px; height: 69px;
+  background: transparent url(../images/linea-azul-07.png) no-repeat;
+}
+.b-line-6{
+  width: 224px; height: 69px;
+  background: transparent url(../images/linea-azul-08.png) no-repeat;
+}
+.b-line-7{
+  width: 257px; height: 69px;
+  background: transparent url(../images/linea-azul-09.png) no-repeat;
+}
+.b-line-8{
+  width: 541px; height: 3px;
+  background: transparent url(../images/linea-azul-14.png) no-repeat;
+}
+.b-line-9{
+  width: 324px; height: 96px;
+  background: transparent url(../images/linea-azul-11.png) no-repeat;
+}
+.b-line-10{
+  width: 322px; height: 95px;
+  background: transparent url(../images/linea-azul-13.png) no-repeat;
+}
