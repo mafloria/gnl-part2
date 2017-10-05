@@ -32,13 +32,15 @@
 			"transporte":"Transportation",
 			"cnx_patagonia":"CNX PATAGONIA",
 			"bio_gnc":"BIO-GNC",
-			"bio_gnl":"Bio-LNG*",		    
+			"bio_gnl":"Bio-LNG",		    
 		    "gas_natural_para":"Natural gas for:",		    
 			"comunidades_aisladas":"Outlying communities",			
 			"inyeccion_red":"Injection into the natural <br/>gas grid",
 			"terminales_recepcion":"LNG Terminals (Buque tanquero de GNL)",
 			"ahorro":"Saving",
-			"monetice":"Monetize your biogas sources, <br />and provide profitable Bio-LNG. "
+			"ahorro_desc":"Bio-LNG and LNG are the most convenient clean fuel for long distances and high demands of gas in short periods of time.",
+			"monetice":"Monetize your biogas sources, <br />and provide profitable Bio-LNG. ",
+			"monetice_desc":"LNG Small Scale.<br />LNG Distributed Production Solutions"
 		},
 	    "process":{
 	    	"fuentes_biogas_desc":"The efluents of the digestion are transformed into Biol (a biofertilizer)",
@@ -88,6 +90,9 @@
 		    "estacion_hija_desc3":"Galileo Patagonia"
 	    },
 	    "road_info":{
+	    	"gas_natural":"Natural Gas",
+	    	"gas_limpio":"Clean Natural Gas",
+	    	"gas_licuado":"LNG Liquefied Natural Gas",
 	    	"upstream":"Upstream operations",
 	    	"emprender_minero":"Mining projects",
 	    	"usinas":"Power generation",
@@ -101,8 +106,10 @@
 	    	"inyeccion_red":"Injection into the <br/>natural gas grid",
 	    	"terminales_recepcion":"LNG Terminals",
 	    	"ahorro":"Saving",
+	    	"ahorro_desc":"Bio-LNG and LNG are the most convenient clean fuel for long distances and high demands of gas in short periods of time.",
 	    	"emisiones":"Lower emissions",
-	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. "	    	
+	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. ",
+	    	"monetice_desc":"LNG Small Scale.<br />LNG Distributed Production Solutions"	    	
 	    },
 	    "process":{
 		    "pozo_box_title":"Gas fields",
@@ -154,7 +161,11 @@
 		    "estacion_hija_desc3":"Galileo Patagonia",
 		    "estacion_hija_desc4":"Our LNG Virtual Pipeline expands the reach of the <br/>natural gas distribution infrastructure"
 	    },
-	    "road_info":{	    		    
+	    "road_info":{
+	    	"red_distribucion":"Natural gas distribution<br />network",
+	    	"gas_natural":"Natural Gas",
+	    	"gas_limpio":"Clean Natural Gas",
+	    	"gas_licuado":"LNG Liquefied Natural Gas",	    
 	    	"usinas":"Power generation",
 	    	"industrias":"Industries",
 			"transporte":"Transportation",
@@ -163,8 +174,10 @@
 			"gnl":"LNG",
 	    	"comunidades_aisladas":"Natural gas for Outlying communities",	    	
 	    	"ahorro":"Saving",
+	    	"ahorro_desc":"LNG is the most convenient clean fuel for long distances and high demands of gas in short periods of time.",
 	    	"emisiones":"Lower emissions",
-	    	"monetice":"Now, LNG can drive your projects."	    	
+	    	"monetice":"Now, LNG can drive your projects.",
+	    	"monetice_desc":"LNG Small Scale.<br />LNG Distributed Production Solutions"
 	    },
 	    "process":{		    
 		    "pozo_box_op0":"Pipeline Booster",		    
