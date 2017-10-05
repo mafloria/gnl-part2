@@ -32,13 +32,15 @@
 			"transporte":"Transportation",
 			"cnx_patagonia":"CNX PATAGONIA",
 			"bio_gnc":"BIO-GNC",
-			"bio_gnl":"Bio-LNG*",		    
+			"bio_gnl":"Bio-LNG",		    
 		    "gas_natural_para":"Natural gas for:",		    
 			"comunidades_aisladas":"Outlying communities",			
 			"inyeccion_red":"Injection into the natural <br/>gas grid",
 			"terminales_recepcion":"LNG Terminals (Buque tanquero de GNL)",
 			"ahorro":"Saving",
-			"monetice":"Monetize your biogas sources, <br />and provide profitable Bio-LNG. "
+			"ahorro_desc":"Bio-LNG and LNG are the most convenient clean fuel for long distances and high demands of gas in short periods of time.",
+			"monetice":"Monetize your biogas sources, <br />and provide profitable Bio-LNG. ",
+			"monetice_desc":"LNG Small Scale.<br />LNG Distributed Production Solutions"
 		},
 	    "process":{
 	    	"fuentes_biogas_desc":"The efluents of the digestion are transformed into Biol (a biofertilizer)",
@@ -51,7 +53,7 @@
 		    "p1_criobox_bio":"Criobox-Bio",
 		    "p1_criobox_bio_desc":"A Cryobox-Bio Station upgrades up to 500 m&sup3/h of raw biogas by removing all its undesirable components (H<sub>2</sub>O, H<sub>2</sub>S, and CO<sub>2</sub> among others), and liquefies the resulting biomethane into Bio-LNG.",
 		    "p1_criobox_bio_desc2":"During the process, the water cooling system refrigerates of the Cryobox-Bio supplies 170 thousand kilocalories per hour (Kcal/h), ensuring the thermal operating conditions of the biodigester.",
-		    "p2_almacenamiento":"Almacenamiento de Bio - GNL",
+		    "p2_almacenamiento":"Bio-LNG storage",
 		    "p2_almacenamiento_desc":"Bio-LNG is stored in cryogenic iso-tanks to supply cryogenic trailers for further distribution through the LNG Virtual Pipeline network.",
 		    "p3_transporte_sintuberias_desc":"While upgrading biogas and liquefying biomethane on-site, the Cryobox-Bio units enable the distribution of Bio-LNG in cryogenic ISO containers via Virtual Pipeline and apply logistics similar to those of other liquid fuels.",
 		    "p4_estacion_patagonia":"Fueling station with Galileo Patagonia",
@@ -88,6 +90,9 @@
 		    "estacion_hija_desc3":"Galileo Patagonia"
 	    },
 	    "road_info":{
+	    	"gas_natural":"Natural Gas",
+	    	"gas_limpio":"Clean Natural Gas",
+	    	"gas_licuado":"LNG Liquefied Natural Gas",
 	    	"upstream":"Upstream operations",
 	    	"emprender_minero":"Mining projects",
 	    	"usinas":"Power generation",
@@ -101,8 +106,10 @@
 	    	"inyeccion_red":"Injection into the <br/>natural gas grid",
 	    	"terminales_recepcion":"LNG Terminals",
 	    	"ahorro":"Saving",
+	    	"ahorro_desc":"Bio-LNG and LNG are the most convenient clean fuel for long distances and high demands of gas in short periods of time.",
 	    	"emisiones":"Lower emissions",
-	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. "	    	
+	    	"monetice":"Monetize your orphan wells, and provide profitable Bio-LNG. ",
+	    	"monetice_desc":"LNG Small Scale.<br />LNG Distributed Production Solutions"	    	
 	    },
 	    "process":{
 		    "pozo_box_title":"Gas fields",
@@ -116,7 +123,7 @@
 		    "p1_planta_zpts_desc":"A ZPTS Plant for Gas Conditioning reduces and eliminates impurities until reaching the suitable natural gas composition for liquefaction.",
 		    "p2_estacion_cryobox_desc":"A Cryobox LNG Production Station, connected to the ZPTS by means of flexible pipes, liquefies the natural gas. ",		    
 		    "p2_estacion_cryobox_desc2":"The Cryobox has a daily production capacity of 15 metric tons (10 k gallons) of LNG and features automatic functions to recover boil-off gas.",
-		    "p3_almacenamiento_gnl":"Almacenamiento de GNL",
+		    "p3_almacenamiento_gnl":"LNG storage",
 		    "p3_almacenamiento_gnl_desc":"LNG is stored in cryogenic iso-tanks to supply cryogenic trailers for further distribution through the LNG Virtual Pipeline network.",
 		    "p4_licuar_gas_desc":"While liquefying on-site, the Cryobox units enable the distribution of LNG in cryogenic ISO containers via Virtual Pipeline and apply logistics similar to those of other liquid fuels.",
 		    "p5_estacion_servicio":"Fueling station with Galileo Patagonia",
@@ -154,7 +161,11 @@
 		    "estacion_hija_desc3":"Galileo Patagonia",
 		    "estacion_hija_desc4":"Our LNG Virtual Pipeline expands the reach of the <br/>natural gas distribution infrastructure"
 	    },
-	    "road_info":{	    		    
+	    "road_info":{
+	    	"red_distribucion":"Natural gas distribution<br />network",
+	    	"gas_natural":"Natural Gas",
+	    	"gas_limpio":"Clean Natural Gas",
+	    	"gas_licuado":"LNG Liquefied Natural Gas",	    
 	    	"usinas":"Power generation",
 	    	"industrias":"Industries",
 			"transporte":"Transportation",
@@ -163,8 +174,10 @@
 			"gnl":"LNG",
 	    	"comunidades_aisladas":"Natural gas for Outlying communities",	    	
 	    	"ahorro":"Saving",
+	    	"ahorro_desc":"LNG is the most convenient clean fuel for long distances and high demands of gas in short periods of time.",
 	    	"emisiones":"Lower emissions",
-	    	"monetice":"Now, LNG can drive your projects."	    	
+	    	"monetice":"Now, LNG can drive your projects.",
+	    	"monetice_desc":"LNG Small Scale.<br />LNG Distributed Production Solutions"
 	    },
 	    "process":{		    
 		    "pozo_box_op0":"Pipeline Booster",		    
@@ -173,7 +186,7 @@
 		    "p2_estacion_cryobox":"Estación Cryobox de producción de GNL",
 		    "p2_estacion_cryobox_desc":"A Cryobox LNG Production Station, connected to the ZPTS by means of flexible pipes, liquefies the natural gas. ",		    
 		    "p2_estacion_cryobox_desc2":"The Cryobox has a daily production capacity of 15 metric tons (10 k gallons) of LNG and features automatic functions to recover boil-off gas.",
-		    "p3_almacenamiento_gnl":"Almacenamiento de GNL",
+		    "p3_almacenamiento_gnl":"LNG storage",
 		    "p3_almacenamiento_gnl_desc":"LNG is stored in cryogenic iso-tanks to supply cryogenic trailers for further distribution through the LNG Virtual Pipeline network.",
 		    "p4_licuar_gas_desc":"While liquefying on-site, the Cryobox units enable the distribution of LNG in cryogenic ISO containers via Virtual Pipeline and apply logistics similar to those of other liquid fuels.",
 		    "p5_estacion_servicio":"Estación de servicio con Galileo Patagonia",

@@ -38,7 +38,9 @@
 			"inyeccion_red":"Inyección en la red de <br/>gas natural",
 			"terminales_recepcion":"Terminales de recepción de GNL",
 			"ahorro":"Ahorro",
-			"monetice":"Monetice sus fuentes de biogás <br />transformándolas en Bio-GNL rentable"
+			"ahorro_desc":"El Bio-GNL y el GNL son los combustibles limpios más convenientes para largas distancias y elevadas demandas de gas en períodos corto.",
+			"monetice":"Monetice sus fuentes de biogás <br />transformándolas en Bio-GNL rentable",
+			"monetice_desc":"GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL"
 		},
 	    "process":{
 	    	"fuentes_biogas_desc":"Los efluentes del proceso se transforman en fertilizantes",
@@ -88,6 +90,9 @@
 		    "estacion_hija_desc3":"Galileo Patagonia"
 	    },
 	    "road_info":{
+	    	"gas_natural":"Gas Natural",
+	    	"gas_limpio":"Gas Natural Limpio",
+	    	"gas_licuado":"GNL Gas Natural Licuado",
 	    	"upstream":"Operaciones en<br />el upstream",
 	    	"emprender_minero":"Emprendimientos<br />mineros",
 	    	"usinas":"Usinas",
@@ -101,8 +106,10 @@
 	    	"inyeccion_red":"Inyección en la red de <br/>gas natural",
 	    	"terminales_recepcion":"Terminales de recepción de GNL",
 	    	"ahorro":"Ahorro",
+	    	"ahorro_desc":"El Bio-GNL y el GNL son los combustibles limpios más convenientes para largas distancias y elevadas demandas de gas en períodos corto.",
 	    	"emisiones":"Menos emisiones",
-	    	"monetice":"Monetice sus pozos no conectados con GNL"	    	
+	    	"monetice":"Monetice sus pozos no conectados con GNL",
+	    	"monetice_desc":"GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL"    	
 	    },
 	    "process":{
 		    "pozo_box_title":"Gas fields",
@@ -155,6 +162,10 @@
 		    "estacion_hija_desc4":"Nuestro Gasoducto Virtual de GNL expande el alcance de la<br/>infraestructura de distribución de los gasoductos. "
 	    },
 	    "road_info":{		    
+	    	"red_distribucion" : "Red de distribución <br />de gas natural",
+	    	"gas_natural":"Gas Natural",
+	    	"gas_limpio":"Gas Natural Limpio",
+	    	"gas_licuado":"GNL Gas Natural Licuado",
 	    	"usinas":"Usinas",
 	    	"industrias":"Industrias",
 			"transporte":"Transporte",
@@ -163,8 +174,10 @@
 			"gnl":"GNL",			
 	    	"comunidades_aisladas":"Gas natural para comunidades aisladas",	    	
 	    	"ahorro":"Ahorro",
+	    	"ahorro_desc":"El GNL es el combustible limpio más conveniente para largas distancias y elevadas demandas de gas en períodos cortos.",
 	    	"emisiones":"Menos emisiones",
-	    	"monetice":"Ahora, el GNL puede impulsar sus proyectos. "	
+	    	"monetice":"Ahora, el GNL puede impulsar sus proyectos.",	
+	    	"monetice_desc":"GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL"
 	    },
 	    "process":{		   
 		    "pozo_box_op0":"Pipeline Booster",		    

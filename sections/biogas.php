@@ -301,7 +301,7 @@
         </div>
 
         <div class="group-animated animatedParent"  data-appear-left-offset='-3000'  data-sequence='300'>                       
-            <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1">Bio-GNL</h3>
+            <h3 id="h3-6" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->bio_gnl; ?></h3>
             <div id="arrow-2" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
         </div>
 
@@ -433,13 +433,13 @@
             <h3 id="h3-26" class="title-h3 absolute animated fadeInDownShort" data-id="9">Menos emisiones</h3>             
             <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="10"></div> 
             <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="11"><?php echo $texts->biogas->road_info->ahorro; ?></h3> 
-            <h3 id="h3-28" class="title-h3 absolute animated fadeInUpShort" data-id="12">El Bio-GNL y el GNL son los combustibles limpios más convenientes para largas distancias y elevadas demandas de gas en períodos corto.</h3>
+            <h3 id="h3-28" class="title-h3 absolute animated fadeInUpShort" data-id="12"><?php echo $texts->biogas->road_info->ahorro_desc; ?></h3>
         </div>
 
         <!--elementos landscape bottom 12 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-15900'  data-sequence='300'>
             <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->monetice; ?></h2>
-            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2">GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL</h4>
+            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->road_info->monetice_desc; ?></h4>
         </div>
 
 

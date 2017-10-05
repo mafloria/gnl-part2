@@ -8,7 +8,7 @@
      <!--elementos landscape top 1 --> 
          <div class="group-animated animatedParent" data-appear-left-offset='-200'  data-sequence='300'>
              <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->top_titles->estacion_madre; ?></h2>
-            <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2">Acondicionamiento y licuefacción de gas</h4>
+            <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->top_titles->estacion_madre_desc; ?></h4>
          </div> 
 
          <div class="group-animated">
@@ -281,17 +281,17 @@
         </div>
 
         <div class="group-animated animatedParent"  data-appear-left-offset='-2700'  data-sequence='300'>
-            <h3 id="h3-01" class="title-green absolute animated fadeInLeftShort" data-id="1">Gas Natural</h3>
+            <h3 id="h3-01" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->gas_natural; ?></h3>
             <div id="arrow-0" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
             <h3 id="h3-0" class="title-h3 animated absolute fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->process->p1_planta_zpts; ?></h3>
             <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="4"><?php echo $texts->yacimiento->process->p1_planta_zpts_desc; ?></p>
-            <h3 id="h3-02" class="title-green absolute animated fadeInLeftShort" data-id="5">Gas Natural Limpio</h3>
+            <h3 id="h3-02" class="title-green absolute animated fadeInLeftShort" data-id="5"><?php echo $texts->yacimiento->road_info->gas_limpio; ?></h3>
             <div id="arrow-1" class="red-arrow absolute animated fadeInLeftShort" data-id="6"></div>
         </div>
 
         <!--elementos landscape bottom 2 --> 
         <div class="group-animated animatedParent"  data-appear-left-offset='-4200'  data-sequence='300'>
-            <h3 id="h3-03" class="title-green absolute animated fadeInLeftShort" data-id="1">Gas Natural Limpio</h3>
+            <h3 id="h3-03" class="title-green absolute animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->gas_limpio; ?></h3>
             <div id="arrow-2" class="red-arrow absolute animated fadeInLeftShort" data-id="2"></div>
             <h3 id="h3-5" class="title-h3 animated absolute fadeInLeftShort" data-id="3"></h3>
             <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="4"><?php echo $texts->yacimiento->process->p2_estacion_cryobox_desc; ?>
@@ -302,7 +302,7 @@
             <?php echo $texts->yacimiento->alert_messages->a1_estacion_cryobox_desc2; ?></p>
             <div id="warning-1" class="warning-icon absolute animated fadeInLeftShort" data-id="6"></div>
             <div id="warning-2" class="warning-icon absolute animated fadeInLeftShort" data-id="7"></div>
-            <h3 id="h3-04" class="title-green absolute animated fadeInLeftShort" data-id="8">GNL Gas Natural Licuado</h3>
+            <h3 id="h3-04" class="title-green absolute animated fadeInLeftShort" data-id="8"><?php echo $texts->yacimiento->road_info->gas_licuado; ?></h3>
             <div id="arrow-3" class="red-arrow absolute animated fadeInLeftShort" data-id="9"></div>
         </div>
 
@@ -445,13 +445,13 @@
 
             <div id="figure-24" class="figure15 absolute animated fadeInUpShort" data-id="11"></div> 
             <h3 id="h3-27" class="title-h3 absolute animated fadeInUpShort" data-id="12"><?php echo $texts->yacimiento->road_info->ahorro; ?></h3> 
-            <h3 id="h3-30" class="title-h3 absolute animated fadeInUpShort" data-id="13">El GNL es el combustible limpio más conveniente para largas distancias y elevadas demandas de gas en períodos cortos.</h3>
+            <h3 id="h3-30" class="title-h3 absolute animated fadeInUpShort" data-id="13"><?php echo $texts->yacimiento->road_info->ahorro_desc; ?></h3>
         </div>
 
         <!--elementos landscape bottom 12 -->
         <div class="group-animated animatedParent" data-appear-left-offset='-18900'  data-sequence='300'>
             <h2 id="h2-12" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->monetice; ?></h2>
-            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2">GNL en pequeña escala.<br />Soluciones de Producción Distribuida de GNL</h4>
+            <h4 id="subt-12" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->road_info->monetice_desc; ?></h4>
         </div>
 
 
