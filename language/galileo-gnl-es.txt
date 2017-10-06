@@ -80,7 +80,7 @@
 		    "back_link": "Regresar"    
 		},	    
 	    "top_titles":{		        	   
-		    "estacion_madre":"ESTACIÓN MOTHER STATION",
+		    "estacion_madre":"ESTACIÓN MADRE",
 		    "estacion_madre_desc":"Acondicionamiento y licuefacción de gas en áreas remotas",
 		    "gasoducto_virtual":"GASODUCTO VIRTUAL GNL",
 		    "gasoducto_virtual_desc":"Valorización del gas <br />Transporte sin tuberías",
@@ -132,7 +132,7 @@
 		    "p7_gnl_desc":"GNL para transporte pesado y de larga distancia, donde los beneficios principales están ligados a la performance y a la autonomía.",		    
 		    "p8_centro_logistico_desc":"Todo centro logístico puede convertirse en un punto de carga multicombustible, alimentando flotas con GNC y GNL a un precio de mercado competitivo, cuidando los costos y el medio ambiente.",
 			"p9_gnl_limpio_co2":"CO<sub>2</sub>",
-		 	"p9_gnl_limpio_nox":"NOX",
+		 	"p9_gnl_limpio_nox":"NO<sub>X</sub>",
 		 	"p9_gnl_limpio_particulado":"Particulado",
 		 	"p9_gnl_limpio_gei":"GEI"
 	    },
@@ -151,7 +151,7 @@
 		    "back_link": "Regresar"	    
 		},	    
 	    "top_titles":{		    	    	   
-		    "estacion_madre":"ESTACIÓN MOTHER STATION",
+		    "estacion_madre":"ESTACIÓN MADRE",
 		    "estacion_madre_desc":"Acondicionamiento y licuefacción de gas",
 		    "gasoducto_virtual":"GASODUCTO VIRTUAL GNL",
 		    "gasoducto_virtual_desc":"Llevamos el gas natural más <br/>allá de los gasoductos",
@@ -195,7 +195,7 @@
 		    "p7_gnl_desc":"GNL para transporte pesado y de larga distancia, donde los beneficios principales están ligados a la performance y a la autonomía.",		    
 		    "p8_centro_logistico_desc":"Todo centro logístico puede convertirse en un punto de carga multicombustible, alimentando flotas con GNC y GNL a un precio de mercado competitivo, cuidando los costos y el medio ambiente.",
 			"p9_gnl_limpio_co2":"CO<sub>2</sub>",
-		 	"p9_gnl_limpio_nox":"NOX",
+		 	"p9_gnl_limpio_nox":"NO<sub>X</sub>",
 		 	"p9_gnl_limpio_particulado":"Particulado",
 		 	"p9_gnl_limpio_gei":"GEI"
 	    },

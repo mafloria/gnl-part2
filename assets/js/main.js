@@ -36,7 +36,7 @@ $(document).ready(function(){
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
-	var biogas_width = 18600;//valor del css: .gnc-biogas-landscape
+	var biogas_width = 17600;//valor del css: .gnc-biogas-landscape
 	var yacimiento_width = 19230;//valor del css: .gnc-yacimiento-landscape
 	var gasoducto_width = 18500;//valor del css: .gnc-gasoducto-landscape	
 	var open_section_name = "biogas";
@@ -58,7 +58,7 @@ $(document).ready(function(){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
-			plus_width = 1500;//moviles
+			plus_width = 500;//moviles
 		}else{
 			$('.screen-1').css('width', windowWidth);
 			$("body").css("overflow-x", "hidden");
@@ -143,11 +143,6 @@ $(document).ready(function(){
 		$(".camion-animated").hide();
 		
 		open_process($(this));
-				
-		//console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());
-		
-		/*console.log(".scroll: "+$(".scroll").scrollTop() + " body: "+$("body").scrollTop() + " Wrapper:"+$(".wrapper").scrollTop());			
-		console.log($(".front").css('left'));*/ 
 	});
 	
 	//click for open one process animation from actions at the end of each process
