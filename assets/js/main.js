@@ -59,11 +59,17 @@ $(document).ready(function(){
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
 			plus_width = 500;//moviles
+			
+			//let all animations fixed
+			$(".fadeInLeftShort").removeClass("animated");
+	    	$(".fadeInLeftShort").removeClass("fadeInLeftShort");
+	    	$(".group-animated").removeClass("animatedParent");
+	    	$(".group-animated").removeClass("group-animated");			
 		}else{
 			$('.screen-1').css('width', windowWidth);
 			$("body").css("overflow-x", "hidden");
 	    	$("body").css("overflow-y", "hidden");
-	    	$(".scroll").css("position", "fixed");	    	
+	    	$(".scroll").css("position", "fixed");	    		    		    	
 		}
 		//total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();		
 		set_width_scroll();
