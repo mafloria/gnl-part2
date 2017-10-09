@@ -8,9 +8,6 @@
       right: -3em !important;
       font-size: 2em;
     }
-    img.logo-intro{
-      float: left !important;
-    }
     .column-left p {
       float: left !important;
       font-size: 2.5em !important;
@@ -57,5 +54,11 @@
   .camion,
   .camion-animated{
     top: 515px !important;
+  }
+  p.txt-description{
+    font-size: 2em !important;
+  }
+  .txtInfo{
+    font-size: 2.3em !important;
   }
  

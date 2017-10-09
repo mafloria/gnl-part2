@@ -842,9 +842,6 @@ input.lng-btn:hover{
     input.lng-btn{
       right: 1em;
     }
-    img.logo-intro{
-      float: left;
-    }
     .column-left p {
       float: right;
       font-size: 1em;
