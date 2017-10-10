@@ -22,7 +22,7 @@
         
 
         <link rel="stylesheet" href="assets/css/normalize.css">        
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/main.css?v=0.5">
         <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
         <link rel="stylesheet" id="galileocss" href="assets/css/galileo-biogas.css">
         <link rel="stylesheet" id="mobilecss" href="assets/css/empty.css">

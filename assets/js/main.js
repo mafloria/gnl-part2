@@ -107,8 +107,8 @@ $(document).ready(function(){
     }
     
     function display_camion_accion(integer_position_left){
-                if((open_section_name=="biogas" && integer_position_left >= 5100) || (open_section_name=="yacimiento" && integer_position_left > 6000) || (open_section_name=="gasoducto" && integer_position_left > 6034) ){//|| integer_position_left > 17400     //biogas 5100           	
-					if( (open_section_name=="biogas" && integer_position_left > 13990) || (open_section_name=="yacimiento" && integer_position_left > 14855) ||(open_section_name=="gasoducto" && integer_position_left > 15565) ){ // && integer_position_left < 13700
+                if((open_section_name=="biogas" && integer_position_left >= 5100) || (open_section_name=="yacimiento" && integer_position_left > 6034) || (open_section_name=="gasoducto" && integer_position_left > 6034) ){        	
+					if( (open_section_name=="biogas" && integer_position_left > 13990) || (open_section_name=="yacimiento" && integer_position_left > 14855) ||(open_section_name=="gasoducto" && integer_position_left > 15565) ){ 
 							console.log(open_section_name+": camion para");						
 							$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-stop');						
 							$("#truck-"+open_section_name).show();
@@ -153,10 +153,15 @@ $(document).ready(function(){
 	
 	//click for open one process animation from actions at the end of each process
 	$(".continue-process").click(function(){
-		open_process($(this));
+		if(isMobile.any()){
+			$("html, body").animate({ scrollLeft: 0 }, "fast");
+		}
+		else{
+			$(".scroll").css('left', 0);				
+			$("html, body").animate({ scrollTop: 0 }, "fast");	
+		}
 		
-		$(".scroll").css('left', 0);				
-		$("html, body").animate({ scrollTop: 0 }, "fast");		 
+		open_process($(this));
 		
 		//let the first truck in place
 		$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
