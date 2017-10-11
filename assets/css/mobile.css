@@ -1,64 +1,89 @@
 .menu-circles-icons {
-        width: 100% !important;
-    }
-    .menu-circles-icons a{
-      margin-bottom: 0.5em !important;
-    }
-    input.lng-btn{
-      right: -3em !important;
-      font-size: 2em;
-    }
-    .column-left p {
-      float: left !important;
-      font-size: 2.5em !important;
-      width: 82% !important;
-      margin-top: 1em !important;
-  }
-  .column-right {
-      width: 15% !important;
-  }
-  .column-left {
-    width: 75% !important;
-    padding: 0 5% !important;
-  }
-  span.a-r {
-        border-top: 44px solid transparent !important;
-    border-bottom: 43px solid transparent !important;
-    border-left: 45px solid #1a5489 !important;
-    right: -43px !important;
-  }
-  /*seccion 3*/
-  .section{
-    width: 2000px !important;
-  }
-  a.back-home{
-    font-size: 2.2em !important;
-    top: 0.5em !important;
-    left: 0.5em !important;
-  }
-  a.back-home span{
-    display: none !important;
-  }
- .screen3-title h1{
-    font-size: 10em !important;
- }
- .screen3-title p {
-    font-size: 3.2em !important;
-  }
-  .girar{
-    margin: 0 !important;
-  }
-  .landscape-top{
-    padding-top: 10em !important;
-  }
-  .camion,
-  .camion-animated{
-    top: 515px !important;
-  }
-  p.txt-description{
-    font-size: 2em !important;
-  }
-  .txtInfo{
-    font-size: 2.3em !important;
-  }
- 
+  width: 100% !important;
+  padding: 0 5% !important;
+}
+.menu-circles-icons a {
+  margin: 0 5% !important;
+  width: 20% !important;
+}
+input.lng-btn{
+  right: -3em !important;
+  font-size: 2em;
+}
+.column-left p {
+  float: left !important;
+  font-size: 2.5em !important;
+  width: 82% !important;
+  margin-top: 1em !important;
+}
+.column-right {
+  width: 15% !important;
+}
+.column-left {
+  width: 75% !important;
+  padding: 0 5% !important;
+}
+span.a-r {
+  border-top: 44px solid transparent !important;
+  border-bottom: 43px solid transparent !important;
+  border-left: 45px solid #1a5489 !important;
+  right: -43px !important;
+}
+/*seccion 3*/
+.section{
+  width: 2000px !important;
+}
+.section-content.content-landing{
+  width: 100% !important;
+}
+a.back-home{
+  font-size: 2.2em !important;
+  top: 0.5em !important;
+  left: 0.5em !important;
+}
+a.back-home span{
+  display: none !important;
+}
+.screen3-title h1{
+  font-size: 10em !important;
+}
+.screen3-title p {
+  font-size: 3.2em !important;
+}
+.girar{
+  margin: 0 !important;
+}
+.landscape-top{
+  padding-top: 10em !important;
+}
+.camion,
+.camion-animated{
+  top: 515px !important;
+}
+p.txt-description{
+  font-size: 2em !important;
+}
+.screen3-title {
+  float: left !important;
+  margin-top: 255px !important;
+  margin-left: 36%;
+  margin-right: 0 !important;
+}
+.menu-circles-icons-end{
+  width: 1100px !important;
+  top: -285px !important;
+}
+.menu-circles-icons-end p.pick-btn{
+  font-size: 3em !important;
+  width: 70% !important;
+  margin: 1em 0 !important;  
+}
+.menu-end{
+  width: 87% !important;
+  padding-left: 13%;
+}
+#home p.pick-btn{
+  font-size: 2em !important;
+  margin: 2em 0 !important;
+}
+
