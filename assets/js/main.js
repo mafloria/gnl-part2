@@ -8,7 +8,6 @@
 
 //document ready	
 $(document).ready(function(){	
-	
 	$(window).disablescroll();
 	var mobile_multiplier = 3;
 	var isMobile = {
@@ -32,7 +31,7 @@ $(document).ready(function(){
 	        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 	    }
 	};
-	//console.log("mobile:"+isMobile.any());
+	
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
@@ -47,8 +46,6 @@ $(document).ready(function(){
 	var gasoducto_icons_width = 700;//1100;
 	
 	setHeight();
-	console.log("Total Width: " + screen.width);
-	if(screen.width > 1366) $(".truck-fixed").css("left", "20.5%");
 		  
 	//adjust sections to the browser height
 	function setHeight() {	
@@ -58,31 +55,36 @@ $(document).ready(function(){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
-			plus_width = 500;//moviles
+			//plus_width = 500;//moviles
 			
 			//let all animations fixed
 			$(".fadeInLeftShort").removeClass("animated");
 	    	$(".fadeInLeftShort").removeClass("fadeInLeftShort");
+	    	$(".fadeInDownShort").removeClass("fadeInDownShort");
+	    	$(".fadeInUpShort").removeClass("fadeInUpShort");
 	    	$(".group-animated").removeClass("animatedParent");
 	    	$(".group-animated").removeClass("group-animated");			
 		}else{
 			$('.screen-1').css('width', windowWidth);
 			$("body").css("overflow-x", "hidden");
 	    	$("body").css("overflow-y", "hidden");
-	    	$(".scroll").css("position", "fixed");	    		    		    	
+	    	$(".scroll").css("position", "fixed");
+	    	
+	    	console.log("Total Width: " + screen.width);
+			if(screen.width > 1366) $(".truck-fixed").css("left", "20.5%");		    		    		   
 		}
-		//total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();		
 		set_width_scroll();
 	}
 	
 	function set_width_scroll(){
-		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
+		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width+" plus_width:"+plus_width);
 		if(isMobile.any()){
+			//alert("mobile: "+(windowWidth+open_section_width+plus_width));
 			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
+			$("#wrapper").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
 		}else{
-			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
-		
-			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end			
+			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end		
+			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px');			
 		}
 	}
 	//********************** end windows size
