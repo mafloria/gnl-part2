@@ -52,6 +52,14 @@ $(document).ready(function(){
 		//section 1, 2, 3 fixt to windows size		
 		$('.screen-1').css('height', windowHeight);		
 		if(isMobile.any()){
+			/*if(screen.width > 1366){
+				$(".portrait-intro").show();
+	    		$("#wrapper").hide();
+    		}else{
+    			$(".portrait-intro").hide();
+	    		$("#wrapper").show();
+    		}*/
+			
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			//$(".hand-instruction").show();
@@ -92,7 +100,7 @@ $(document).ready(function(){
 	//********************** end windows size
     
     if(isMobile.any()){
-    	$(".scrollTonav").show();
+    	$(".scrollTonav").show();    	
     	window.onscroll = function(e) {
     		console.log("onscroll: "+window.pageXOffset);
 			display_camion_accion(window.pageXOffset);
