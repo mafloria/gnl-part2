@@ -247,8 +247,8 @@
           
     </div>
     <!-- CAMION -->
-    <div id="truck-gasoducto" class="camion firstTruck-gasoducto-stop"></div>
-    <div id="truck-gasoducto-animated" class="camion-animated truck-fixed">
+    <div id="truck-gasoducto" class="camion camion-<?php echo $lang; ?> firstTruck-gasoducto-stop"></div>
+    <div id="truck-gasoducto-animated" class="camion-animated truck-fixed camion-animated-<?php echo $lang; ?>">
         <div class="rueda rueda1"></div>
         <div class="rueda rueda2"></div>
         <div class="rueda rueda3"></div>
