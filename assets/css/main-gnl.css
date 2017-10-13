@@ -824,7 +824,7 @@ input.lng-btn:hover{
 /* mobile Portrait */
 @media only screen 
   and (min-device-width: 0) 
-  and (max-device-width: 374px) 
+  and (max-device-width: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .portrait-intro{
@@ -836,7 +836,7 @@ input.lng-btn:hover{
 }
 /* mobile Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 415px) 
   and (max-device-width: 979px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
