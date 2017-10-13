@@ -54,7 +54,7 @@ $(document).ready(function(){
 		if(isMobile.any()){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
-			$(".hand-instruction").show();
+			//$(".hand-instruction").show();
 			plus_width = -300;//moviles
 			
 			if(open_section_name=="yacimiento") yacimiento_icons_width = 1000;
@@ -90,13 +90,15 @@ $(document).ready(function(){
 		}
 	}
 	//********************** end windows size
-    $(".scrollTonav").hide();
+    
     if(isMobile.any()){
+    	$(".scrollTonav").show();
     	window.onscroll = function(e) {
     		console.log("onscroll: "+window.pageXOffset);
 			display_camion_accion(window.pageXOffset);
 		}	
     }else{
+    	$(".scrollTonav").hide();
     	//horizontal scroll
 	 	var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {            
