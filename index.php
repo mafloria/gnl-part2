@@ -22,9 +22,9 @@
         
 
         <link rel="stylesheet" href="assets/css/normalize.css">        
-        <link rel="stylesheet" href="assets/css/main.css?v=0.5">
+        <link rel="stylesheet" href="assets/css/main-gnl.css?v=0.5">
         <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
-        <link rel="stylesheet" id="galileocss" href="assets/css/galileo-biogas.css">
+        <link rel="stylesheet" id="galileocss" href="assets/css/galileo-gnl-biogas.css">
         <link rel="stylesheet" id="mobilecss" href="assets/css/empty.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
                 
@@ -33,7 +33,7 @@
       <div id="outer-container">  
         <div class="portrait-intro">
             <div class="girar">
-                <img src="assets/images/girrar-phone.png">
+                <img src="assets/images/girar-phone.png">
                 <p><?php echo $texts->intro->gira_dispositivo; ?></p>
             </div>
         </div>
@@ -52,8 +52,8 @@
                         <p class="txt-description"><?php echo $texts->intro->intro_text; ?></p>
                         <p class="pick-btn"><?php echo $texts->intro->continue_button; ?></p>
                         <form method="GET">
-                            <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
-                            <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
+                            <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="lang" value="en"/> <?php } ?>
+                            <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="lang" value="es"/> <?php } ?>
                         </form>
                         <div class="menu-circles-icons">
                             <a id="view-biogas-process" class="view-process" href="javascript:void(0);">
@@ -86,7 +86,7 @@
     <script src="assets/js/vendor/jquery.scrollstop.min.js"></script>
     
     <script src="assets/js/dist/css3-animate-it.js"></script>
-    <script src="assets/js/main.js?v=0.99"></script>
+    <script src="assets/js/main-gnl.js?v=0.99"></script>
         
 </html>
 

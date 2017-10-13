@@ -21,11 +21,10 @@ function get_browser_language( $available, $default = 'es' ) {
 }
 
 $available_langs = array('es','en');
-$cookie_name = "gasoducto_lang";
 
-if(isset($_GET['gasoducto_lang'])){
-    if( in_array( $_GET['gasoducto_lang'], $available_langs ) ){
-        $lang = $_GET['gasoducto_lang'];
+if(isset($_GET['lang'])){
+    if( in_array( $_GET['lang'], $available_langs ) ){
+        $lang = $_GET['lang'];
     }
 }else{
     $lang = get_browser_language($available_langs);

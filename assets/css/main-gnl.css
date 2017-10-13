@@ -402,18 +402,28 @@ img.logo-intro{
   top: 243px;
   z-index: 12;
 }
+.camion-en{
+  background: transparent url(../images/camion-1-en.png) no-repeat; 
+}
+.camion-es{
+  background: transparent url(../images/camion-1-es.png) no-repeat; 
+}
 .camion{
   width: 470px;
   height: 132px;
-  background: transparent url(../images/camion-1.png) no-repeat; 
   z-index: 13;
 }
 .camion-animated{
   width: 470px;
-  height: 132px;
-  background: transparent url(../images/camion.png) no-repeat; 
+  height: 132px; 
   z-index: 13;
   position: relative;  
+}
+.camion-animated-es{
+  background: transparent url(../images/camion-es.png) no-repeat;   
+}
+.camion-animated-en{
+  background: transparent url(../images/camion-en.png) no-repeat;   
 }
 .rueda{
   width: 36px;

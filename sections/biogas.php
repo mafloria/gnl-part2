@@ -242,8 +242,8 @@
           
     </div>
     <!-- CAMION -->
-    <div id="truck-biogas" class="camion firstTruck-biogas-stop"></div>
-    <div id="truck-biogas-animated" class="camion-animated truck-fixed">
+    <div id="truck-biogas" class="camion camion-<?php echo $lang; ?> firstTruck-biogas-stop"></div>
+    <div id="truck-biogas-animated" class="camion-animated truck-fixed camion-animated-<?php echo $lang; ?>">
         <div class="rueda rueda1"></div>
         <div class="rueda rueda2"></div>
         <div class="rueda rueda3"></div>
@@ -350,7 +350,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-10500'  data-sequence='200'>
             <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-12" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-5" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-5" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-10500'  data-sequence='200'>
@@ -362,7 +362,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-11700'  data-sequence='200'>
             <div id="txt-wrap-3" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-14" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-6" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-6" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-12000'  data-sequence='200'>
@@ -381,7 +381,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-12900'  data-sequence='200'>
             <div id="txt-wrap-4" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-15" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-8" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-8" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-13100'  data-sequence='200'>
@@ -459,7 +459,7 @@
         </div>
            
          <!--main image-->
-         <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/biogas-gnl-main-image.png">
+         <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/biogas-gnl-main-image-<?php echo $lang; ?>.png">
          <!--main image-->
 
     </div>

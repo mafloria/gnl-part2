@@ -41,9 +41,9 @@ $(document).ready(function(){
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
-	var biogas_icons_width = 700; //1000;
-	var yacimiento_icons_width = 900; //1220;
-	var gasoducto_icons_width = 700;//1100;
+	var biogas_icons_width = 550; //1000;
+	var yacimiento_icons_width = 1320; //1220;
+	var gasoducto_icons_width = 950;//1100;
 	
 	setHeight();
 		  
@@ -55,7 +55,7 @@ $(document).ready(function(){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
-			//plus_width = 500;//moviles
+			plus_width = -300;//moviles
 			
 			//let all animations fixed
 			$(".fadeInLeftShort").removeClass("animated");
@@ -156,11 +156,11 @@ $(document).ready(function(){
 	//click for open one process animation from actions at the end of each process
 	$(".continue-process").click(function(){
 		if(isMobile.any()){
-			$("html, body").animate({ scrollLeft: 0 }, "fast");
+			$("html, body").animate({ scrollLeft: 0 }, "slow");
 		}
 		else{
 			$(".scroll").css('left', 0);				
-			$("html, body").animate({ scrollTop: 0 }, "fast");	
+			$("html, body").animate({ scrollTop: 0 }, "slow");	
 		}
 		
 		open_process($(this));
@@ -169,6 +169,8 @@ $(document).ready(function(){
 		$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
 		$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 		$(".camion").hide();
+		$(".camion-animated").hide();
+		
 	});
 	
 	
@@ -195,8 +197,9 @@ $(document).ready(function(){
 		open_section_name = id[1];
 		
 		$(".camion").hide();
+		$(".camion-animated").hide();
 		
-		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
+		$("#galileocss").attr("href", "assets/css/galileo-gnl-"+open_section_name+".css");
 		$(".landscape-section").hide();
 		$(".screen-3").hide();
 		$("#gnc-"+open_section_name+"-firstsection").show();

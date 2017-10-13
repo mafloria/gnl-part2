@@ -328,7 +328,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-11200'  data-sequence='200'>
             <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-12" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-5" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-5" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-11200'  data-sequence='200'>
@@ -340,7 +340,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-12400'  data-sequence='200'>
             <div id="txt-wrap-3" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-14" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-6" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-6" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-12900'  data-sequence='200'>
@@ -359,7 +359,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-14300'  data-sequence='200'>
             <div id="txt-wrap-4" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-15" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-8" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-8" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-14500'  data-sequence='200'>
@@ -432,7 +432,7 @@
         </div>
            
          <!--main image-->
-         <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/gasoducto-gnl-main-image.png">
+         <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/gasoducto-gnl-main-image-<?php echo $lang; ?>.png">
          <!--main image-->
 
     </div>

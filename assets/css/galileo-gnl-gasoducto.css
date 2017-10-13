@@ -375,9 +375,13 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
  width: 308px; height: 26px;
  background: transparent url(../images/tren.png) no-repeat;
 }
-.figure5{
+.figure5-es{
  width: 319px; height: 225px;
- background: transparent url(../images/cnx-figure.png) no-repeat;
+ background: transparent url(../images/cnx-figure-es.png) no-repeat;
+}
+.figure5-en{
+ width: 319px; height: 225px;
+ background: transparent url(../images/cnx-figure-en.png) no-repeat;
 }
 .figure6{
  width: 399px; height: 218px;

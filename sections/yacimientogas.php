@@ -355,7 +355,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='200'>
             <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-12" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-5" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-5" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-11600'  data-sequence='200'>
@@ -367,7 +367,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-12700'  data-sequence='200'>
             <div id="txt-wrap-3" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-14" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-6" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-6" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
             <div id="b-line-3" class="b-line-3 absolute animated fadeInLeftShort" data-id="4"></div>
             <div id="figure-7" class="figure6 absolute animated fadeInLeftShort" data-id="5"></div> 
             <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="6"><?php echo $texts->yacimiento->road_info->gnc; ?></p>  
@@ -380,7 +380,7 @@
         <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='200'>
             <div id="txt-wrap-4" class="txtWrap2 animated fadeInLeftShort" data-id="1"></div>
             <h3 id="h3-15" class="title-h3 absolute animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->road_info->cnx_patagonia; ?></h3>
-            <div id="figure-8" class="figure5 absolute animated fadeInLeftShort" data-id="3"></div>      
+            <div id="figure-8" class="figure5-<?php echo $lang; ?> absolute animated fadeInLeftShort" data-id="3"></div>      
         </div>
 
         <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='200'>
@@ -471,7 +471,7 @@
         </div>
            
          <!--main image-->
-         <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/yacimiento-gnl-main-image.png">
+         <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/yacimiento-gnl-main-image-<?php echo $lang; ?>.png">
          <!--main image-->
 
     </div>
