@@ -7,7 +7,8 @@
 		    "intro_text":"Nuestras Soluciones de Producción Distribuida de GNL están diseñadas para acondicionar y licuar todo tipo de gas allí donde esté su fuente. Con ellas, podrá monetizar recursos que hasta ahora carecían de valor y proveer GNL o Bio-GNL como combustibles limpios.",
 		    "continue_button": "SELECCIONE UNA FUENTE DE GAS",
 		    "selecciona_otra_fuente": "Seleccione otra fuente:",
-		    "gira_dispositivo": "Rotate your device to view the content"
+		    "gira_dispositivo": "Rotate your device to view the content",
+		    "scroll_to_navigate": "Scroll para navegar"
 	},
     "biogas":{
     	"intro":{

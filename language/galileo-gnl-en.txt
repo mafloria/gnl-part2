@@ -7,7 +7,8 @@
 		    "intro_text":"Our LNG Distributed Production Solutions are designed to liquefy every type of gas right at the source. Hence, you can monetize resources which lacked value before, and provide clean LNG and Bio-LNG fuels.",
 		    "continue_button": "SELECT ONE GAS SOURCE",
 		    "selecciona_otra_fuente": "Select one source:",
-		    "gira_dispositivo": "Rotate your device to view the content"
+		    "gira_dispositivo": "Rotate your device to view the content",
+		    "scroll_to_navigate": "Scroll to navigate"
 	},
     "biogas":{
     	"intro":{

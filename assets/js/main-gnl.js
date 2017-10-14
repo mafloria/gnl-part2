@@ -2,7 +2,7 @@
  * Galileo
  *
  * Copyright (c) 2017 
- * Date: July 12 - 2017
+ * Date: Aug 12 - 2017
  * Author: Margaret Florian (mafloria - UXDevco)
  */
 
@@ -41,9 +41,9 @@ $(document).ready(function(){
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
-	var biogas_icons_width = 550; //1000;
-	var yacimiento_icons_width = 1320; //1220;
-	var gasoducto_icons_width = 950;//1100;
+	var biogas_icons_width = 550; 
+	var yacimiento_icons_width = 1320; 
+	var gasoducto_icons_width = 950;
 	
 	setHeight();
 		  
@@ -52,17 +52,9 @@ $(document).ready(function(){
 		//section 1, 2, 3 fixt to windows size		
 		$('.screen-1').css('height', windowHeight);		
 		if(isMobile.any()){
-			/*if(screen.width > 1366){
-				$(".portrait-intro").show();
-	    		$("#wrapper").hide();
-    		}else{
-    			$(".portrait-intro").hide();
-	    		$("#wrapper").show();
-    		}*/
-			
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
-			//$(".hand-instruction").show();
+			
 			plus_width = -300;//moviles
 			
 			if(open_section_name=="yacimiento") yacimiento_icons_width = 1000;
@@ -88,8 +80,7 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width+" plus_width:"+plus_width);
-		if(isMobile.any()){
-			//alert("mobile: "+(windowWidth+open_section_width+plus_width));
+		if(isMobile.any()){			
 			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
 			$("#wrapper").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
 		}else{
@@ -123,7 +114,7 @@ $(document).ready(function(){
     function display_camion_accion(integer_position_left){
                 if((open_section_name=="biogas" && integer_position_left >= 5100) || (open_section_name=="yacimiento" && integer_position_left > 6034) || (open_section_name=="gasoducto" && integer_position_left > 6034) ){        	
 					if( (open_section_name=="biogas" && integer_position_left > 13990) || (open_section_name=="yacimiento" && integer_position_left > 14855) ||(open_section_name=="gasoducto" && integer_position_left > 15565) ){ 
-							console.log(open_section_name+": camion para");						
+													
 							$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-stop');						
 							$("#truck-"+open_section_name).show();
 							$("#truck-"+open_section_name+"-animated").hide();					
@@ -132,7 +123,7 @@ $(document).ready(function(){
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 					}
 					else{ //CAMION RODANDO							 		 
-							console.log(open_section_name+": camion rueda");
+							
 							$("#truck-"+open_section_name).hide();//addClass('truck-fixed');
 							$("#truck-"+open_section_name+"-animated").show();
 							$(".rueda").addClass("rueda_andando");
@@ -143,8 +134,7 @@ $(document).ready(function(){
 					}
 				}
 				else{//CAMION COMIENZA quieto
-					console.log("else externo hide");							
-						console.log(open_section_name+": se ve camion al inicio");							
+												
 						$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
 						$("#truck-"+open_section_name).show();
 						$("#truck-"+open_section_name+"-animated").hide();						
@@ -200,8 +190,7 @@ $(document).ready(function(){
 		$('body').css('overflow-y', 'hidden');
 		
 		eval("open_section_width="+open_section_name+"_width");		
-		//open_section_width = $(".gnc-"+open_section_name+"-landscape").width(); 
-		//console.log("BACK open_section_width: "+$(".gnc-"+open_section_name+"-landscape").width());
+
 	});
 	
 	function open_process(this_object){
@@ -224,7 +213,7 @@ $(document).ready(function(){
 				
 						
 		console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
-		//open_section_width = $(".gnc-"+open_section_name+"-landscape").width();
+
 		eval("open_section_width="+open_section_name+"_width");		
 		
 		set_width_scroll();			
